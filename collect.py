@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
-"""Sammelt täglich die Zahlen von WUHA und speichert sie in data/history.json.
+"""Sammelt t√§glich die Zahlen von WUHA und speichert sie in data/history.json.
 
-Läuft ohne Zusatzpakete (nur Python-Standardbibliothek).
+L√§uft ohne Zusatzpakete (nur Python-Standardbibliothek).
 Zugangsdaten kommen aus Umgebungsvariablen (GitHub Secrets):
   META_PAGE_TOKEN        Facebook-Seiten-Token (deckt Facebook + Instagram ab)
-  YOUTUBE_API_KEY        Google API-Schlüssel (YouTube Data API v3)
+  YOUTUBE_API_KEY        Google API-Schl√ºssel (YouTube Data API v3)
   TIKTOK_CLIENT_KEY      TikTok-App
   TIKTOK_CLIENT_SECRET
   TIKTOK_REFRESH_TOKEN
-Fehlt etwas, wird die Plattform übersprungen bzw. auf öffentliche Zahlen ausgewichen.
+Fehlt etwas, wird die Plattform √ºbersprungen bzw. auf √∂ffentliche Zahlen ausgewichen.
 """
 import csv
 import datetime as dt
@@ -17,6 +17,7 @@ import json
 import os
 import re
 import sys
+import urllib.error
 import urllib.parse
 import urllib.request
 
@@ -42,14 +43,23 @@ def http(url, data=None, headers=None, ua=UA, as_json=True):
     if isinstance(data, dict):
         data = urllib.parse.urlencode(data).encode()
     req = urllib.request.Request(url, data=data, headers=h)
-    with urllib.request.urlopen(req, timeout=30) as r:
-        body = r.read().decode("utf-8", "replace")
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            body = r.read().decode("utf-8", "replace")
+    except urllib.error.HTTPError as e:
+        # Fehlermeldung der Plattform mitloggen (enth√§lt keine Zugangsdaten)
+        detail = e.read().decode("utf-8", "replace")[:300]
+        try:
+            detail = json.loads(detail).get("error", {}).get("message", detail)
+        except Exception:  # noqa: BLE001
+            pass
+        raise RuntimeError(f"HTTP {e.code}: {detail}") from None
     return json.loads(body) if as_json else body
 
 
 def num(s):
     """'1.234' / '1,2K' / '3 Mio.' -> int"""
-    s = str(s).strip().replace(" ", " ")
+    s = str(s).strip().replace("¬†", " ")
     m = re.match(r"([\d.,]+)\s*([KkMm])?", s)
     if not m:
         return None
@@ -62,15 +72,27 @@ def num(s):
 # ---------------------------------------------------------------- Plattformen
 
 def meta():
-    """Facebook-Seite + verknüpftes Instagram-Konto über einen Seiten-Token."""
+    """Facebook-Seite + verkn√ºpftes Instagram-Konto √ºber einen Seiten-Token."""
     token = os.environ.get("META_PAGE_TOKEN")
     if not token:
-        log("Meta: kein META_PAGE_TOKEN gesetzt - übersprungen")
+        log("Meta: kein META_PAGE_TOKEN gesetzt - √ºbersprungen")
         return {}
     v = CFG.get("graph_api_version", "v25.0")
     base = f"https://graph.facebook.com/{v}"
     page_id = CFG.get("facebook_page_id") or "me"
     out = {}
+    # Ist es ein Personen-/Systemnutzer-Token, den Seiten-Token selbst holen.
+    try:
+        pages = http(f"{base}/me/accounts?" + urllib.parse.urlencode(
+            {"fields": "id,name,access_token", "access_token": token})).get("data", [])
+        if pages:
+            want = (CFG.get("facebook_page_id") or "").strip()
+            pick = next((p for p in pages if p["id"] == want), None) or \
+                next((p for p in pages if "wuha" in p.get("name", "").lower()), pages[0])
+            token, page_id = pick["access_token"], pick["id"]
+            log(f"Meta: Seite '{pick.get('name')}' √ºber Personen-Token gefunden")
+    except Exception:  # noqa: BLE001
+        pass  # ist bereits ein Seiten-Token
     q = urllib.parse.urlencode({
         "fields": "id,name,followers_count,fan_count,"
                   "instagram_business_account{id,username,followers_count,media_count}",
@@ -83,7 +105,7 @@ def meta():
     since = yesterday.isoformat()
     until = dt.date.today().isoformat()
 
-    # Facebook: tägliche Aufrufe/Reichweite. Meta benennt Metriken öfter um,
+    # Facebook: t√§gliche Aufrufe/Reichweite. Meta benennt Metriken √∂fter um,
     # deshalb wird jede einzeln versucht.
     for key, metric in [("views", "page_media_view"),
                         ("reach", "page_total_media_view_unique"),
@@ -97,7 +119,7 @@ def meta():
             vals = r["data"][0]["values"]
             fb[key] = vals[-1]["value"]
         except Exception as e:  # noqa: BLE001
-            log(f"Facebook: Metrik {metric} nicht verfügbar ({e})")
+            log(f"Facebook: Metrik {metric} nicht verf√ºgbar ({e})")
     out["facebook"] = fb
 
     if ig_acc:
@@ -110,17 +132,17 @@ def meta():
                     "since": since, "until": until, "access_token": token}))
                 ig[key] = r["data"][0]["total_value"]["value"]
             except Exception as e:  # noqa: BLE001
-                log(f"Instagram: Metrik {metric} nicht verfügbar ({e})")
+                log(f"Instagram: Metrik {metric} nicht verf√ºgbar ({e})")
         out["instagram"] = ig
     else:
-        log("Instagram: kein Konto mit der Facebook-Seite verknüpft")
+        log("Instagram: kein Konto mit der Facebook-Seite verkn√ºpft")
     return out
 
 
 def youtube():
     key, ch = os.environ.get("YOUTUBE_API_KEY"), CFG.get("youtube_channel_id")
     if not key or not ch:
-        log("YouTube: YOUTUBE_API_KEY oder youtube_channel_id fehlt - übersprungen")
+        log("YouTube: YOUTUBE_API_KEY oder youtube_channel_id fehlt - √ºbersprungen")
         return {}
     r = http("https://www.googleapis.com/youtube/v3/channels?" + urllib.parse.urlencode(
         {"part": "statistics", "id": ch, "key": key}))
@@ -142,7 +164,7 @@ def tiktok_api():
     if "access_token" not in tok:
         raise RuntimeError(f"Token-Erneuerung fehlgeschlagen: {tok}")
     if tok.get("refresh_token") and tok["refresh_token"] != rt:
-        # Der Workflow speichert den neuen Refresh-Token zurück in die Secrets.
+        # Der Workflow speichert den neuen Refresh-Token zur√ºck in die Secrets.
         with open(os.path.join(ROOT, ".new_tiktok_refresh_token"), "w") as f:
             f.write(tok["refresh_token"])
     auth = {"Authorization": f"Bearer {tok['access_token']}"}
@@ -170,11 +192,11 @@ def tiktok():
         if d:
             return {"tiktok": d}
     except Exception as e:  # noqa: BLE001
-        log(f"TikTok-API: {e} - weiche auf öffentliche Profilzahlen aus")
+        log(f"TikTok-API: {e} - weiche auf √∂ffentliche Profilzahlen aus")
     html = http(CFG["tiktok_url"], ua=BROWSER_UA, as_json=False)
     g = lambda k: (re.search(rf'"{k}":(\d+)', html) or [None, None])[1]  # noqa: E731
     if not g("followerCount"):
-        raise RuntimeError("öffentliche Profilzahlen nicht gefunden")
+        raise RuntimeError("√∂ffentliche Profilzahlen nicht gefunden")
     return {"tiktok": {"followers": int(g("followerCount")), "likes": int(g("heartCount") or 0),
                        "videos": int(g("videoCount") or 0)}}
 
@@ -231,7 +253,7 @@ def spotify_imports(hist):
             continue
         hdr = list(rows[0].keys())
         dcol = _pick(hdr, "date", "datum")
-        cols = {"listeners": _pick(hdr, "listener", "hörer", "hoerer"),
+        cols = {"listeners": _pick(hdr, "listener", "h√∂rer", "hoerer"),
                 "streams": _pick(hdr, "stream"),
                 "followers": _pick(hdr, "follower")}
         if not dcol or not any(cols.values()):
@@ -250,7 +272,7 @@ def spotify_imports(hist):
 
 
 def playlists():
-    """Wandelt data/imports/playlists*.csv in eine Tabelle für das Dashboard."""
+    """Wandelt data/imports/playlists*.csv in eine Tabelle f√ºr das Dashboard."""
     files = sorted(glob.glob(os.path.join(DATA, "imports", "playlists*.csv")) +
                    glob.glob(os.path.join(DATA, "imports", "spotify", "playlists*.csv")))
     if not files:
@@ -279,7 +301,7 @@ def main():
             snap.update(fn())
         except Exception as e:  # noqa: BLE001
             log(f"{name}: Fehler - {e}")
-    # Werte, die nicht geholt werden konnten, nicht mit leeren überschreiben
+    # Werte, die nicht geholt werden konnten, nicht mit leeren √ºberschreiben
     old = hist["snapshots"].get(today, {})
     old.update({k: {kk: vv for kk, vv in v.items() if vv is not None} for k, v in snap.items()})
     hist["snapshots"][today] = old
