@@ -33,6 +33,13 @@ LOG = []
 
 
 def log(msg):
+    # Zugangsschlüssel niemals ins (öffentliche) Protokoll schreiben
+    msg = re.sub(r"(EAA|ya29\.|AIza|act\.)[A-Za-z0-9_\-.]{8,}", r"\1…[entfernt]", str(msg))
+    for k in ("META_PAGE_TOKEN", "YOUTUBE_API_KEY", "TIKTOK_CLIENT_SECRET", "TIKTOK_REFRESH_TOKEN"):
+        v = os.environ.get(k, "").strip()
+        if len(v) > 8:
+            msg = msg.replace(v, "[entfernt]")
+    msg = msg[:300]
     LOG.append(msg)
     print(msg, file=sys.stderr)
 
@@ -73,7 +80,10 @@ def num(s):
 
 def meta():
     """Facebook-Seite + verknüpftes Instagram-Konto über einen Seiten-Token."""
-    token = os.environ.get("META_PAGE_TOKEN")
+    token = os.environ.get("META_PAGE_TOKEN", "")
+    # Nur den eigentlichen Schlüssel nehmen, falls Anführungszeichen o. Ä. mitkopiert wurden
+    m = re.search(r"EAA[A-Za-z0-9]+", token)
+    token = m.group(0) if m else token.strip()
     if not token:
         log("Meta: kein META_PAGE_TOKEN gesetzt - übersprungen")
         return {}
