@@ -15,10 +15,7 @@
    "YouTube": "https://www.youtube.com/@wuha_music"
   }
  },
- "log": [
-  "Meta: Seite 'WUHA' über Personen-Token gefunden",
-  "YouTube: YOUTUBE_API_KEY oder youtube_channel_id fehlt - übersprungen"
- ],
+ "log": [],
  "playlists": {
   "headers": [
    "Playlist",
@@ -62,9 +59,14 @@
    },
    "whatsapp": {
     "followers": 7
+   },
+   "youtube": {
+    "followers": 11,
+    "videos": 21,
+    "views_total": 4588
    }
   }
  },
  "spotify_daily": {},
- "updated": "2026-11-08T15:50+00:00"
+ "updated": "2026-11-08T16:16+00:00"
 }
