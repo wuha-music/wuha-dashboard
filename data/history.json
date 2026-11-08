@@ -16,8 +16,8 @@
   }
  },
  "log": [
-  "Meta: Seite 'WUHA' √ºber Personen-Token gefunden",
-  "YouTube: YOUTUBE_API_KEY oder youtube_channel_id fehlt - √ºbersprungen"
+  "Meta: Fehler - HTTP 400: Invalid JSON for postcard",
+  "YouTube: YOUTUBE_API_KEY oder youtube_channel_id fehlt - übersprungen"
  ],
  "playlists": {
   "headers": [
@@ -66,5 +66,5 @@
   }
  },
  "spotify_daily": {},
- "updated": "2026-11-08T15:09+00:00"
+ "updated": "2026-11-08T15:19+00:00"
 }
