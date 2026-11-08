@@ -16,6 +16,7 @@
   }
  },
  "log": [
+  "Meta: Seite 'WUHA' über Personen-Token gefunden",
   "YouTube: YOUTUBE_API_KEY oder youtube_channel_id fehlt - übersprungen"
  ],
  "playlists": {
@@ -65,5 +66,5 @@
   }
  },
  "spotify_daily": {},
- "updated": "2026-11-08T15:36+00:00"
+ "updated": "2026-11-08T15:50+00:00"
 }
