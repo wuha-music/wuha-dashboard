@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>WUHA Statistik</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+:root{
+  color-scheme:dark;
+  --bg:#141414; --surface:#1d1d1c; --surface-2:#262624; --line:#3a3a37;
+  --text:#ffffff; --text-2:#d9d9d9; --muted:#9a9993; --accent:#4c3f37; --accent-2:#6b5a4f;
+  --good:#0ca30c; --critical:#e66767;
+  --instagram:#d55181; --facebook:#3987e5; --tiktok:#199e70; --youtube:#e66767;
+  --soundcloud:#d95926; --spotify:#1baf7a; --deezer:#9085e9; --whatsapp:#c98500;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 Inter,system-ui,sans-serif}
+.wrap{max-width:1240px;margin:0 auto;padding:24px 16px 64px}
+h1,h2,h3{font-family:Anton,Impact,sans-serif;font-weight:400;letter-spacing:.5px;margin:0;text-transform:uppercase}
+h1{font-size:clamp(56px,10vw,112px);line-height:.95}
+h2{font-size:32px;margin:48px 0 16px}
+h3{font-size:22px}
+.pill{display:inline-flex;align-items:center;gap:8px;border:2px solid var(--text);border-radius:999px;padding:6px 16px;color:var(--text);background:none;font:500 14px Inter,sans-serif;text-decoration:none;cursor:pointer}
+.pill[aria-pressed="true"]{background:var(--text);color:var(--bg)}
+.pill.small{border-width:1px;padding:4px 12px;font-size:13px}
+.top{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:center}
+.hero{display:grid;grid-template-columns:auto 1fr;gap:24px;align-items:end;margin:32px 0 8px}
+.hero p{margin:0 0 10px;color:var(--text-2);max-width:320px}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin:24px 0}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:2px;background:var(--line);border:2px solid var(--line)}
+.kpi{background:var(--surface);padding:20px}
+.kpi .lab{color:var(--muted);font-size:13px;text-transform:uppercase;letter-spacing:1px}
+.kpi .val{font:400 44px/1.1 Anton,sans-serif;margin-top:6px}
+.kpi .sub{color:var(--text-2);font-size:13px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:16px}
+.card{background:var(--surface);border-radius:4px;padding:20px;position:relative;overflow:hidden}
+.card::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--c)}
+.card .head{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.card .big{font:400 48px/1 Anton,sans-serif;margin:12px 0 4px}
+.card .biglab{color:var(--muted);font-size:13px}
+.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:8px 16px;margin:16px 0;font-size:14px}
+.stats div span{display:block;color:var(--muted);font-size:12px}
+.stats b{font-weight:700}
+.up{color:var(--good)} .down{color:var(--critical)}
+.chartbox{height:150px;position:relative}
+.empty{color:var(--muted);font-size:14px;padding:16px 0}
+.note{background:var(--surface-2);border-left:4px solid var(--accent-2);padding:14px 16px;color:var(--text-2);font-size:14px;border-radius:2px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line)}
+th{color:var(--muted);font-weight:500;font-size:12px;text-transform:uppercase;letter-spacing:.5px}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
+.tablewrap{overflow-x:auto;background:var(--surface);border-radius:4px}
+.links{display:flex;gap:8px;flex-wrap:wrap}
+details{margin-top:16px;color:var(--text-2)} summary{cursor:pointer}
+footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font-size:13px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.spot{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+.spot .chartbox{height:220px}
+@media (max-width:600px){.hero{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.card .big{font-size:40px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <span class="pill small">Statistik-Dashboard</span>
+    <span class="pill small" id="updated">Lädt …</span>
+  </div>
+
+  <div class="hero">
+    <h1>WUHA</h1>
+    <p>Follower, Aufrufe und Playlisten aller Kanäle an einem Ort. Wird jeden Tag automatisch aktualisiert.</p>
+  </div>
+
+  <div class="filters" role="group" aria-label="Zeitraum">
+    <button class="pill" data-range="7">7 Tage</button>
+    <button class="pill" data-range="30" aria-pressed="true">30 Tage</button>
+    <button class="pill" data-range="90">90 Tage</button>
+    <button class="pill" data-range="0">Alles</button>
+  </div>
+
+  <div class="kpis" id="kpis"></div>
+
+  <h2>Kanäle</h2>
+  <div class="grid" id="cards"></div>
+
+  <h2>Spotify</h2>
+  <div id="spotify"></div>
+
+  <h2>Spotify-Playlisten</h2>
+  <div id="playlists"></div>
+
+  <h2>Alle Zahlen</h2>
+  <div class="tablewrap"><table id="table"></table></div>
+
+  <h2>Links</h2>
+  <div class="links" id="links"></div>
+
+  <details id="logbox"><summary>Protokoll der letzten Datenabfrage</summary><pre id="log" style="white-space:pre-wrap;font-size:12px"></pre></details>
+
+  <footer><span>WUHA · International music written &amp; produced in Vienna, Austria</span><a class="pill small" href="https://www.wuha.world">www.wuha.world →</a></footer>
+</div>
+
+<script>
+const PLATFORMS = {
+  spotify:   {name:"Spotify",    metrics:{}},
+  instagram: {name:"Instagram",  metrics:{followers:["Follower","total"], views:["Aufrufe","daily"], reach:["Reichweite","daily"], profile_views:["Profilaufrufe","daily"], posts:["Beiträge","total"]}},
+  facebook:  {name:"Facebook",   metrics:{followers:["Follower","total"], views:["Aufrufe","daily"], reach:["Reichweite","daily"], likes:["Gefällt mir","total"]}},
+  tiktok:    {name:"TikTok",     metrics:{followers:["Follower","total"], views_total:["Aufrufe","cumulative"], likes:["Likes","cumulative"], videos:["Videos","total"]}},
+  youtube:   {name:"YouTube",    metrics:{followers:["Abonnenten","total"], views_total:["Aufrufe","cumulative"], videos:["Videos","total"]}},
+  soundcloud:{name:"SoundCloud", metrics:{followers:["Follower","total"], tracks:["Tracks","total"]}},
+  deezer:    {name:"Deezer",     metrics:{followers:["Fans","total"], albums:["Releases","total"]}},
+  whatsapp:  {name:"WhatsApp-Kanal", metrics:{followers:["Follower","total"]}},
+};
+const fmt = n => n==null ? "–" : new Intl.NumberFormat("de-AT").format(Math.round(n));
+const sign = n => n==null ? "–" : (n>0?"+":n<0?"−":"±") + fmt(Math.abs(n));
+const cls = n => n>0?"up":n<0?"down":"";
+const dayAdd = (iso,d) => { const t=new Date(iso+"T00:00:00Z"); t.setUTCDate(t.getUTCDate()+d); return t.toISOString().slice(0,10); };
+const deDate = iso => new Date(iso+"T00:00:00Z").toLocaleDateString("de-AT",{day:"2-digit",month:"2-digit",year:"numeric",timeZone:"UTC"});
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+
+let H, range = 30; const charts = [];
+
+// Reihe [{d, v}] für eine Plattform-Metrik
+function series(p, m){
+  return Object.keys(H.snapshots).sort()
+    .map(d => ({d, v: H.snapshots[d]?.[p]?.[m]}))
+    .filter(x => typeof x.v === "number");
+}
+// Wert am oder vor einem Datum
+function at(s, iso){ let r=null; for(const x of s){ if(x.d<=iso) r=x; else break; } return r; }
+// Veränderung über N Tage (für Summen-/Bestandswerte)
+function change(s, days){
+  if(!s.length) return {v:null};
+  const last = s[s.length-1], ref = at(s, dayAdd(last.d,-days));
+  if(ref) return {v:last.v-ref.v};
+  return s.length>1 ? {v:last.v-s[0].v, since:s[0].d} : {v:null};
+}
+// Summe von Tageswerten über N Tage
+function sum(s, days){
+  if(!s.length) return null;
+  const from = dayAdd(s[s.length-1].d, -days+1);
+  return s.filter(x=>x.d>=from).reduce((a,x)=>a+x.v,0);
+}
+function period(s, kind, days){
+  if(kind==="daily") return {v:sum(s,days)};
+  return change(s, days);
+}
+function inRange(s){ if(!range||!s.length) return s; const from=dayAdd(s[s.length-1].d,-range); return s.filter(x=>x.d>=from); }
+
+function lineChart(canvas, s, color, label, type="line"){
+  const ctx = canvas.getContext("2d");
+  const c = new Chart(ctx,{
+    type,
+    data:{labels:s.map(x=>deDate(x.d)), datasets:[{label, data:s.map(x=>x.v), borderColor:color, backgroundColor:type==="bar"?color:color+"22",
+      borderWidth:2, pointRadius:s.length<2?4:0, pointHoverRadius:5, pointBackgroundColor:color, pointBorderColor:css("--surface"), pointBorderWidth:2,
+      fill:type==="line", tension:0, borderRadius:type==="bar"?{topLeft:4,topRight:4}:0, borderSkipped:"bottom"}]},
+    options:{responsive:true,maintainAspectRatio:false,animation:false,
+      interaction:{mode:"index",intersect:false},
+      plugins:{legend:{display:false},tooltip:{backgroundColor:"#000",borderColor:css("--line"),borderWidth:1,titleColor:"#fff",bodyColor:css("--text-2"),
+        displayColors:false,callbacks:{label:i=>`${label}: ${fmt(i.parsed.y)}`}}},
+      scales:{x:{ticks:{color:css("--muted"),maxTicksLimit:4,maxRotation:0,font:{size:11}},grid:{display:false},border:{color:css("--line")}},
+              y:{ticks:{color:css("--muted"),maxTicksLimit:4,font:{size:11},callback:v=>fmt(v)},grid:{color:"#2a2a28"},border:{display:false},beginAtZero:type==="bar"}}}
+  });
+  charts.push(c); return c;
+}
+
+function render(){
+  charts.splice(0).forEach(c=>c.destroy());
+  const label = range ? `${range} Tage` : "gesamt";
+  const wk = range||7;
+
+  // KPIs
+  let total=0, t7=0, t30=0, n=0;
+  for(const p of Object.keys(PLATFORMS)){
+    const s=series(p,"followers"); if(!s.length) continue;
+    total+=s[s.length-1].v; t7+=change(s,7).v||0; t30+=change(s,30).v||0; n++;
+  }
+  const sp = spotifyDaily();
+  const spStreams30 = sp.streams.length ? sum(sp.streams,30) : null;
+  document.getElementById("kpis").innerHTML = `
+    <div class="kpi"><div class="lab">Follower gesamt</div><div class="val">${fmt(total)}</div><div class="sub">über ${n} Kanäle</div></div>
+    <div class="kpi"><div class="lab">Neue Follower · Woche</div><div class="val ${cls(t7)}">${sign(t7)}</div><div class="sub">letzte 7 Tage</div></div>
+    <div class="kpi"><div class="lab">Neue Follower · Monat</div><div class="val ${cls(t30)}">${sign(t30)}</div><div class="sub">letzte 30 Tage</div></div>
+    <div class="kpi"><div class="lab">Spotify-Streams · Monat</div><div class="val">${fmt(spStreams30)}</div><div class="sub">${spStreams30==null?"CSV aus Spotify for Artists fehlt":"letzte 30 Tage"}</div></div>`;
+
+  // Karten
+  const cards = document.getElementById("cards"); cards.innerHTML="";
+  for(const [p,def] of Object.entries(PLATFORMS)){
+    if(p==="spotify") continue;
+    const color = css("--"+p);
+    const fol = series(p,"followers");
+    const el = document.createElement("article"); el.className="card"; el.style.setProperty("--c",color);
+    if(!fol.length){
+      el.innerHTML = `<div class="head"><h3>${def.name}</h3></div><div class="empty">Noch keine Daten. ${hint(p)}</div>`;
+      cards.appendChild(el); continue;
+    }
+    const last = fol[fol.length-1];
+    const c7 = change(fol,7), c30 = change(fol,30);
+    const rows = [
+      `<div><span>Follower · Woche</span><b class="${cls(c7.v)}">${sign(c7.v)}</b></div>`,
+      `<div><span>Follower · Monat</span><b class="${cls(c30.v)}">${sign(c30.v)}</b></div>`];
+    for(const [m,[lab,kind]] of Object.entries(def.metrics)){
+      if(m==="followers") continue;
+      const s = series(p,m); if(!s.length) continue;
+      if(kind==="total"){ rows.push(`<div><span>${lab}</span><b>${fmt(s[s.length-1].v)}</b></div>`); continue; }
+      const w = period(s,kind,7), mo = period(s,kind,30);
+      rows.push(`<div><span>${lab} · Woche</span><b>${fmt(w.v)}</b></div>`, `<div><span>${lab} · Monat</span><b>${fmt(mo.v)}</b></div>`);
+    }
+    const since = c30.since ? `<div class="biglab">Vergleich seit ${deDate(c30.since)} (Daten werden seitdem gesammelt)</div>` : "";
+    el.innerHTML = `<div class="head"><h3>${def.name}</h3><span class="biglab">Stand ${deDate(last.d)}</span></div>
+      <div class="big">${fmt(last.v)}</div><div class="biglab">${def.metrics.followers[0]}</div>${since}
+      <div class="stats">${rows.join("")}</div>
+      <div class="chartbox"><canvas aria-label="${def.name} ${def.metrics.followers[0]}, ${label}"></canvas></div>`;
+    cards.appendChild(el);
+    lineChart(el.querySelector("canvas"), inRange(fol), color, def.metrics.followers[0]);
+  }
+
+  renderSpotify(sp, label);
+  renderPlaylists();
+  renderTable();
+}
+
+function spotifyDaily(){
+  const d = H.spotify_daily||{}, keys = Object.keys(d).sort();
+  const pick = k => keys.filter(x=>typeof d[x][k]==="number").map(x=>({d:x,v:d[x][k]}));
+  return {streams:pick("streams"), listeners:pick("listeners"), followers:pick("followers")};
+}
+function renderSpotify(sp, label){
+  const box = document.getElementById("spotify");
+  if(!sp.streams.length && !sp.listeners.length && !sp.followers.length){
+    box.innerHTML = `<div class="note"><b>Noch keine Spotify-Daten.</b> Spotify gibt Streams und Hörer nicht über die Schnittstelle heraus.
+      Exportiert in <i>Spotify for Artists → Publikum</i> den Zeitverlauf als CSV und ladet die Datei auf GitHub in den Ordner
+      <code>data/imports/spotify/</code> hoch. Das Dashboard liest sie bei der nächsten Aktualisierung automatisch ein.</div>`;
+    return;
+  }
+  const color = css("--spotify"); const parts=[];
+  const block = (title, s, kind, type) => {
+    if(!s.length) return;
+    const avg = (d) => { const n = s.filter(x=>x.d>=dayAdd(s[s.length-1].d,-d+1)).length; return n ? sum(s,d)/n : null; };
+    const val = d => kind==="daily"?fmt(sum(s,d)):kind==="avg"?fmt(avg(d)):sign(change(s,d).v);
+    const pre = kind==="avg" ? "Ø pro Tag · " : "";
+    const id = "sp_"+title.replace(/\W/g,"");
+    parts.push({id,s,type,title, html:`<article class="card" style="--c:${color}"><div class="head"><h3>${title}</h3><span class="biglab">bis ${deDate(s[s.length-1].d)}</span></div>
+      <div class="stats"><div><span>${pre}Woche</span><b>${val(7)}</b></div><div><span>${pre}Monat</span><b>${val(30)}</b></div></div>
+      <div class="chartbox"><canvas id="${id}" aria-label="Spotify ${title}, ${label}"></canvas></div></article>`});
+  };
+  block("Streams", sp.streams, "daily", "bar");
+  block("Hörer pro Tag", sp.listeners, "avg", "line");
+  block("Follower", sp.followers, "total", "line");
+  box.innerHTML = `<div class="spot">${parts.map(p=>p.html).join("")}</div>`;
+  parts.forEach(p=>lineChart(document.getElementById(p.id), inRange(p.s), color, p.title, p.type));
+}
+
+function renderPlaylists(){
+  const box = document.getElementById("playlists"), pl = H.playlists;
+  if(!pl || !pl.rows.length){
+    box.innerHTML = `<div class="note"><b>Noch keine Playlisten-Liste.</b> In <i>Spotify for Artists → Musik → Playlisten</i> seht ihr, in welchen Playlisten ihr seid.
+      Tragt sie in <code>data/imports/playlists.csv</code> ein (Vorlage liegt bei) oder ladet dort einen CSV-Export hoch.</div>`;
+    return;
+  }
+  const numCol = pl.headers.map((_,i)=>pl.rows.every(r=>!r[i]||/^[\d.,\s]+$/.test(r[i])));
+  box.innerHTML = `<div class="tablewrap"><table><thead><tr>${pl.headers.map((h,i)=>`<th class="${numCol[i]?"n":""}">${esc(h)}</th>`).join("")}</tr></thead>
+    <tbody>${pl.rows.map(r=>`<tr>${r.map((c,i)=>`<td class="${numCol[i]?"n":""}">${/^https?:\/\//.test(c)?`<a href="${esc(c)}" style="color:var(--text)">öffnen</a>`:esc(c)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>
+    <p class="biglab">${pl.rows.length} Playlisten · Quelle: ${esc(pl.source)}, Stand ${deDate(pl.updated)}</p>`;
+}
+
+function renderTable(){
+  const rows=[];
+  for(const [p,def] of Object.entries(PLATFORMS)) for(const [m,[lab,kind]] of Object.entries(def.metrics)){
+    const s=series(p,m); if(!s.length) continue;
+    const w=period(s,kind,7).v, mo=period(s,kind,30).v;
+    rows.push(`<tr><td>${def.name}</td><td>${lab}</td><td class="n">${kind==="daily"?"–":fmt(s[s.length-1].v)}</td><td class="n">${kind==="total"||kind==="cumulative"?sign(w):fmt(w)}</td><td class="n">${kind==="total"||kind==="cumulative"?sign(mo):fmt(mo)}</td></tr>`);
+  }
+  document.getElementById("table").innerHTML = `<thead><tr><th>Kanal</th><th>Kennzahl</th><th class="n">Aktuell</th><th class="n">Woche</th><th class="n">Monat</th></tr></thead><tbody>${rows.join("")||`<tr><td colspan="5">Noch keine Daten</td></tr>`}</tbody>`;
+}
+
+function hint(p){
+  return {instagram:"Braucht den Meta-Zugang (siehe Anleitung).", facebook:"Braucht den Meta-Zugang (siehe Anleitung).",
+    youtube:"YouTube-Kanal und API-Schlüssel fehlen noch.", tiktok:"TikTok-Zugang fehlt noch."}[p] || "";
+}
+const esc = s => String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+document.querySelectorAll("[data-range]").forEach(b=>b.addEventListener("click",()=>{
+  range=+b.dataset.range;
+  document.querySelectorAll("[data-range]").forEach(x=>x.setAttribute("aria-pressed", x===b));
+  render();
+}));
+
+fetch("data/history.json?"+Date.now()).then(r=>r.json()).then(h=>{
+  H=h;
+  document.getElementById("updated").textContent = "Aktualisiert " + new Date(h.updated).toLocaleString("de-AT",{dateStyle:"short",timeStyle:"short"});
+  document.getElementById("links").innerHTML = Object.entries(h.config?.links||{}).map(([n,u])=>`<a class="pill small" href="${esc(u)}" target="_blank" rel="noopener">${esc(n)} →</a>`).join("");
+  document.getElementById("log").textContent = (h.log||[]).join("\n") || "Keine Meldungen.";
+  render();
+}).catch(e=>{ document.getElementById("cards").innerHTML=`<div class="note">Daten konnten nicht geladen werden (${esc(e.message)}).</div>`; });
+</script>
+</body>
+</html>

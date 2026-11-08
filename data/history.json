@@ -1,0 +1,44 @@
+{
+ "config": {
+  "band": "WUHA",
+  "links": {
+   "Amazon Music": "https://music.amazon.de/artists/B0DT53D71V/wuha",
+   "Apple Music": "https://music.apple.com/at/artist/wuha/1790726364",
+   "Deezer": "https://www.deezer.com/de/artist/298377921",
+   "Facebook": "https://www.facebook.com/wuhamusic",
+   "Instagram": "https://www.instagram.com/wuha_music/",
+   "SoundCloud": "https://soundcloud.com/wuha-music",
+   "Spotify": "https://open.spotify.com/artist/2Xa5A0dIwmZt8OBZrTv4qQ",
+   "TIDAL": "https://tidal.com/artist/56547953",
+   "TikTok": "https://www.tiktok.com/@wuha_music",
+   "WhatsApp-Kanal": "https://whatsapp.com/channel/0029VbBXY1BC6Zvj8IFkdb3A"
+  }
+ },
+ "log": [
+  "Meta: kein META_PAGE_TOKEN gesetzt - übersprungen",
+  "YouTube: YOUTUBE_API_KEY oder youtube_channel_id fehlt - übersprungen"
+ ],
+ "playlists": null,
+ "snapshots": {
+  "2026-11-08": {
+   "deezer": {
+    "albums": 7,
+    "followers": 0
+   },
+   "soundcloud": {
+    "followers": 55,
+    "tracks": 7
+   },
+   "tiktok": {
+    "followers": 84,
+    "likes": 533,
+    "videos": 40
+   },
+   "whatsapp": {
+    "followers": 7
+   }
+  }
+ },
+ "spotify_daily": {},
+ "updated": "2026-11-08T14:12+00:00"
+}
