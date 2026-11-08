@@ -11,14 +11,27 @@
    "Spotify": "https://open.spotify.com/artist/2Xa5A0dIwmZt8OBZrTv4qQ",
    "TIDAL": "https://tidal.com/artist/56547953",
    "TikTok": "https://www.tiktok.com/@wuha_music",
-   "WhatsApp-Kanal": "https://whatsapp.com/channel/0029VbBXY1BC6Zvj8IFkdb3A"
+   "WhatsApp-Kanal": "https://whatsapp.com/channel/0029VbBXY1BC6Zvj8IFkdb3A",
+   "YouTube": "https://www.youtube.com/@wuha_music"
   }
  },
  "log": [
-  "Meta: kein META_PAGE_TOKEN gesetzt - übersprungen",
+  "Meta: Fehler - HTTP Error 400: Bad Request",
   "YouTube: YOUTUBE_API_KEY oder youtube_channel_id fehlt - übersprungen"
  ],
- "playlists": null,
+ "playlists": {
+  "headers": [
+   "Playlist",
+   "Kurator",
+   "Song",
+   "Follower der Playlist",
+   "Hinzugefügt am",
+   "Link"
+  ],
+  "rows": [],
+  "source": "playlists.csv",
+  "updated": "2026-11-08"
+ },
  "snapshots": {
   "2026-11-08": {
    "deezer": {
@@ -31,7 +44,7 @@
    },
    "tiktok": {
     "followers": 84,
-    "likes": 533,
+    "likes": 532,
     "videos": 40
    },
    "whatsapp": {
@@ -40,5 +53,5 @@
   }
  },
  "spotify_daily": {},
- "updated": "2026-11-08T14:12+00:00"
+ "updated": "2026-11-08T15:05+00:00"
 }
