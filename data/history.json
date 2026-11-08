@@ -16,8 +16,8 @@
   }
  },
  "log": [
-  "Meta: Fehler - HTTP Error 400: Bad Request",
-  "YouTube: YOUTUBE_API_KEY oder youtube_channel_id fehlt - übersprungen"
+  "Meta: Seite 'WUHA' √ºber Personen-Token gefunden",
+  "YouTube: YOUTUBE_API_KEY oder youtube_channel_id fehlt - √ºbersprungen"
  ],
  "playlists": {
   "headers": [
@@ -38,6 +38,19 @@
     "albums": 7,
     "followers": 0
    },
+   "facebook": {
+    "followers": 1176,
+    "likes": 1176,
+    "reach": 0,
+    "views": 0
+   },
+   "instagram": {
+    "followers": 77,
+    "posts": 42,
+    "profile_views": 0,
+    "reach": 0,
+    "views": 0
+   },
    "soundcloud": {
     "followers": 55,
     "tracks": 7
@@ -53,5 +66,5 @@
   }
  },
  "spotify_daily": {},
- "updated": "2026-11-08T15:05+00:00"
+ "updated": "2026-11-08T15:09+00:00"
 }
