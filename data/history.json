@@ -1,5 +1,90 @@
 {
+ "apple_catalog": {
+  "headers": [
+   "Titel",
+   "Wiedergaben",
+   "Durchschn. Hörer:innen pro Tag",
+   "Shazam-Anzahl",
+   "Radio Spins",
+   "Käufe"
+  ],
+  "rows": [
+   [
+    "Caroline (Extended Club Mix)",
+    "27",
+    "1",
+    "1",
+    "0",
+    "0"
+   ],
+   [
+    "Caroline (feat. Mark Voc)",
+    "10",
+    "1",
+    "3",
+    "73",
+    "0"
+   ],
+   [
+    "Rainbow Eyes",
+    "7",
+    "1",
+    "1",
+    "0",
+    "1"
+   ],
+   [
+    "Nothing Is Forever",
+    "4",
+    "1",
+    "5",
+    "13",
+    "1"
+   ],
+   [
+    "Rainbow Eyes (EDM Club Mix)",
+    "4",
+    "1",
+    "2",
+    "2",
+    "0"
+   ],
+   [
+    "Losing My Shape",
+    "2",
+    "1",
+    "0",
+    "1",
+    "0"
+   ],
+   [
+    "Caroline (Instrumental Version)",
+    "1",
+    "1",
+    "0",
+    "0",
+    "0"
+   ],
+   [
+    "Caroline",
+    "0",
+    "0",
+    "0",
+    "1",
+    "0"
+   ]
+  ],
+  "source": "songs_1790726364_2015-06-30_2026-11-07.csv",
+  "updated": "2026-11-09"
+ },
  "apple_daily": {},
+ "apple_totals": {
+  "listeners": 1,
+  "plays": 55,
+  "purchases": 2,
+  "radio_spins": 90,
+  "shazams": 12
+ },
  "config": {
   "band": "WUHA",
   "links": {
@@ -18,9 +103,8 @@
  },
  "log": [
   "Meta: Fehler - HTTP 400: Error validating access token: The session is invalid because the user logged out.",
-  "SoundCloud: Fehler - HTTP 404: <!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"theme-color\" content=\"#333\">\n<link rel=\"dns-prefetch\" href=\"//style.sndcdn.com\">\n<link rel=\"dns-prefetch\" href=\"//a-v2.sndcdn.com\">\n<link rel=\"dns-prefetch\" href=\"//api-v2.soundcloud.com\">\n<link",
   "Spotify-Import: WUHA-audience-timeline.csv (1042 Tage)",
-  "Apple-Import: songs_1790726364_2015-06-30_2026-11-07.csv (0 Tage)"
+  "Apple-Import: songs_1790726364_2015-06-30_2026-11-07.csv (8 Songs, Spalten: Titel, Wiedergaben, Durchschn. Hörer:innen pro Tag, Shazam-Anzahl, Radio Spins, Käufe)"
  ],
  "playlists": {
   "headers": [
@@ -5308,5 +5392,5 @@
    "streams": 4
   }
  },
- "updated": "2026-11-09T13:06+00:00"
+ "updated": "2026-11-09T14:09+00:00"
 }
