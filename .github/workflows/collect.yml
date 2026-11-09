@@ -46,10 +46,11 @@ jobs:
           fi
           rm -f .new_tiktok_refresh_token
 
-      - name: Speichern
-        run: |
-          git config user.name "wuha-bot"
-          git config user.email "wuha-bot@users.noreply.github.com"
-          git add data/history.json
-          git diff --cached --quiet || git commit -m "Daten $(date -u +%F)"
-          git pull --rebase origin main
+              - name: Speichern
+           run: |
+             git config user.name "wuha-bot"
+             git config user.email "wuha-bot@users.noreply.github.com"
+             git add data/history.json
+             git commit -m "Daten $(date +%F)" || exit 0
+             git pull --rebase origin main
+             git push
