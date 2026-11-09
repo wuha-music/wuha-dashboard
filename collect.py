@@ -353,8 +353,9 @@ def apple_imports(hist):
             totals = {k: 0 for k in idx}
             for r in rows[1:]:
                 for k, i in idx.items():
-                    v = num(r[i]) if i < len(r) else None
-                    totals[k] += v or 0
+                    v = (num(r[i]) if i < len(r) else None) or 0
+                    # Ø Hörer pro Tag lässt sich nicht addieren -> höchster Wert
+                    totals[k] = max(totals[k], v) if k == "listeners" else totals[k] + v
             hist["apple_catalog"] = {
                 "source": name,
                 "updated": dt.datetime.fromtimestamp(os.path.getmtime(path)).date().isoformat(),
