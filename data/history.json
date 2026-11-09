@@ -15,7 +15,9 @@
    "YouTube": "https://www.youtube.com/@wuha_music"
   }
  },
- "log": [],
+ "log": [
+  "Meta: Fehler - HTTP 400: Error validating access token: Session has expired on Sunday, 08-Nov-26 09:00:00 PST. The current time is Sunday, 08-Nov-26 22:13:31 PST."
+ ],
  "playlists": {
   "headers": [
    "Playlist",
@@ -27,7 +29,7 @@
   ],
   "rows": [],
   "source": "playlists.csv",
-  "updated": "2026-11-08"
+  "updated": "2026-11-09"
  },
  "snapshots": {
   "2026-11-08": {
@@ -65,8 +67,31 @@
     "videos": 21,
     "views_total": 4588
    }
+  },
+  "2026-11-09": {
+   "deezer": {
+    "albums": 7,
+    "followers": 0
+   },
+   "soundcloud": {
+    "followers": 55,
+    "tracks": 7
+   },
+   "tiktok": {
+    "followers": 84,
+    "likes": 532,
+    "videos": 40
+   },
+   "whatsapp": {
+    "followers": 7
+   },
+   "youtube": {
+    "followers": 11,
+    "videos": 21,
+    "views_total": 4588
+   }
   }
  },
  "spotify_daily": {},
- "updated": "2026-11-08T16:17+00:00"
+ "updated": "2026-11-09T06:13+00:00"
 }
