@@ -316,7 +316,7 @@ def apple_imports(hist):
         if len(rows) < 2:
             continue
         hdr = [h.strip() for h in rows[0]]
-        dcol = _pick(hdr, "date", "datum", "tag")
+        dcol = _pick(hdr, "date", "datum")
         cols = {"plays": _pick(hdr, "plays", "wiedergabe", "streams"),
                 "listeners": _pick(hdr, "listener", "hörer", "hoerer"),
                 "shazams": _pick(hdr, "shazam"),
@@ -326,10 +326,21 @@ def apple_imports(hist):
         if not idx:
             log(f"Apple-Import: {os.path.basename(path)} - keine bekannten Spalten ({', '.join(hdr)})")
             continue
-        if dcol:
-            di, n = hdr.index(dcol), 0
-            for r in rows[1:]:
-                d = _parse_date(r[di]) if di < len(r) else None
+        name = os.path.basename(path)
+        # Katalog-Exporte (songs_…, albums_…) haben ein Veröffentlichungsdatum,
+        # aber keine Tageswerte -> immer als Tabelle behandeln.
+        is_catalog = re.match(r"(songs|albums|playlists|tracks)_", name.lower()) is not None
+        dates = []
+        if dcol and not is_catalog:
+            di = hdr.index(dcol)
+            dates = [_parse_date(r[di]) if di < len(r) else None for r in rows[1:]]
+            valid = [d for d in dates if d]
+            # nur echte Zeitreihe: jedes Datum höchstens einmal
+            if not valid or len(set(valid)) < len(valid):
+                dates = []
+        if dates:
+            n = 0
+            for r, d in zip(rows[1:], dates):
                 if not d:
                     continue
                 day = daily.setdefault(d, {})
@@ -337,7 +348,7 @@ def apple_imports(hist):
                     if i < len(r) and r[i].strip():
                         day[k] = num(r[i])
                 n += 1
-            log(f"Apple-Import: {os.path.basename(path)} ({n} Tage)")
+            log(f"Apple-Import: {name} ({n} Tage)")
         else:
             totals = {k: 0 for k in idx}
             for r in rows[1:]:
@@ -345,11 +356,11 @@ def apple_imports(hist):
                     v = num(r[i]) if i < len(r) else None
                     totals[k] += v or 0
             hist["apple_catalog"] = {
-                "source": os.path.basename(path),
+                "source": name,
                 "updated": dt.datetime.fromtimestamp(os.path.getmtime(path)).date().isoformat(),
                 "headers": hdr, "rows": rows[1:]}
             hist["apple_totals"] = totals
-            log(f"Apple-Import: {os.path.basename(path)} ({len(rows) - 1} Songs)")
+            log(f"Apple-Import: {name} ({len(rows) - 1} Songs, Spalten: {', '.join(hdr)})")
 
 
 def playlists():
