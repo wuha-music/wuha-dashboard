@@ -16,7 +16,8 @@
   }
  },
  "log": [
-  "Meta: Fehler - HTTP 400: Error validating access token: The session is invalid because the user logged out."
+  "Meta: Fehler - HTTP 400: Error validating access token: The session is invalid because the user logged out.",
+  "Spotify-Import: WUHA-audience-timeline.csv (1042 Tage)"
  ],
  "playlists": {
   "headers": [
@@ -92,6 +93,5217 @@
    }
   }
  },
- "spotify_daily": {},
- "updated": "2026-11-09T12:24+00:00"
+ "spotify_daily": {
+  "2024-01-01": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-01-02": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-01-03": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-01-04": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-01-05": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-01-06": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-01-07": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-01-08": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-01-09": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-01-10": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-01-11": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-01-12": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-01-13": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-01-14": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-01-15": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-01-16": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-01-17": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-01-18": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-01-19": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-01-20": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-01-21": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-01-22": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-01-23": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-01-24": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-01-25": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-01-26": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-01-27": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-01-28": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-01-29": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-01-30": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-01-31": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-02-01": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-02-02": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-02-03": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-02-04": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-02-05": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-02-06": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-02-07": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-02-08": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-02-09": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-02-10": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-02-11": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-02-12": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-02-13": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-02-14": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-02-15": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-02-16": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-02-17": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-02-18": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-02-19": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-02-20": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-02-21": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-02-22": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-02-23": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-02-24": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-02-25": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-02-26": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-02-27": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-02-28": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-02-29": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-03-01": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-03-02": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-03-03": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-03-04": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-03-05": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-03-06": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-03-07": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-03-08": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-03-09": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-03-10": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-03-11": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-03-12": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-03-13": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-03-14": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-03-15": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-03-16": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-03-17": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-03-18": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-03-19": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-03-20": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-03-21": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-03-22": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-03-23": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-03-24": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-03-25": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-03-26": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-03-27": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-03-28": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-03-29": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-03-30": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-03-31": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-04-01": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-04-02": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-04-03": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-04-04": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-04-05": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-04-06": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-04-07": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-04-08": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-04-09": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-04-10": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-04-11": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-04-12": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-04-13": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-04-14": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-04-15": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-04-16": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-04-17": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-04-18": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-04-19": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-04-20": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-04-21": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-04-22": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-04-23": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-04-24": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-04-25": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-04-26": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-04-27": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-04-28": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-04-29": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-04-30": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-05-01": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-05-02": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-05-03": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-05-04": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-05-05": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-05-06": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-05-07": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-05-08": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-05-09": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-05-10": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-05-11": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-05-12": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-05-13": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-05-14": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-05-15": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-05-16": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-05-17": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-05-18": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-05-19": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-05-20": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-05-21": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-05-22": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-05-23": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-05-24": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-05-25": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-05-26": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-05-27": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-05-28": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-05-29": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-05-30": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-05-31": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-06-01": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-06-02": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-06-03": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-06-04": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-06-05": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-06-06": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-06-07": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-06-08": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-06-09": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-06-10": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-06-11": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-06-12": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-06-13": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-06-14": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-06-15": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-06-16": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-06-17": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-06-18": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-06-19": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-06-20": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-06-21": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-06-22": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-06-23": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-06-24": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-06-25": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-06-26": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-06-27": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-06-28": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-06-29": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-06-30": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-07-01": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-07-02": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-07-03": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-07-04": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-07-05": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-07-06": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-07-07": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-07-08": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-07-09": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-07-10": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-07-11": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-07-12": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-07-13": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-07-14": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-07-15": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-07-16": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-07-17": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-07-18": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-07-19": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-07-20": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-07-21": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-07-22": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-07-23": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-07-24": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-07-25": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-07-26": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-07-27": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-07-28": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-07-29": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-07-30": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-07-31": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-08-01": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-08-02": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-08-03": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-08-04": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-08-05": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-08-06": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-08-07": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-08-08": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-08-09": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-08-10": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-08-11": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-08-12": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-08-13": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-08-14": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-08-15": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-08-16": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-08-17": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-08-18": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-08-19": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-08-20": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-08-21": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-08-22": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-08-23": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-08-24": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-08-25": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-08-26": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-08-27": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-08-28": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-08-29": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-08-30": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-08-31": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-09-01": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-09-02": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-09-03": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-09-04": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-09-05": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-09-06": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-09-07": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-09-08": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-09-09": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-09-10": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-09-11": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-09-12": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-09-13": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-09-14": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-09-15": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-09-16": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-09-17": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-09-18": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-09-19": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-09-20": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-09-21": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-09-22": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-09-23": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-09-24": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-09-25": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-09-26": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-09-27": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-09-28": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-09-29": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-09-30": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-10-01": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-10-02": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-10-03": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-10-04": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-10-05": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-10-06": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-10-07": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-10-08": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-10-09": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-10-10": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-10-11": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-10-12": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-10-13": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-10-14": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-10-15": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-10-16": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-10-17": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-10-18": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-10-19": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-10-20": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-10-21": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-10-22": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-10-23": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-10-24": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-10-25": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-10-26": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-10-27": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-10-28": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-10-29": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-10-30": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-10-31": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-11-01": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-11-02": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-11-03": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-11-04": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-11-05": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-11-06": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-11-07": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-11-08": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-11-09": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-11-10": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-11-11": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-11-12": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-11-13": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-11-14": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-11-15": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-11-16": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-11-17": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-11-18": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-11-19": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-11-20": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-11-21": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-11-22": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-11-23": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-11-24": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-11-25": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-11-26": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-11-27": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-11-28": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-11-29": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-11-30": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-12-01": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-12-02": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-12-03": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-12-04": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-12-05": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-12-06": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-12-07": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-12-08": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-12-09": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-12-10": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-12-11": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-12-12": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-12-13": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-12-14": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-12-15": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-12-16": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-12-17": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-12-18": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-12-19": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-12-20": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-12-21": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-12-22": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-12-23": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-12-24": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-12-25": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-12-26": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-12-27": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-12-28": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-12-29": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-12-30": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2024-12-31": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-01-01": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-01-02": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-01-03": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-01-04": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-01-05": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-01-06": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-01-07": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-01-08": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-01-09": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-01-10": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-01-11": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-01-12": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-01-13": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-01-14": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-01-15": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-01-16": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-01-17": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-01-18": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-01-19": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-01-20": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-01-21": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-01-22": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-01-23": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-01-24": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-01-25": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-01-26": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-01-27": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-01-28": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-01-29": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-01-30": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-01-31": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-02-01": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-02-02": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-02-03": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-02-04": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-02-05": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-02-06": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-02-07": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-02-08": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-02-09": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-02-10": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-02-11": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-02-12": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-02-13": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-02-14": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-02-15": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-02-16": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-02-17": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-02-18": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-02-19": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-02-20": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-02-21": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-02-22": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-02-23": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-02-24": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-02-25": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-02-26": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-02-27": {
+   "followers": 0,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-02-28": {
+   "followers": 1,
+   "listeners": 1,
+   "streams": 10
+  },
+  "2025-03-01": {
+   "followers": 1,
+   "listeners": 1,
+   "streams": 4
+  },
+  "2025-03-02": {
+   "followers": 1,
+   "listeners": 2,
+   "streams": 40
+  },
+  "2025-03-03": {
+   "followers": 2,
+   "listeners": 5,
+   "streams": 42
+  },
+  "2025-03-04": {
+   "followers": 2,
+   "listeners": 16,
+   "streams": 23
+  },
+  "2025-03-05": {
+   "followers": 3,
+   "listeners": 6,
+   "streams": 19
+  },
+  "2025-03-06": {
+   "followers": 3,
+   "listeners": 11,
+   "streams": 13
+  },
+  "2025-03-07": {
+   "followers": 3,
+   "listeners": 11,
+   "streams": 19
+  },
+  "2025-03-08": {
+   "followers": 3,
+   "listeners": 17,
+   "streams": 17
+  },
+  "2025-03-09": {
+   "followers": 3,
+   "listeners": 11,
+   "streams": 15
+  },
+  "2025-03-10": {
+   "followers": 3,
+   "listeners": 65,
+   "streams": 97
+  },
+  "2025-03-11": {
+   "followers": 3,
+   "listeners": 62,
+   "streams": 63
+  },
+  "2025-03-12": {
+   "followers": 3,
+   "listeners": 90,
+   "streams": 98
+  },
+  "2025-03-13": {
+   "followers": 4,
+   "listeners": 50,
+   "streams": 58
+  },
+  "2025-03-14": {
+   "followers": 4,
+   "listeners": 22,
+   "streams": 26
+  },
+  "2025-03-15": {
+   "followers": 4,
+   "listeners": 16,
+   "streams": 24
+  },
+  "2025-03-16": {
+   "followers": 4,
+   "listeners": 18,
+   "streams": 18
+  },
+  "2025-03-17": {
+   "followers": 4,
+   "listeners": 28,
+   "streams": 32
+  },
+  "2025-03-18": {
+   "followers": 4,
+   "listeners": 55,
+   "streams": 63
+  },
+  "2025-03-19": {
+   "followers": 4,
+   "listeners": 35,
+   "streams": 46
+  },
+  "2025-03-20": {
+   "followers": 4,
+   "listeners": 38,
+   "streams": 43
+  },
+  "2025-03-21": {
+   "followers": 4,
+   "listeners": 27,
+   "streams": 35
+  },
+  "2025-03-22": {
+   "followers": 4,
+   "listeners": 23,
+   "streams": 24
+  },
+  "2025-03-23": {
+   "followers": 4,
+   "listeners": 20,
+   "streams": 21
+  },
+  "2025-03-24": {
+   "followers": 4,
+   "listeners": 28,
+   "streams": 33
+  },
+  "2025-03-25": {
+   "followers": 4,
+   "listeners": 24,
+   "streams": 25
+  },
+  "2025-03-26": {
+   "followers": 4,
+   "listeners": 18,
+   "streams": 23
+  },
+  "2025-03-27": {
+   "followers": 4,
+   "listeners": 13,
+   "streams": 13
+  },
+  "2025-03-28": {
+   "followers": 5,
+   "listeners": 12,
+   "streams": 16
+  },
+  "2025-03-29": {
+   "followers": 5,
+   "listeners": 13,
+   "streams": 16
+  },
+  "2025-03-30": {
+   "followers": 5,
+   "listeners": 24,
+   "streams": 24
+  },
+  "2025-03-31": {
+   "followers": 5,
+   "listeners": 8,
+   "streams": 12
+  },
+  "2025-04-01": {
+   "followers": 5,
+   "listeners": 11,
+   "streams": 11
+  },
+  "2025-04-02": {
+   "followers": 5,
+   "listeners": 9,
+   "streams": 14
+  },
+  "2025-04-03": {
+   "followers": 5,
+   "listeners": 10,
+   "streams": 14
+  },
+  "2025-04-04": {
+   "followers": 5,
+   "listeners": 9,
+   "streams": 13
+  },
+  "2025-04-05": {
+   "followers": 5,
+   "listeners": 16,
+   "streams": 17
+  },
+  "2025-04-06": {
+   "followers": 5,
+   "listeners": 8,
+   "streams": 16
+  },
+  "2025-04-07": {
+   "followers": 5,
+   "listeners": 16,
+   "streams": 18
+  },
+  "2025-04-08": {
+   "followers": 5,
+   "listeners": 8,
+   "streams": 11
+  },
+  "2025-04-09": {
+   "followers": 5,
+   "listeners": 9,
+   "streams": 10
+  },
+  "2025-04-10": {
+   "followers": 5,
+   "listeners": 10,
+   "streams": 10
+  },
+  "2025-04-11": {
+   "followers": 5,
+   "listeners": 9,
+   "streams": 12
+  },
+  "2025-04-12": {
+   "followers": 5,
+   "listeners": 22,
+   "streams": 24
+  },
+  "2025-04-13": {
+   "followers": 5,
+   "listeners": 22,
+   "streams": 25
+  },
+  "2025-04-14": {
+   "followers": 6,
+   "listeners": 23,
+   "streams": 26
+  },
+  "2025-04-15": {
+   "followers": 6,
+   "listeners": 27,
+   "streams": 28
+  },
+  "2025-04-16": {
+   "followers": 6,
+   "listeners": 15,
+   "streams": 16
+  },
+  "2025-04-17": {
+   "followers": 6,
+   "listeners": 18,
+   "streams": 20
+  },
+  "2025-04-18": {
+   "followers": 6,
+   "listeners": 13,
+   "streams": 14
+  },
+  "2025-04-19": {
+   "followers": 6,
+   "listeners": 16,
+   "streams": 19
+  },
+  "2025-04-20": {
+   "followers": 6,
+   "listeners": 7,
+   "streams": 7
+  },
+  "2025-04-21": {
+   "followers": 6,
+   "listeners": 21,
+   "streams": 23
+  },
+  "2025-04-22": {
+   "followers": 6,
+   "listeners": 14,
+   "streams": 15
+  },
+  "2025-04-23": {
+   "followers": 7,
+   "listeners": 21,
+   "streams": 21
+  },
+  "2025-04-24": {
+   "followers": 7,
+   "listeners": 14,
+   "streams": 14
+  },
+  "2025-04-25": {
+   "followers": 7,
+   "listeners": 21,
+   "streams": 24
+  },
+  "2025-04-26": {
+   "followers": 7,
+   "listeners": 14,
+   "streams": 14
+  },
+  "2025-04-27": {
+   "followers": 7,
+   "listeners": 13,
+   "streams": 15
+  },
+  "2025-04-28": {
+   "followers": 7,
+   "listeners": 16,
+   "streams": 16
+  },
+  "2025-04-29": {
+   "followers": 7,
+   "listeners": 14,
+   "streams": 14
+  },
+  "2025-04-30": {
+   "followers": 7,
+   "listeners": 21,
+   "streams": 36
+  },
+  "2025-05-01": {
+   "followers": 7,
+   "listeners": 11,
+   "streams": 24
+  },
+  "2025-05-02": {
+   "followers": 7,
+   "listeners": 9,
+   "streams": 9
+  },
+  "2025-05-03": {
+   "followers": 7,
+   "listeners": 10,
+   "streams": 18
+  },
+  "2025-05-04": {
+   "followers": 7,
+   "listeners": 5,
+   "streams": 26
+  },
+  "2025-05-05": {
+   "followers": 7,
+   "listeners": 3,
+   "streams": 14
+  },
+  "2025-05-06": {
+   "followers": 7,
+   "listeners": 6,
+   "streams": 11
+  },
+  "2025-05-07": {
+   "followers": 7,
+   "listeners": 6,
+   "streams": 11
+  },
+  "2025-05-08": {
+   "followers": 7,
+   "listeners": 9,
+   "streams": 13
+  },
+  "2025-05-09": {
+   "followers": 7,
+   "listeners": 6,
+   "streams": 8
+  },
+  "2025-05-10": {
+   "followers": 7,
+   "listeners": 8,
+   "streams": 8
+  },
+  "2025-05-11": {
+   "followers": 7,
+   "listeners": 7,
+   "streams": 8
+  },
+  "2025-05-12": {
+   "followers": 7,
+   "listeners": 17,
+   "streams": 18
+  },
+  "2025-05-13": {
+   "followers": 7,
+   "listeners": 9,
+   "streams": 9
+  },
+  "2025-05-14": {
+   "followers": 7,
+   "listeners": 9,
+   "streams": 11
+  },
+  "2025-05-15": {
+   "followers": 7,
+   "listeners": 6,
+   "streams": 6
+  },
+  "2025-05-16": {
+   "followers": 7,
+   "listeners": 8,
+   "streams": 9
+  },
+  "2025-05-17": {
+   "followers": 7,
+   "listeners": 10,
+   "streams": 15
+  },
+  "2025-05-18": {
+   "followers": 7,
+   "listeners": 12,
+   "streams": 14
+  },
+  "2025-05-19": {
+   "followers": 7,
+   "listeners": 9,
+   "streams": 10
+  },
+  "2025-05-20": {
+   "followers": 7,
+   "listeners": 6,
+   "streams": 9
+  },
+  "2025-05-21": {
+   "followers": 7,
+   "listeners": 7,
+   "streams": 10
+  },
+  "2025-05-22": {
+   "followers": 7,
+   "listeners": 12,
+   "streams": 15
+  },
+  "2025-05-23": {
+   "followers": 7,
+   "listeners": 11,
+   "streams": 13
+  },
+  "2025-05-24": {
+   "followers": 7,
+   "listeners": 7,
+   "streams": 8
+  },
+  "2025-05-25": {
+   "followers": 7,
+   "listeners": 8,
+   "streams": 8
+  },
+  "2025-05-26": {
+   "followers": 7,
+   "listeners": 4,
+   "streams": 5
+  },
+  "2025-05-27": {
+   "followers": 7,
+   "listeners": 3,
+   "streams": 4
+  },
+  "2025-05-28": {
+   "followers": 7,
+   "listeners": 2,
+   "streams": 3
+  },
+  "2025-05-29": {
+   "followers": 8,
+   "listeners": 17,
+   "streams": 38
+  },
+  "2025-05-30": {
+   "followers": 8,
+   "listeners": 60,
+   "streams": 116
+  },
+  "2025-05-31": {
+   "followers": 8,
+   "listeners": 21,
+   "streams": 31
+  },
+  "2025-06-01": {
+   "followers": 8,
+   "listeners": 4,
+   "streams": 4
+  },
+  "2025-06-02": {
+   "followers": 8,
+   "listeners": 9,
+   "streams": 10
+  },
+  "2025-06-03": {
+   "followers": 8,
+   "listeners": 5,
+   "streams": 12
+  },
+  "2025-06-04": {
+   "followers": 8,
+   "listeners": 5,
+   "streams": 6
+  },
+  "2025-06-05": {
+   "followers": 8,
+   "listeners": 12,
+   "streams": 21
+  },
+  "2025-06-06": {
+   "followers": 8,
+   "listeners": 7,
+   "streams": 12
+  },
+  "2025-06-07": {
+   "followers": 8,
+   "listeners": 8,
+   "streams": 10
+  },
+  "2025-06-08": {
+   "followers": 8,
+   "listeners": 12,
+   "streams": 13
+  },
+  "2025-06-09": {
+   "followers": 8,
+   "listeners": 7,
+   "streams": 7
+  },
+  "2025-06-10": {
+   "followers": 8,
+   "listeners": 2,
+   "streams": 2
+  },
+  "2025-06-11": {
+   "followers": 8,
+   "listeners": 8,
+   "streams": 11
+  },
+  "2025-06-12": {
+   "followers": 8,
+   "listeners": 3,
+   "streams": 4
+  },
+  "2025-06-13": {
+   "followers": 8,
+   "listeners": 6,
+   "streams": 11
+  },
+  "2025-06-14": {
+   "followers": 9,
+   "listeners": 6,
+   "streams": 9
+  },
+  "2025-06-15": {
+   "followers": 9,
+   "listeners": 11,
+   "streams": 13
+  },
+  "2025-06-16": {
+   "followers": 9,
+   "listeners": 4,
+   "streams": 6
+  },
+  "2025-06-17": {
+   "followers": 9,
+   "listeners": 9,
+   "streams": 16
+  },
+  "2025-06-18": {
+   "followers": 9,
+   "listeners": 3,
+   "streams": 9
+  },
+  "2025-06-19": {
+   "followers": 9,
+   "listeners": 4,
+   "streams": 4
+  },
+  "2025-06-20": {
+   "followers": 9,
+   "listeners": 4,
+   "streams": 4
+  },
+  "2025-06-21": {
+   "followers": 9,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-06-22": {
+   "followers": 9,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2025-06-23": {
+   "followers": 9,
+   "listeners": 3,
+   "streams": 10
+  },
+  "2025-06-24": {
+   "followers": 9,
+   "listeners": 2,
+   "streams": 2
+  },
+  "2025-06-25": {
+   "followers": 9,
+   "listeners": 2,
+   "streams": 5
+  },
+  "2025-06-26": {
+   "followers": 9,
+   "listeners": 4,
+   "streams": 5
+  },
+  "2025-06-27": {
+   "followers": 9,
+   "listeners": 6,
+   "streams": 10
+  },
+  "2025-06-28": {
+   "followers": 9,
+   "listeners": 7,
+   "streams": 12
+  },
+  "2025-06-29": {
+   "followers": 9,
+   "listeners": 8,
+   "streams": 10
+  },
+  "2025-06-30": {
+   "followers": 9,
+   "listeners": 6,
+   "streams": 9
+  },
+  "2025-07-01": {
+   "followers": 9,
+   "listeners": 8,
+   "streams": 11
+  },
+  "2025-07-02": {
+   "followers": 9,
+   "listeners": 3,
+   "streams": 3
+  },
+  "2025-07-03": {
+   "followers": 9,
+   "listeners": 5,
+   "streams": 9
+  },
+  "2025-07-04": {
+   "followers": 9,
+   "listeners": 5,
+   "streams": 5
+  },
+  "2025-07-05": {
+   "followers": 9,
+   "listeners": 6,
+   "streams": 7
+  },
+  "2025-07-06": {
+   "followers": 9,
+   "listeners": 1,
+   "streams": 1
+  },
+  "2025-07-07": {
+   "followers": 9,
+   "listeners": 6,
+   "streams": 9
+  },
+  "2025-07-08": {
+   "followers": 10,
+   "listeners": 1,
+   "streams": 6
+  },
+  "2025-07-09": {
+   "followers": 10,
+   "listeners": 3,
+   "streams": 7
+  },
+  "2025-07-10": {
+   "followers": 10,
+   "listeners": 4,
+   "streams": 5
+  },
+  "2025-07-11": {
+   "followers": 10,
+   "listeners": 3,
+   "streams": 3
+  },
+  "2025-07-12": {
+   "followers": 10,
+   "listeners": 4,
+   "streams": 4
+  },
+  "2025-07-13": {
+   "followers": 10,
+   "listeners": 3,
+   "streams": 3
+  },
+  "2025-07-14": {
+   "followers": 10,
+   "listeners": 2,
+   "streams": 2
+  },
+  "2025-07-15": {
+   "followers": 10,
+   "listeners": 8,
+   "streams": 8
+  },
+  "2025-07-16": {
+   "followers": 10,
+   "listeners": 2,
+   "streams": 3
+  },
+  "2025-07-17": {
+   "followers": 10,
+   "listeners": 5,
+   "streams": 13
+  },
+  "2025-07-18": {
+   "followers": 10,
+   "listeners": 5,
+   "streams": 6
+  },
+  "2025-07-19": {
+   "followers": 10,
+   "listeners": 3,
+   "streams": 11
+  },
+  "2025-07-20": {
+   "followers": 10,
+   "listeners": 8,
+   "streams": 9
+  },
+  "2025-07-21": {
+   "followers": 11,
+   "listeners": 4,
+   "streams": 4
+  },
+  "2025-07-22": {
+   "followers": 11,
+   "listeners": 2,
+   "streams": 5
+  },
+  "2025-07-23": {
+   "followers": 11,
+   "listeners": 4,
+   "streams": 4
+  },
+  "2025-07-24": {
+   "followers": 11,
+   "listeners": 3,
+   "streams": 3
+  },
+  "2025-07-25": {
+   "followers": 11,
+   "listeners": 7,
+   "streams": 7
+  },
+  "2025-07-26": {
+   "followers": 11,
+   "listeners": 4,
+   "streams": 5
+  },
+  "2025-07-27": {
+   "followers": 11,
+   "listeners": 5,
+   "streams": 5
+  },
+  "2025-07-28": {
+   "followers": 11,
+   "listeners": 4,
+   "streams": 4
+  },
+  "2025-07-29": {
+   "followers": 11,
+   "listeners": 6,
+   "streams": 7
+  },
+  "2025-07-30": {
+   "followers": 11,
+   "listeners": 3,
+   "streams": 4
+  },
+  "2025-07-31": {
+   "followers": 11,
+   "listeners": 4,
+   "streams": 4
+  },
+  "2025-08-01": {
+   "followers": 11,
+   "listeners": 4,
+   "streams": 7
+  },
+  "2025-08-02": {
+   "followers": 11,
+   "listeners": 6,
+   "streams": 7
+  },
+  "2025-08-03": {
+   "followers": 11,
+   "listeners": 21,
+   "streams": 21
+  },
+  "2025-08-04": {
+   "followers": 11,
+   "listeners": 5,
+   "streams": 6
+  },
+  "2025-08-05": {
+   "followers": 11,
+   "listeners": 6,
+   "streams": 10
+  },
+  "2025-08-06": {
+   "followers": 11,
+   "listeners": 5,
+   "streams": 8
+  },
+  "2025-08-07": {
+   "followers": 11,
+   "listeners": 6,
+   "streams": 7
+  },
+  "2025-08-08": {
+   "followers": 11,
+   "listeners": 6,
+   "streams": 9
+  },
+  "2025-08-09": {
+   "followers": 11,
+   "listeners": 6,
+   "streams": 9
+  },
+  "2025-08-10": {
+   "followers": 11,
+   "listeners": 4,
+   "streams": 4
+  },
+  "2025-08-11": {
+   "followers": 11,
+   "listeners": 6,
+   "streams": 8
+  },
+  "2025-08-12": {
+   "followers": 11,
+   "listeners": 6,
+   "streams": 6
+  },
+  "2025-08-13": {
+   "followers": 11,
+   "listeners": 1,
+   "streams": 10
+  },
+  "2025-08-14": {
+   "followers": 12,
+   "listeners": 3,
+   "streams": 9
+  },
+  "2025-08-15": {
+   "followers": 12,
+   "listeners": 6,
+   "streams": 6
+  },
+  "2025-08-16": {
+   "followers": 12,
+   "listeners": 4,
+   "streams": 4
+  },
+  "2025-08-17": {
+   "followers": 12,
+   "listeners": 5,
+   "streams": 5
+  },
+  "2025-08-18": {
+   "followers": 12,
+   "listeners": 3,
+   "streams": 3
+  },
+  "2025-08-19": {
+   "followers": 12,
+   "listeners": 8,
+   "streams": 9
+  },
+  "2025-08-20": {
+   "followers": 12,
+   "listeners": 3,
+   "streams": 4
+  },
+  "2025-08-21": {
+   "followers": 12,
+   "listeners": 4,
+   "streams": 4
+  },
+  "2025-08-22": {
+   "followers": 12,
+   "listeners": 7,
+   "streams": 8
+  },
+  "2025-08-23": {
+   "followers": 12,
+   "listeners": 3,
+   "streams": 3
+  },
+  "2025-08-24": {
+   "followers": 12,
+   "listeners": 8,
+   "streams": 8
+  },
+  "2025-08-25": {
+   "followers": 12,
+   "listeners": 1,
+   "streams": 1
+  },
+  "2025-08-26": {
+   "followers": 12,
+   "listeners": 3,
+   "streams": 5
+  },
+  "2025-08-27": {
+   "followers": 12,
+   "listeners": 1,
+   "streams": 1
+  },
+  "2025-08-28": {
+   "followers": 12,
+   "listeners": 4,
+   "streams": 5
+  },
+  "2025-08-29": {
+   "followers": 12,
+   "listeners": 125,
+   "streams": 126
+  },
+  "2025-08-30": {
+   "followers": 12,
+   "listeners": 277,
+   "streams": 283
+  },
+  "2025-08-31": {
+   "followers": 13,
+   "listeners": 258,
+   "streams": 263
+  },
+  "2025-09-01": {
+   "followers": 13,
+   "listeners": 303,
+   "streams": 312
+  },
+  "2025-09-02": {
+   "followers": 13,
+   "listeners": 361,
+   "streams": 367
+  },
+  "2025-09-03": {
+   "followers": 14,
+   "listeners": 329,
+   "streams": 332
+  },
+  "2025-09-04": {
+   "followers": 14,
+   "listeners": 262,
+   "streams": 268
+  },
+  "2025-09-05": {
+   "followers": 14,
+   "listeners": 258,
+   "streams": 262
+  },
+  "2025-09-06": {
+   "followers": 14,
+   "listeners": 241,
+   "streams": 244
+  },
+  "2025-09-07": {
+   "followers": 14,
+   "listeners": 239,
+   "streams": 243
+  },
+  "2025-09-08": {
+   "followers": 14,
+   "listeners": 242,
+   "streams": 247
+  },
+  "2025-09-09": {
+   "followers": 14,
+   "listeners": 236,
+   "streams": 244
+  },
+  "2025-09-10": {
+   "followers": 14,
+   "listeners": 253,
+   "streams": 259
+  },
+  "2025-09-11": {
+   "followers": 14,
+   "listeners": 252,
+   "streams": 256
+  },
+  "2025-09-12": {
+   "followers": 15,
+   "listeners": 225,
+   "streams": 227
+  },
+  "2025-09-13": {
+   "followers": 15,
+   "listeners": 274,
+   "streams": 286
+  },
+  "2025-09-14": {
+   "followers": 15,
+   "listeners": 208,
+   "streams": 212
+  },
+  "2025-09-15": {
+   "followers": 15,
+   "listeners": 253,
+   "streams": 262
+  },
+  "2025-09-16": {
+   "followers": 15,
+   "listeners": 243,
+   "streams": 248
+  },
+  "2025-09-17": {
+   "followers": 15,
+   "listeners": 221,
+   "streams": 226
+  },
+  "2025-09-18": {
+   "followers": 15,
+   "listeners": 254,
+   "streams": 261
+  },
+  "2025-09-19": {
+   "followers": 15,
+   "listeners": 212,
+   "streams": 215
+  },
+  "2025-09-20": {
+   "followers": 15,
+   "listeners": 249,
+   "streams": 252
+  },
+  "2025-09-21": {
+   "followers": 15,
+   "listeners": 264,
+   "streams": 271
+  },
+  "2025-09-22": {
+   "followers": 15,
+   "listeners": 136,
+   "streams": 142
+  },
+  "2025-09-23": {
+   "followers": 15,
+   "listeners": 32,
+   "streams": 37
+  },
+  "2025-09-24": {
+   "followers": 15,
+   "listeners": 14,
+   "streams": 14
+  },
+  "2025-09-25": {
+   "followers": 15,
+   "listeners": 31,
+   "streams": 34
+  },
+  "2025-09-26": {
+   "followers": 15,
+   "listeners": 20,
+   "streams": 21
+  },
+  "2025-09-27": {
+   "followers": 15,
+   "listeners": 11,
+   "streams": 12
+  },
+  "2025-09-28": {
+   "followers": 15,
+   "listeners": 14,
+   "streams": 14
+  },
+  "2025-09-29": {
+   "followers": 15,
+   "listeners": 6,
+   "streams": 6
+  },
+  "2025-09-30": {
+   "followers": 15,
+   "listeners": 13,
+   "streams": 15
+  },
+  "2025-10-01": {
+   "followers": 15,
+   "listeners": 8,
+   "streams": 13
+  },
+  "2025-10-02": {
+   "followers": 15,
+   "listeners": 9,
+   "streams": 9
+  },
+  "2025-10-03": {
+   "followers": 15,
+   "listeners": 10,
+   "streams": 13
+  },
+  "2025-10-04": {
+   "followers": 15,
+   "listeners": 9,
+   "streams": 11
+  },
+  "2025-10-05": {
+   "followers": 15,
+   "listeners": 5,
+   "streams": 6
+  },
+  "2025-10-06": {
+   "followers": 15,
+   "listeners": 9,
+   "streams": 10
+  },
+  "2025-10-07": {
+   "followers": 15,
+   "listeners": 8,
+   "streams": 8
+  },
+  "2025-10-08": {
+   "followers": 15,
+   "listeners": 12,
+   "streams": 13
+  },
+  "2025-10-09": {
+   "followers": 15,
+   "listeners": 9,
+   "streams": 9
+  },
+  "2025-10-10": {
+   "followers": 15,
+   "listeners": 9,
+   "streams": 9
+  },
+  "2025-10-11": {
+   "followers": 15,
+   "listeners": 7,
+   "streams": 9
+  },
+  "2025-10-12": {
+   "followers": 15,
+   "listeners": 2,
+   "streams": 5
+  },
+  "2025-10-13": {
+   "followers": 15,
+   "listeners": 5,
+   "streams": 5
+  },
+  "2025-10-14": {
+   "followers": 15,
+   "listeners": 2,
+   "streams": 2
+  },
+  "2025-10-15": {
+   "followers": 15,
+   "listeners": 10,
+   "streams": 11
+  },
+  "2025-10-16": {
+   "followers": 15,
+   "listeners": 9,
+   "streams": 11
+  },
+  "2025-10-17": {
+   "followers": 15,
+   "listeners": 13,
+   "streams": 15
+  },
+  "2025-10-18": {
+   "followers": 15,
+   "listeners": 6,
+   "streams": 14
+  },
+  "2025-10-19": {
+   "followers": 15,
+   "listeners": 5,
+   "streams": 5
+  },
+  "2025-10-20": {
+   "followers": 15,
+   "listeners": 10,
+   "streams": 10
+  },
+  "2025-10-21": {
+   "followers": 15,
+   "listeners": 6,
+   "streams": 6
+  },
+  "2025-10-22": {
+   "followers": 15,
+   "listeners": 7,
+   "streams": 7
+  },
+  "2025-10-23": {
+   "followers": 15,
+   "listeners": 2,
+   "streams": 2
+  },
+  "2025-10-24": {
+   "followers": 15,
+   "listeners": 4,
+   "streams": 4
+  },
+  "2025-10-25": {
+   "followers": 15,
+   "listeners": 6,
+   "streams": 6
+  },
+  "2025-10-26": {
+   "followers": 15,
+   "listeners": 8,
+   "streams": 11
+  },
+  "2025-10-27": {
+   "followers": 15,
+   "listeners": 12,
+   "streams": 14
+  },
+  "2025-10-28": {
+   "followers": 15,
+   "listeners": 9,
+   "streams": 10
+  },
+  "2025-10-29": {
+   "followers": 15,
+   "listeners": 8,
+   "streams": 8
+  },
+  "2025-10-30": {
+   "followers": 17,
+   "listeners": 7,
+   "streams": 17
+  },
+  "2025-10-31": {
+   "followers": 19,
+   "listeners": 16,
+   "streams": 17
+  },
+  "2025-11-01": {
+   "followers": 20,
+   "listeners": 10,
+   "streams": 12
+  },
+  "2025-11-02": {
+   "followers": 20,
+   "listeners": 5,
+   "streams": 5
+  },
+  "2025-11-03": {
+   "followers": 22,
+   "listeners": 10,
+   "streams": 10
+  },
+  "2025-11-04": {
+   "followers": 23,
+   "listeners": 14,
+   "streams": 17
+  },
+  "2025-11-05": {
+   "followers": 23,
+   "listeners": 20,
+   "streams": 21
+  },
+  "2025-11-06": {
+   "followers": 23,
+   "listeners": 10,
+   "streams": 10
+  },
+  "2025-11-07": {
+   "followers": 24,
+   "listeners": 12,
+   "streams": 13
+  },
+  "2025-11-08": {
+   "followers": 24,
+   "listeners": 14,
+   "streams": 16
+  },
+  "2025-11-09": {
+   "followers": 38,
+   "listeners": 17,
+   "streams": 21
+  },
+  "2025-11-10": {
+   "followers": 73,
+   "listeners": 9,
+   "streams": 11
+  },
+  "2025-11-11": {
+   "followers": 80,
+   "listeners": 16,
+   "streams": 19
+  },
+  "2025-11-12": {
+   "followers": 84,
+   "listeners": 17,
+   "streams": 22
+  },
+  "2025-11-13": {
+   "followers": 90,
+   "listeners": 13,
+   "streams": 19
+  },
+  "2025-11-14": {
+   "followers": 96,
+   "listeners": 16,
+   "streams": 17
+  },
+  "2025-11-15": {
+   "followers": 97,
+   "listeners": 12,
+   "streams": 13
+  },
+  "2025-11-16": {
+   "followers": 98,
+   "listeners": 10,
+   "streams": 18
+  },
+  "2025-11-17": {
+   "followers": 98,
+   "listeners": 13,
+   "streams": 15
+  },
+  "2025-11-18": {
+   "followers": 100,
+   "listeners": 16,
+   "streams": 18
+  },
+  "2025-11-19": {
+   "followers": 100,
+   "listeners": 14,
+   "streams": 15
+  },
+  "2025-11-20": {
+   "followers": 100,
+   "listeners": 14,
+   "streams": 14
+  },
+  "2025-11-21": {
+   "followers": 100,
+   "listeners": 11,
+   "streams": 14
+  },
+  "2025-11-22": {
+   "followers": 102,
+   "listeners": 8,
+   "streams": 8
+  },
+  "2025-11-23": {
+   "followers": 103,
+   "listeners": 6,
+   "streams": 9
+  },
+  "2025-11-24": {
+   "followers": 107,
+   "listeners": 22,
+   "streams": 28
+  },
+  "2025-11-25": {
+   "followers": 109,
+   "listeners": 24,
+   "streams": 32
+  },
+  "2025-11-26": {
+   "followers": 111,
+   "listeners": 20,
+   "streams": 24
+  },
+  "2025-11-27": {
+   "followers": 112,
+   "listeners": 17,
+   "streams": 29
+  },
+  "2025-11-28": {
+   "followers": 112,
+   "listeners": 24,
+   "streams": 41
+  },
+  "2025-11-29": {
+   "followers": 116,
+   "listeners": 20,
+   "streams": 30
+  },
+  "2025-11-30": {
+   "followers": 117,
+   "listeners": 14,
+   "streams": 26
+  },
+  "2025-12-01": {
+   "followers": 118,
+   "listeners": 20,
+   "streams": 30
+  },
+  "2025-12-02": {
+   "followers": 118,
+   "listeners": 14,
+   "streams": 19
+  },
+  "2025-12-03": {
+   "followers": 119,
+   "listeners": 11,
+   "streams": 17
+  },
+  "2025-12-04": {
+   "followers": 119,
+   "listeners": 17,
+   "streams": 26
+  },
+  "2025-12-05": {
+   "followers": 121,
+   "listeners": 14,
+   "streams": 15
+  },
+  "2025-12-06": {
+   "followers": 121,
+   "listeners": 19,
+   "streams": 23
+  },
+  "2025-12-07": {
+   "followers": 122,
+   "listeners": 13,
+   "streams": 13
+  },
+  "2025-12-08": {
+   "followers": 126,
+   "listeners": 7,
+   "streams": 8
+  },
+  "2025-12-09": {
+   "followers": 125,
+   "listeners": 13,
+   "streams": 16
+  },
+  "2025-12-10": {
+   "followers": 125,
+   "listeners": 7,
+   "streams": 8
+  },
+  "2025-12-11": {
+   "followers": 127,
+   "listeners": 5,
+   "streams": 6
+  },
+  "2025-12-12": {
+   "followers": 127,
+   "listeners": 257,
+   "streams": 260
+  },
+  "2025-12-13": {
+   "followers": 127,
+   "listeners": 189,
+   "streams": 202
+  },
+  "2025-12-14": {
+   "followers": 127,
+   "listeners": 140,
+   "streams": 142
+  },
+  "2025-12-15": {
+   "followers": 129,
+   "listeners": 263,
+   "streams": 281
+  },
+  "2025-12-16": {
+   "followers": 130,
+   "listeners": 330,
+   "streams": 343
+  },
+  "2025-12-17": {
+   "followers": 132,
+   "listeners": 260,
+   "streams": 272
+  },
+  "2025-12-18": {
+   "followers": 133,
+   "listeners": 272,
+   "streams": 288
+  },
+  "2025-12-19": {
+   "followers": 133,
+   "listeners": 294,
+   "streams": 311
+  },
+  "2025-12-20": {
+   "followers": 134,
+   "listeners": 182,
+   "streams": 190
+  },
+  "2025-12-21": {
+   "followers": 138,
+   "listeners": 107,
+   "streams": 114
+  },
+  "2025-12-22": {
+   "followers": 139,
+   "listeners": 211,
+   "streams": 233
+  },
+  "2025-12-23": {
+   "followers": 141,
+   "listeners": 258,
+   "streams": 266
+  },
+  "2025-12-24": {
+   "followers": 141,
+   "listeners": 162,
+   "streams": 171
+  },
+  "2025-12-25": {
+   "followers": 141,
+   "listeners": 74,
+   "streams": 89
+  },
+  "2025-12-26": {
+   "followers": 140,
+   "listeners": 174,
+   "streams": 176
+  },
+  "2025-12-27": {
+   "followers": 140,
+   "listeners": 189,
+   "streams": 196
+  },
+  "2025-12-28": {
+   "followers": 142,
+   "listeners": 137,
+   "streams": 144
+  },
+  "2025-12-29": {
+   "followers": 142,
+   "listeners": 219,
+   "streams": 231
+  },
+  "2025-12-30": {
+   "followers": 139,
+   "listeners": 261,
+   "streams": 280
+  },
+  "2025-12-31": {
+   "followers": 141,
+   "listeners": 178,
+   "streams": 187
+  },
+  "2026-01-01": {
+   "followers": 140,
+   "listeners": 74,
+   "streams": 83
+  },
+  "2026-01-02": {
+   "followers": 141,
+   "listeners": 230,
+   "streams": 237
+  },
+  "2026-01-03": {
+   "followers": 142,
+   "listeners": 183,
+   "streams": 194
+  },
+  "2026-01-04": {
+   "followers": 142,
+   "listeners": 141,
+   "streams": 150
+  },
+  "2026-01-05": {
+   "followers": 143,
+   "listeners": 222,
+   "streams": 235
+  },
+  "2026-01-06": {
+   "followers": 143,
+   "listeners": 284,
+   "streams": 290
+  },
+  "2026-01-07": {
+   "followers": 144,
+   "listeners": 379,
+   "streams": 393
+  },
+  "2026-01-08": {
+   "followers": 146,
+   "listeners": 363,
+   "streams": 376
+  },
+  "2026-01-09": {
+   "followers": 145,
+   "listeners": 332,
+   "streams": 343
+  },
+  "2026-01-10": {
+   "followers": 146,
+   "listeners": 226,
+   "streams": 237
+  },
+  "2026-01-11": {
+   "followers": 146,
+   "listeners": 169,
+   "streams": 182
+  },
+  "2026-01-12": {
+   "followers": 146,
+   "listeners": 354,
+   "streams": 370
+  },
+  "2026-01-13": {
+   "followers": 146,
+   "listeners": 473,
+   "streams": 520
+  },
+  "2026-01-14": {
+   "followers": 147,
+   "listeners": 421,
+   "streams": 437
+  },
+  "2026-01-15": {
+   "followers": 147,
+   "listeners": 500,
+   "streams": 515
+  },
+  "2026-01-16": {
+   "followers": 149,
+   "listeners": 418,
+   "streams": 440
+  },
+  "2026-01-17": {
+   "followers": 152,
+   "listeners": 285,
+   "streams": 303
+  },
+  "2026-01-18": {
+   "followers": 155,
+   "listeners": 185,
+   "streams": 201
+  },
+  "2026-01-19": {
+   "followers": 155,
+   "listeners": 419,
+   "streams": 433
+  },
+  "2026-01-20": {
+   "followers": 155,
+   "listeners": 460,
+   "streams": 479
+  },
+  "2026-01-21": {
+   "followers": 155,
+   "listeners": 418,
+   "streams": 442
+  },
+  "2026-01-22": {
+   "followers": 155,
+   "listeners": 507,
+   "streams": 529
+  },
+  "2026-01-23": {
+   "followers": 155,
+   "listeners": 529,
+   "streams": 553
+  },
+  "2026-01-24": {
+   "followers": 159,
+   "listeners": 400,
+   "streams": 414
+  },
+  "2026-01-25": {
+   "followers": 158,
+   "listeners": 328,
+   "streams": 346
+  },
+  "2026-01-26": {
+   "followers": 159,
+   "listeners": 467,
+   "streams": 496
+  },
+  "2026-01-27": {
+   "followers": 159,
+   "listeners": 559,
+   "streams": 595
+  },
+  "2026-01-28": {
+   "followers": 161,
+   "listeners": 522,
+   "streams": 555
+  },
+  "2026-01-29": {
+   "followers": 161,
+   "listeners": 526,
+   "streams": 541
+  },
+  "2026-01-30": {
+   "followers": 161,
+   "listeners": 581,
+   "streams": 615
+  },
+  "2026-01-31": {
+   "followers": 161,
+   "listeners": 481,
+   "streams": 546
+  },
+  "2026-02-01": {
+   "followers": 162,
+   "listeners": 378,
+   "streams": 406
+  },
+  "2026-02-02": {
+   "followers": 162,
+   "listeners": 523,
+   "streams": 554
+  },
+  "2026-02-03": {
+   "followers": 162,
+   "listeners": 556,
+   "streams": 574
+  },
+  "2026-02-04": {
+   "followers": 164,
+   "listeners": 566,
+   "streams": 593
+  },
+  "2026-02-05": {
+   "followers": 165,
+   "listeners": 568,
+   "streams": 598
+  },
+  "2026-02-06": {
+   "followers": 166,
+   "listeners": 574,
+   "streams": 591
+  },
+  "2026-02-07": {
+   "followers": 166,
+   "listeners": 195,
+   "streams": 227
+  },
+  "2026-02-08": {
+   "followers": 165,
+   "listeners": 175,
+   "streams": 180
+  },
+  "2026-02-09": {
+   "followers": 166,
+   "listeners": 173,
+   "streams": 179
+  },
+  "2026-02-10": {
+   "followers": 166,
+   "listeners": 168,
+   "streams": 312
+  },
+  "2026-02-11": {
+   "followers": 166,
+   "listeners": 177,
+   "streams": 232
+  },
+  "2026-02-12": {
+   "followers": 166,
+   "listeners": 177,
+   "streams": 183
+  },
+  "2026-02-13": {
+   "followers": 166,
+   "listeners": 182,
+   "streams": 194
+  },
+  "2026-02-14": {
+   "followers": 166,
+   "listeners": 214,
+   "streams": 219
+  },
+  "2026-02-15": {
+   "followers": 166,
+   "listeners": 199,
+   "streams": 202
+  },
+  "2026-02-16": {
+   "followers": 166,
+   "listeners": 216,
+   "streams": 230
+  },
+  "2026-02-17": {
+   "followers": 166,
+   "listeners": 226,
+   "streams": 238
+  },
+  "2026-02-18": {
+   "followers": 166,
+   "listeners": 211,
+   "streams": 217
+  },
+  "2026-02-19": {
+   "followers": 168,
+   "listeners": 172,
+   "streams": 183
+  },
+  "2026-02-20": {
+   "followers": 167,
+   "listeners": 183,
+   "streams": 185
+  },
+  "2026-02-21": {
+   "followers": 167,
+   "listeners": 175,
+   "streams": 182
+  },
+  "2026-02-22": {
+   "followers": 169,
+   "listeners": 162,
+   "streams": 171
+  },
+  "2026-02-23": {
+   "followers": 171,
+   "listeners": 178,
+   "streams": 186
+  },
+  "2026-02-24": {
+   "followers": 172,
+   "listeners": 165,
+   "streams": 173
+  },
+  "2026-02-25": {
+   "followers": 171,
+   "listeners": 181,
+   "streams": 190
+  },
+  "2026-02-26": {
+   "followers": 171,
+   "listeners": 144,
+   "streams": 189
+  },
+  "2026-02-27": {
+   "followers": 171,
+   "listeners": 152,
+   "streams": 159
+  },
+  "2026-02-28": {
+   "followers": 171,
+   "listeners": 161,
+   "streams": 178
+  },
+  "2026-03-01": {
+   "followers": 171,
+   "listeners": 149,
+   "streams": 156
+  },
+  "2026-03-02": {
+   "followers": 171,
+   "listeners": 140,
+   "streams": 175
+  },
+  "2026-03-03": {
+   "followers": 172,
+   "listeners": 135,
+   "streams": 144
+  },
+  "2026-03-04": {
+   "followers": 172,
+   "listeners": 149,
+   "streams": 177
+  },
+  "2026-03-05": {
+   "followers": 172,
+   "listeners": 123,
+   "streams": 147
+  },
+  "2026-03-06": {
+   "followers": 173,
+   "listeners": 116,
+   "streams": 127
+  },
+  "2026-03-07": {
+   "followers": 175,
+   "listeners": 154,
+   "streams": 168
+  },
+  "2026-03-08": {
+   "followers": 175,
+   "listeners": 115,
+   "streams": 125
+  },
+  "2026-03-09": {
+   "followers": 177,
+   "listeners": 108,
+   "streams": 110
+  },
+  "2026-03-10": {
+   "followers": 179,
+   "listeners": 108,
+   "streams": 118
+  },
+  "2026-03-11": {
+   "followers": 180,
+   "listeners": 112,
+   "streams": 117
+  },
+  "2026-03-12": {
+   "followers": 181,
+   "listeners": 124,
+   "streams": 131
+  },
+  "2026-03-13": {
+   "followers": 180,
+   "listeners": 108,
+   "streams": 111
+  },
+  "2026-03-14": {
+   "followers": 180,
+   "listeners": 114,
+   "streams": 120
+  },
+  "2026-03-15": {
+   "followers": 181,
+   "listeners": 108,
+   "streams": 187
+  },
+  "2026-03-16": {
+   "followers": 181,
+   "listeners": 111,
+   "streams": 123
+  },
+  "2026-03-17": {
+   "followers": 182,
+   "listeners": 98,
+   "streams": 105
+  },
+  "2026-03-18": {
+   "followers": 184,
+   "listeners": 92,
+   "streams": 97
+  },
+  "2026-03-19": {
+   "followers": 185,
+   "listeners": 85,
+   "streams": 90
+  },
+  "2026-03-20": {
+   "followers": 186,
+   "listeners": 97,
+   "streams": 102
+  },
+  "2026-03-21": {
+   "followers": 188,
+   "listeners": 47,
+   "streams": 54
+  },
+  "2026-03-22": {
+   "followers": 194,
+   "listeners": 19,
+   "streams": 20
+  },
+  "2026-03-23": {
+   "followers": 201,
+   "listeners": 23,
+   "streams": 28
+  },
+  "2026-03-24": {
+   "followers": 203,
+   "listeners": 17,
+   "streams": 17
+  },
+  "2026-03-25": {
+   "followers": 205,
+   "listeners": 19,
+   "streams": 19
+  },
+  "2026-03-26": {
+   "followers": 207,
+   "listeners": 18,
+   "streams": 18
+  },
+  "2026-03-27": {
+   "followers": 207,
+   "listeners": 12,
+   "streams": 14
+  },
+  "2026-03-28": {
+   "followers": 207,
+   "listeners": 17,
+   "streams": 20
+  },
+  "2026-03-29": {
+   "followers": 207,
+   "listeners": 9,
+   "streams": 10
+  },
+  "2026-03-30": {
+   "followers": 207,
+   "listeners": 11,
+   "streams": 11
+  },
+  "2026-03-31": {
+   "followers": 208,
+   "listeners": 11,
+   "streams": 12
+  },
+  "2026-04-01": {
+   "followers": 210,
+   "listeners": 13,
+   "streams": 13
+  },
+  "2026-04-02": {
+   "followers": 210,
+   "listeners": 12,
+   "streams": 13
+  },
+  "2026-04-03": {
+   "followers": 212,
+   "listeners": 16,
+   "streams": 16
+  },
+  "2026-04-04": {
+   "followers": 213,
+   "listeners": 14,
+   "streams": 16
+  },
+  "2026-04-05": {
+   "followers": 212,
+   "listeners": 15,
+   "streams": 24
+  },
+  "2026-04-06": {
+   "followers": 212,
+   "listeners": 15,
+   "streams": 15
+  },
+  "2026-04-07": {
+   "followers": 211,
+   "listeners": 19,
+   "streams": 24
+  },
+  "2026-04-08": {
+   "followers": 212,
+   "listeners": 20,
+   "streams": 21
+  },
+  "2026-04-09": {
+   "followers": 213,
+   "listeners": 25,
+   "streams": 25
+  },
+  "2026-04-10": {
+   "followers": 213,
+   "listeners": 24,
+   "streams": 24
+  },
+  "2026-04-11": {
+   "followers": 213,
+   "listeners": 13,
+   "streams": 16
+  },
+  "2026-04-12": {
+   "followers": 213,
+   "listeners": 11,
+   "streams": 11
+  },
+  "2026-04-13": {
+   "followers": 214,
+   "listeners": 12,
+   "streams": 17
+  },
+  "2026-04-14": {
+   "followers": 214,
+   "listeners": 12,
+   "streams": 12
+  },
+  "2026-04-15": {
+   "followers": 214,
+   "listeners": 12,
+   "streams": 12
+  },
+  "2026-04-16": {
+   "followers": 214,
+   "listeners": 16,
+   "streams": 16
+  },
+  "2026-04-17": {
+   "followers": 214,
+   "listeners": 16,
+   "streams": 26
+  },
+  "2026-04-18": {
+   "followers": 215,
+   "listeners": 19,
+   "streams": 24
+  },
+  "2026-04-19": {
+   "followers": 216,
+   "listeners": 11,
+   "streams": 11
+  },
+  "2026-04-20": {
+   "followers": 216,
+   "listeners": 15,
+   "streams": 15
+  },
+  "2026-04-21": {
+   "followers": 216,
+   "listeners": 19,
+   "streams": 23
+  },
+  "2026-04-22": {
+   "followers": 217,
+   "listeners": 15,
+   "streams": 17
+  },
+  "2026-04-23": {
+   "followers": 217,
+   "listeners": 15,
+   "streams": 16
+  },
+  "2026-04-24": {
+   "followers": 216,
+   "listeners": 9,
+   "streams": 10
+  },
+  "2026-04-25": {
+   "followers": 217,
+   "listeners": 10,
+   "streams": 10
+  },
+  "2026-04-26": {
+   "followers": 217,
+   "listeners": 6,
+   "streams": 6
+  },
+  "2026-04-27": {
+   "followers": 217,
+   "listeners": 8,
+   "streams": 8
+  },
+  "2026-04-28": {
+   "followers": 217,
+   "listeners": 12,
+   "streams": 12
+  },
+  "2026-04-29": {
+   "followers": 217,
+   "listeners": 15,
+   "streams": 15
+  },
+  "2026-04-30": {
+   "followers": 219,
+   "listeners": 15,
+   "streams": 15
+  },
+  "2026-05-01": {
+   "followers": 219,
+   "listeners": 12,
+   "streams": 15
+  },
+  "2026-05-02": {
+   "followers": 220,
+   "listeners": 10,
+   "streams": 10
+  },
+  "2026-05-03": {
+   "followers": 220,
+   "listeners": 10,
+   "streams": 10
+  },
+  "2026-05-04": {
+   "followers": 220,
+   "listeners": 14,
+   "streams": 17
+  },
+  "2026-05-05": {
+   "followers": 220,
+   "listeners": 8,
+   "streams": 10
+  },
+  "2026-05-06": {
+   "followers": 220,
+   "listeners": 11,
+   "streams": 19
+  },
+  "2026-05-07": {
+   "followers": 221,
+   "listeners": 11,
+   "streams": 11
+  },
+  "2026-05-08": {
+   "followers": 221,
+   "listeners": 3,
+   "streams": 8
+  },
+  "2026-05-09": {
+   "followers": 221,
+   "listeners": 9,
+   "streams": 11
+  },
+  "2026-05-10": {
+   "followers": 221,
+   "listeners": 7,
+   "streams": 7
+  },
+  "2026-05-11": {
+   "followers": 221,
+   "listeners": 7,
+   "streams": 7
+  },
+  "2026-05-12": {
+   "followers": 221,
+   "listeners": 8,
+   "streams": 13
+  },
+  "2026-05-13": {
+   "followers": 221,
+   "listeners": 4,
+   "streams": 4
+  },
+  "2026-05-14": {
+   "followers": 221,
+   "listeners": 5,
+   "streams": 6
+  },
+  "2026-05-15": {
+   "followers": 224,
+   "listeners": 9,
+   "streams": 9
+  },
+  "2026-05-16": {
+   "followers": 226,
+   "listeners": 7,
+   "streams": 7
+  },
+  "2026-05-17": {
+   "followers": 228,
+   "listeners": 6,
+   "streams": 6
+  },
+  "2026-05-18": {
+   "followers": 230,
+   "listeners": 8,
+   "streams": 13
+  },
+  "2026-05-19": {
+   "followers": 230,
+   "listeners": 10,
+   "streams": 10
+  },
+  "2026-05-20": {
+   "followers": 231,
+   "listeners": 9,
+   "streams": 13
+  },
+  "2026-05-21": {
+   "followers": 231,
+   "listeners": 9,
+   "streams": 9
+  },
+  "2026-05-22": {
+   "followers": 233,
+   "listeners": 5,
+   "streams": 6
+  },
+  "2026-05-23": {
+   "followers": 234,
+   "listeners": 5,
+   "streams": 5
+  },
+  "2026-05-24": {
+   "followers": 234,
+   "listeners": 5,
+   "streams": 5
+  },
+  "2026-05-25": {
+   "followers": 235,
+   "listeners": 5,
+   "streams": 5
+  },
+  "2026-05-26": {
+   "followers": 235,
+   "listeners": 8,
+   "streams": 11
+  },
+  "2026-05-27": {
+   "followers": 235,
+   "listeners": 7,
+   "streams": 11
+  },
+  "2026-05-28": {
+   "followers": 235,
+   "listeners": 7,
+   "streams": 8
+  },
+  "2026-05-29": {
+   "followers": 235,
+   "listeners": 8,
+   "streams": 8
+  },
+  "2026-05-30": {
+   "followers": 235,
+   "listeners": 3,
+   "streams": 3
+  },
+  "2026-05-31": {
+   "followers": 235,
+   "listeners": 4,
+   "streams": 4
+  },
+  "2026-06-01": {
+   "followers": 235,
+   "listeners": 8,
+   "streams": 8
+  },
+  "2026-06-02": {
+   "followers": 235,
+   "listeners": 5,
+   "streams": 10
+  },
+  "2026-06-03": {
+   "followers": 235,
+   "listeners": 7,
+   "streams": 7
+  },
+  "2026-06-04": {
+   "followers": 234,
+   "listeners": 14,
+   "streams": 50
+  },
+  "2026-06-05": {
+   "followers": 234,
+   "listeners": 13,
+   "streams": 30
+  },
+  "2026-06-06": {
+   "followers": 234,
+   "listeners": 9,
+   "streams": 15
+  },
+  "2026-06-07": {
+   "followers": 234,
+   "listeners": 6,
+   "streams": 10
+  },
+  "2026-06-08": {
+   "followers": 234,
+   "listeners": 10,
+   "streams": 17
+  },
+  "2026-06-09": {
+   "followers": 235,
+   "listeners": 10,
+   "streams": 14
+  },
+  "2026-06-10": {
+   "followers": 236,
+   "listeners": 16,
+   "streams": 22
+  },
+  "2026-06-11": {
+   "followers": 236,
+   "listeners": 17,
+   "streams": 79
+  },
+  "2026-06-12": {
+   "followers": 237,
+   "listeners": 23,
+   "streams": 41
+  },
+  "2026-06-13": {
+   "followers": 237,
+   "listeners": 9,
+   "streams": 40
+  },
+  "2026-06-14": {
+   "followers": 237,
+   "listeners": 16,
+   "streams": 27
+  },
+  "2026-06-15": {
+   "followers": 237,
+   "listeners": 13,
+   "streams": 15
+  },
+  "2026-06-16": {
+   "followers": 238,
+   "listeners": 11,
+   "streams": 21
+  },
+  "2026-06-17": {
+   "followers": 238,
+   "listeners": 27,
+   "streams": 43
+  },
+  "2026-06-18": {
+   "followers": 238,
+   "listeners": 32,
+   "streams": 33
+  },
+  "2026-06-19": {
+   "followers": 239,
+   "listeners": 25,
+   "streams": 26
+  },
+  "2026-06-20": {
+   "followers": 239,
+   "listeners": 12,
+   "streams": 21
+  },
+  "2026-06-21": {
+   "followers": 239,
+   "listeners": 13,
+   "streams": 13
+  },
+  "2026-06-22": {
+   "followers": 239,
+   "listeners": 12,
+   "streams": 12
+  },
+  "2026-06-23": {
+   "followers": 239,
+   "listeners": 22,
+   "streams": 30
+  },
+  "2026-06-24": {
+   "followers": 239,
+   "listeners": 15,
+   "streams": 15
+  },
+  "2026-06-25": {
+   "followers": 239,
+   "listeners": 15,
+   "streams": 19
+  },
+  "2026-06-26": {
+   "followers": 239,
+   "listeners": 22,
+   "streams": 27
+  },
+  "2026-06-27": {
+   "followers": 239,
+   "listeners": 16,
+   "streams": 16
+  },
+  "2026-06-28": {
+   "followers": 239,
+   "listeners": 12,
+   "streams": 12
+  },
+  "2026-06-29": {
+   "followers": 239,
+   "listeners": 14,
+   "streams": 17
+  },
+  "2026-06-30": {
+   "followers": 239,
+   "listeners": 22,
+   "streams": 25
+  },
+  "2026-07-01": {
+   "followers": 239,
+   "listeners": 8,
+   "streams": 8
+  },
+  "2026-07-02": {
+   "followers": 239,
+   "listeners": 9,
+   "streams": 10
+  },
+  "2026-07-03": {
+   "followers": 239,
+   "listeners": 11,
+   "streams": 12
+  },
+  "2026-07-04": {
+   "followers": 240,
+   "listeners": 12,
+   "streams": 15
+  },
+  "2026-07-05": {
+   "followers": 240,
+   "listeners": 10,
+   "streams": 11
+  },
+  "2026-07-06": {
+   "followers": 240,
+   "listeners": 17,
+   "streams": 17
+  },
+  "2026-07-07": {
+   "followers": 240,
+   "listeners": 18,
+   "streams": 24
+  },
+  "2026-07-08": {
+   "followers": 241,
+   "listeners": 25,
+   "streams": 34
+  },
+  "2026-07-09": {
+   "followers": 242,
+   "listeners": 17,
+   "streams": 23
+  },
+  "2026-07-10": {
+   "followers": 242,
+   "listeners": 13,
+   "streams": 14
+  },
+  "2026-07-11": {
+   "followers": 241,
+   "listeners": 15,
+   "streams": 21
+  },
+  "2026-07-12": {
+   "followers": 241,
+   "listeners": 10,
+   "streams": 13
+  },
+  "2026-07-13": {
+   "followers": 241,
+   "listeners": 13,
+   "streams": 13
+  },
+  "2026-07-14": {
+   "followers": 241,
+   "listeners": 14,
+   "streams": 16
+  },
+  "2026-07-15": {
+   "followers": 241,
+   "listeners": 13,
+   "streams": 15
+  },
+  "2026-07-16": {
+   "followers": 241,
+   "listeners": 15,
+   "streams": 18
+  },
+  "2026-07-17": {
+   "followers": 241,
+   "listeners": 12,
+   "streams": 15
+  },
+  "2026-07-18": {
+   "followers": 242,
+   "listeners": 13,
+   "streams": 14
+  },
+  "2026-07-19": {
+   "followers": 242,
+   "listeners": 13,
+   "streams": 13
+  },
+  "2026-07-20": {
+   "followers": 242,
+   "listeners": 14,
+   "streams": 14
+  },
+  "2026-07-21": {
+   "followers": 242,
+   "listeners": 10,
+   "streams": 13
+  },
+  "2026-07-22": {
+   "followers": 242,
+   "listeners": 18,
+   "streams": 20
+  },
+  "2026-07-23": {
+   "followers": 242,
+   "listeners": 13,
+   "streams": 17
+  },
+  "2026-07-24": {
+   "followers": 245,
+   "listeners": 16,
+   "streams": 16
+  },
+  "2026-07-25": {
+   "followers": 248,
+   "listeners": 18,
+   "streams": 24
+  },
+  "2026-07-26": {
+   "followers": 248,
+   "listeners": 20,
+   "streams": 22
+  },
+  "2026-07-27": {
+   "followers": 249,
+   "listeners": 16,
+   "streams": 17
+  },
+  "2026-07-28": {
+   "followers": 249,
+   "listeners": 17,
+   "streams": 27
+  },
+  "2026-07-29": {
+   "followers": 250,
+   "listeners": 19,
+   "streams": 21
+  },
+  "2026-07-30": {
+   "followers": 250,
+   "listeners": 25,
+   "streams": 29
+  },
+  "2026-07-31": {
+   "followers": 250,
+   "listeners": 16,
+   "streams": 21
+  },
+  "2026-08-01": {
+   "followers": 250,
+   "listeners": 22,
+   "streams": 25
+  },
+  "2026-08-02": {
+   "followers": 250,
+   "listeners": 16,
+   "streams": 16
+  },
+  "2026-08-03": {
+   "followers": 251,
+   "listeners": 23,
+   "streams": 26
+  },
+  "2026-08-04": {
+   "followers": 251,
+   "listeners": 24,
+   "streams": 33
+  },
+  "2026-08-05": {
+   "followers": 251,
+   "listeners": 17,
+   "streams": 17
+  },
+  "2026-08-06": {
+   "followers": 251,
+   "listeners": 21,
+   "streams": 22
+  },
+  "2026-08-07": {
+   "followers": 251,
+   "listeners": 20,
+   "streams": 22
+  },
+  "2026-08-08": {
+   "followers": 252,
+   "listeners": 14,
+   "streams": 15
+  },
+  "2026-08-09": {
+   "followers": 253,
+   "listeners": 15,
+   "streams": 16
+  },
+  "2026-08-10": {
+   "followers": 255,
+   "listeners": 11,
+   "streams": 11
+  },
+  "2026-08-11": {
+   "followers": 257,
+   "listeners": 12,
+   "streams": 12
+  },
+  "2026-08-12": {
+   "followers": 257,
+   "listeners": 26,
+   "streams": 26
+  },
+  "2026-08-13": {
+   "followers": 258,
+   "listeners": 19,
+   "streams": 19
+  },
+  "2026-08-14": {
+   "followers": 258,
+   "listeners": 22,
+   "streams": 25
+  },
+  "2026-08-15": {
+   "followers": 259,
+   "listeners": 18,
+   "streams": 24
+  },
+  "2026-08-16": {
+   "followers": 259,
+   "listeners": 6,
+   "streams": 7
+  },
+  "2026-08-17": {
+   "followers": 259,
+   "listeners": 13,
+   "streams": 14
+  },
+  "2026-08-18": {
+   "followers": 260,
+   "listeners": 12,
+   "streams": 12
+  },
+  "2026-08-19": {
+   "followers": 261,
+   "listeners": 5,
+   "streams": 5
+  },
+  "2026-08-20": {
+   "followers": 262,
+   "listeners": 3,
+   "streams": 3
+  },
+  "2026-08-21": {
+   "followers": 263,
+   "listeners": 9,
+   "streams": 9
+  },
+  "2026-08-22": {
+   "followers": 263,
+   "listeners": 6,
+   "streams": 6
+  },
+  "2026-08-23": {
+   "followers": 263,
+   "listeners": 5,
+   "streams": 5
+  },
+  "2026-08-24": {
+   "followers": 263,
+   "listeners": 10,
+   "streams": 10
+  },
+  "2026-08-25": {
+   "followers": 263,
+   "listeners": 8,
+   "streams": 8
+  },
+  "2026-08-26": {
+   "followers": 263,
+   "listeners": 7,
+   "streams": 9
+  },
+  "2026-08-27": {
+   "followers": 265,
+   "listeners": 4,
+   "streams": 4
+  },
+  "2026-08-28": {
+   "followers": 266,
+   "listeners": 11,
+   "streams": 41
+  },
+  "2026-08-29": {
+   "followers": 267,
+   "listeners": 11,
+   "streams": 15
+  },
+  "2026-08-30": {
+   "followers": 267,
+   "listeners": 6,
+   "streams": 9
+  },
+  "2026-08-31": {
+   "followers": 268,
+   "listeners": 13,
+   "streams": 16
+  },
+  "2026-09-01": {
+   "followers": 270,
+   "listeners": 15,
+   "streams": 15
+  },
+  "2026-09-02": {
+   "followers": 273,
+   "listeners": 14,
+   "streams": 16
+  },
+  "2026-09-03": {
+   "followers": 274,
+   "listeners": 11,
+   "streams": 15
+  },
+  "2026-09-04": {
+   "followers": 275,
+   "listeners": 21,
+   "streams": 22
+  },
+  "2026-09-05": {
+   "followers": 277,
+   "listeners": 7,
+   "streams": 7
+  },
+  "2026-09-06": {
+   "followers": 279,
+   "listeners": 9,
+   "streams": 9
+  },
+  "2026-09-07": {
+   "followers": 287,
+   "listeners": 9,
+   "streams": 15
+  },
+  "2026-09-08": {
+   "followers": 292,
+   "listeners": 13,
+   "streams": 14
+  },
+  "2026-09-09": {
+   "followers": 300,
+   "listeners": 10,
+   "streams": 15
+  },
+  "2026-09-10": {
+   "followers": 310,
+   "listeners": 10,
+   "streams": 10
+  },
+  "2026-09-11": {
+   "followers": 314,
+   "listeners": 3,
+   "streams": 5
+  },
+  "2026-09-12": {
+   "followers": 315,
+   "listeners": 5,
+   "streams": 5
+  },
+  "2026-09-13": {
+   "followers": 317,
+   "listeners": 5,
+   "streams": 5
+  },
+  "2026-09-14": {
+   "followers": 332,
+   "listeners": 5,
+   "streams": 10
+  },
+  "2026-09-15": {
+   "followers": 338,
+   "listeners": 7,
+   "streams": 25
+  },
+  "2026-09-16": {
+   "followers": 341,
+   "listeners": 5,
+   "streams": 18
+  },
+  "2026-09-17": {
+   "followers": 341,
+   "listeners": 13,
+   "streams": 14
+  },
+  "2026-09-18": {
+   "followers": 343,
+   "listeners": 12,
+   "streams": 13
+  },
+  "2026-09-19": {
+   "followers": 344,
+   "listeners": 12,
+   "streams": 13
+  },
+  "2026-09-20": {
+   "followers": 344,
+   "listeners": 13,
+   "streams": 13
+  },
+  "2026-09-21": {
+   "followers": 361,
+   "listeners": 13,
+   "streams": 24
+  },
+  "2026-09-22": {
+   "followers": 370,
+   "listeners": 15,
+   "streams": 22
+  },
+  "2026-09-23": {
+   "followers": 377,
+   "listeners": 21,
+   "streams": 27
+  },
+  "2026-09-24": {
+   "followers": 385,
+   "listeners": 11,
+   "streams": 18
+  },
+  "2026-09-25": {
+   "followers": 396,
+   "listeners": 7,
+   "streams": 10
+  },
+  "2026-09-26": {
+   "followers": 403,
+   "listeners": 7,
+   "streams": 7
+  },
+  "2026-09-27": {
+   "followers": 411,
+   "listeners": 4,
+   "streams": 4
+  },
+  "2026-09-28": {
+   "followers": 426,
+   "listeners": 9,
+   "streams": 16
+  },
+  "2026-09-29": {
+   "followers": 427,
+   "listeners": 8,
+   "streams": 21
+  },
+  "2026-09-30": {
+   "followers": 428,
+   "listeners": 3,
+   "streams": 8
+  },
+  "2026-10-01": {
+   "followers": 431,
+   "listeners": 6,
+   "streams": 9
+  },
+  "2026-10-02": {
+   "followers": 434,
+   "listeners": 10,
+   "streams": 13
+  },
+  "2026-10-03": {
+   "followers": 439,
+   "listeners": 6,
+   "streams": 6
+  },
+  "2026-10-04": {
+   "followers": 446,
+   "listeners": 8,
+   "streams": 8
+  },
+  "2026-10-05": {
+   "followers": 460,
+   "listeners": 4,
+   "streams": 9
+  },
+  "2026-10-06": {
+   "followers": 464,
+   "listeners": 4,
+   "streams": 12
+  },
+  "2026-10-07": {
+   "followers": 469,
+   "listeners": 5,
+   "streams": 8
+  },
+  "2026-10-08": {
+   "followers": 469,
+   "listeners": 6,
+   "streams": 8
+  },
+  "2026-10-09": {
+   "followers": 468,
+   "listeners": 3,
+   "streams": 3
+  },
+  "2026-10-10": {
+   "followers": 469,
+   "listeners": 8,
+   "streams": 8
+  },
+  "2026-10-11": {
+   "followers": 467,
+   "listeners": 3,
+   "streams": 3
+  },
+  "2026-10-12": {
+   "followers": 467,
+   "listeners": 3,
+   "streams": 11
+  },
+  "2026-10-13": {
+   "followers": 467,
+   "listeners": 8,
+   "streams": 8
+  },
+  "2026-10-14": {
+   "followers": 468,
+   "listeners": 16,
+   "streams": 20
+  },
+  "2026-10-15": {
+   "followers": 469,
+   "listeners": 10,
+   "streams": 11
+  },
+  "2026-10-16": {
+   "followers": 468,
+   "listeners": 15,
+   "streams": 15
+  },
+  "2026-10-17": {
+   "followers": 470,
+   "listeners": 12,
+   "streams": 14
+  },
+  "2026-10-18": {
+   "followers": 470,
+   "listeners": 13,
+   "streams": 18
+  },
+  "2026-10-19": {
+   "followers": 473,
+   "listeners": 12,
+   "streams": 12
+  },
+  "2026-10-20": {
+   "followers": 474,
+   "listeners": 13,
+   "streams": 13
+  },
+  "2026-10-21": {
+   "followers": 474,
+   "listeners": 11,
+   "streams": 13
+  },
+  "2026-10-22": {
+   "followers": 473,
+   "listeners": 16,
+   "streams": 18
+  },
+  "2026-10-23": {
+   "followers": 473,
+   "listeners": 10,
+   "streams": 23
+  },
+  "2026-10-24": {
+   "followers": 473,
+   "listeners": 11,
+   "streams": 11
+  },
+  "2026-10-25": {
+   "followers": 474,
+   "listeners": 4,
+   "streams": 4
+  },
+  "2026-10-26": {
+   "followers": 474,
+   "listeners": 4,
+   "streams": 4
+  },
+  "2026-10-27": {
+   "followers": 474,
+   "listeners": 9,
+   "streams": 9
+  },
+  "2026-10-28": {
+   "followers": 477,
+   "listeners": 10,
+   "streams": 15
+  },
+  "2026-10-29": {
+   "followers": 477,
+   "listeners": 8,
+   "streams": 8
+  },
+  "2026-10-30": {
+   "followers": 477,
+   "listeners": 5,
+   "streams": 15
+  },
+  "2026-10-31": {
+   "followers": 477,
+   "listeners": 2,
+   "streams": 2
+  },
+  "2026-11-01": {
+   "followers": 475,
+   "listeners": 0,
+   "streams": 0
+  },
+  "2026-11-02": {
+   "followers": 477,
+   "listeners": 2,
+   "streams": 2
+  },
+  "2026-11-03": {
+   "followers": 477,
+   "listeners": 2,
+   "streams": 2
+  },
+  "2026-11-04": {
+   "followers": 477,
+   "listeners": 1,
+   "streams": 1
+  },
+  "2026-11-05": {
+   "followers": 477,
+   "listeners": 2,
+   "streams": 2
+  },
+  "2026-11-06": {
+   "followers": 479,
+   "listeners": 4,
+   "streams": 4
+  },
+  "2026-11-07": {
+   "followers": 484,
+   "listeners": 3,
+   "streams": 4
+  }
+ },
+ "updated": "2026-11-09T12:26+00:00"
 }
