@@ -281,6 +281,77 @@ def spotify_imports(hist):
         log(f"Spotify-Import: {os.path.basename(path)} ({n} Tage)")
 
 
+# ------------------------------------------------------ Apple Music (CSV-Import)
+
+def _read_csv(path):
+    """Liest eine CSV, egal ob mit Komma, Semikolon oder Tab getrennt."""
+    with open(path, encoding="utf-8-sig", newline="") as f:
+        text = f.read()
+    try:
+        dialect = csv.Sniffer().sniff(text[:4096], delimiters=",;\t")
+    except csv.Error:
+        dialect = csv.excel
+    return list(csv.reader(text.splitlines(), dialect))
+
+
+def apple_imports(hist):
+    """Liest Exporte aus Apple Music for Artists in data/imports/apple/.
+
+    Mit Datumsspalte  -> Tageswerte in hist["apple_daily"]
+    Ohne Datumsspalte -> Katalog-Tabelle (Songs) in hist["apple_catalog"]
+                         + Summen in hist["apple_totals"]
+    """
+    files = sorted(glob.glob(os.path.join(DATA, "imports", "apple", "*.csv")))
+    hist.pop("apple_catalog", None)
+    hist.pop("apple_totals", None)
+    if not files:
+        return
+    daily = hist.setdefault("apple_daily", {})
+    for path in files:
+        try:
+            rows = [r for r in _read_csv(path) if any(c.strip() for c in r)]
+        except Exception as e:  # noqa: BLE001
+            log(f"Apple-Import: {os.path.basename(path)} nicht lesbar ({e})")
+            continue
+        if len(rows) < 2:
+            continue
+        hdr = [h.strip() for h in rows[0]]
+        dcol = _pick(hdr, "date", "datum", "tag")
+        cols = {"plays": _pick(hdr, "plays", "wiedergabe", "streams"),
+                "listeners": _pick(hdr, "listener", "hörer", "hoerer"),
+                "shazams": _pick(hdr, "shazam"),
+                "radio_spins": _pick(hdr, "spin"),
+                "purchases": _pick(hdr, "purchase", "kauf", "käufe")}
+        idx = {k: hdr.index(c) for k, c in cols.items() if c}
+        if not idx:
+            log(f"Apple-Import: {os.path.basename(path)} - keine bekannten Spalten ({', '.join(hdr)})")
+            continue
+        if dcol:
+            di, n = hdr.index(dcol), 0
+            for r in rows[1:]:
+                d = _parse_date(r[di]) if di < len(r) else None
+                if not d:
+                    continue
+                day = daily.setdefault(d, {})
+                for k, i in idx.items():
+                    if i < len(r) and r[i].strip():
+                        day[k] = num(r[i])
+                n += 1
+            log(f"Apple-Import: {os.path.basename(path)} ({n} Tage)")
+        else:
+            totals = {k: 0 for k in idx}
+            for r in rows[1:]:
+                for k, i in idx.items():
+                    v = num(r[i]) if i < len(r) else None
+                    totals[k] += v or 0
+            hist["apple_catalog"] = {
+                "source": os.path.basename(path),
+                "updated": dt.datetime.fromtimestamp(os.path.getmtime(path)).date().isoformat(),
+                "headers": hdr, "rows": rows[1:]}
+            hist["apple_totals"] = totals
+            log(f"Apple-Import: {os.path.basename(path)} ({len(rows) - 1} Songs)")
+
+
 def playlists():
     """Wandelt data/imports/playlists*.csv in eine Tabelle für das Dashboard."""
     files = sorted(glob.glob(os.path.join(DATA, "imports", "playlists*.csv")) +
@@ -317,6 +388,10 @@ def main():
     hist["snapshots"][today] = old
 
     spotify_imports(hist)
+    try:
+        apple_imports(hist)
+    except Exception as e:  # noqa: BLE001
+        log(f"Apple-Import: Fehler - {e}")
     hist["playlists"] = playlists()
     hist["updated"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes")
     hist["log"] = LOG
