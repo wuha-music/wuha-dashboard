@@ -16,7 +16,7 @@
   }
  },
  "log": [
-  "Meta: Fehler - HTTP 400: Error validating access token: Session has expired on Sunday, 08-Nov-26 09:00:00 PST. The current time is Sunday, 08-Nov-26 22:13:31 PST."
+  "Meta: Fehler - HTTP 400: Error validating access token: The session is invalid because the user logged out."
  ],
  "playlists": {
   "headers": [
@@ -93,5 +93,5 @@
   }
  },
  "spotify_daily": {},
- "updated": "2026-11-09T06:13+00:00"
+ "updated": "2026-11-09T12:09+00:00"
 }
