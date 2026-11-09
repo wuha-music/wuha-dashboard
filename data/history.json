@@ -1,4 +1,5 @@
 {
+ "apple_daily": {},
  "config": {
   "band": "WUHA",
   "links": {
@@ -17,7 +18,9 @@
  },
  "log": [
   "Meta: Fehler - HTTP 400: Error validating access token: The session is invalid because the user logged out.",
-  "Spotify-Import: WUHA-audience-timeline.csv (1042 Tage)"
+  "SoundCloud: Fehler - HTTP 404: <!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"theme-color\" content=\"#333\">\n<link rel=\"dns-prefetch\" href=\"//style.sndcdn.com\">\n<link rel=\"dns-prefetch\" href=\"//a-v2.sndcdn.com\">\n<link rel=\"dns-prefetch\" href=\"//api-v2.soundcloud.com\">\n<link",
+  "Spotify-Import: WUHA-audience-timeline.csv (1042 Tage)",
+  "Apple-Import: songs_1790726364_2015-06-30_2026-11-07.csv (0 Tage)"
  ],
  "playlists": {
   "headers": [
@@ -5305,5 +5308,5 @@
    "streams": 4
   }
  },
- "updated": "2026-11-09T12:44+00:00"
+ "updated": "2026-11-09T13:06+00:00"
 }
