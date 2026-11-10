@@ -109,14 +109,11 @@
  "playlists": {
   "headers": [
    "Playlist",
-   "Kurator",
-   "Song",
-   "Follower der Playlist",
-   "Hinzugefügt am",
-   "Link"
+   "Link",
+   "Aktion"
   ],
   "rows": [],
-  "source": "playlists.csv",
+  "source": "playlists_manuell.csv",
   "updated": "2026-11-10"
  },
  "snapshots": {
@@ -5415,5 +5412,5 @@
    "streams": 4
   }
  },
- "updated": "2026-11-10T05:58+00:00"
+ "updated": "2026-11-10T08:39+00:00"
 }
