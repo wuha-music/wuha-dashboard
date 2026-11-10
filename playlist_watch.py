@@ -307,13 +307,22 @@ def check_embed(pid):
             "songs": songs, "total": len(tracks), "complete": len(tracks) < 100}
 
 
+_API_BLOCKED = []
+
+
 def check(pid):
-    """-> dict mit songs/complete oder Exception"""
-    if sp_token():
+    """-> dict mit songs/complete oder Exception.
+    Spotify gibt Playlist-Inhalte fremder Playlisten im Entwicklermodus nicht mehr heraus (403).
+    Dann nur noch Einbettung (erste 100 Titel); die API dient weiter für die Suche."""
+    if sp_token() and not _API_BLOCKED:
         try:
             return check_api(pid)
         except Exception as e:  # noqa: BLE001
-            log(f"Spotify-API {pid}: {e} – versuche Einbettung")
+            if "403" in str(e):
+                _API_BLOCKED.append(1)
+                log("Spotify-API: Playlist-Inhalte gesperrt (403) – prüfe über Spotify-Einbettung (erste 100 Titel).")
+            else:
+                log(f"Spotify-API {pid}: {e} – versuche Einbettung")
     return check_embed(pid)
 
 
@@ -440,7 +449,9 @@ def main():
                       "last_seen": TODAY, "missing_since": None, "verified": True})
         elif not r["complete"]:
             e["checked_ok"] = False     # nur Teil der Playlist sichtbar – nichts ändern
-            log(f"{e['name']}: nur {r['total']} Titel sichtbar, WUHA nicht dabei – Spotify-Schlüssel nötig.")
+            if not e.get("verified"):
+                e["status"] = "teilweise"
+            log(f"{e['name']}: nur die ersten {r['total']} Titel prüfbar, WUHA dort nicht dabei.")
         elif not e.get("verified"):
             del pls[pid]                # nie drin gewesen -> nicht aufnehmen
         elif not e.get("missing_since"):
@@ -451,6 +462,12 @@ def main():
             del pls[pid]
 
     state["removed"] = state["removed"][:50]
+    for e in pls.values():
+        if e.get("followers") is None and e.get("followers_text"):
+            m = re.match(r"([\d.,]+)\s*([KkMm])?", str(e["followers_text"]))
+            if m:
+                n = float(m.group(1).replace(",", "."))
+                e["followers"] = int(n * {"k": 1000, "m": 1_000_000}.get((m.group(2) or "").lower(), 1))
     active = [e for e in pls.values() if e.get("verified") and e.get("status") == "aktiv"]
     state["summary"] = {"playlists": len(active), "songs": sum(e.get("count", 0) for e in active),
                         "followers": sum(e.get("followers") or 0 for e in active)}
