@@ -60,6 +60,10 @@ footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--line);color:v
 .spot{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
 .spot .chartbox{height:220px}
 .gap{margin-top:16px}
+tr.gone td{color:var(--muted);opacity:.55}
+tr.gone td a{color:var(--muted)!important}
+.tag{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:1px 8px;font-size:12px;color:var(--text-2);white-space:nowrap}
+.tag.ok{border-color:var(--spotify);color:var(--spotify)}
 @media (max-width:600px){.hero{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.card .big{font-size:40px}}
 </style>
 </head>
@@ -92,6 +96,9 @@ footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--line);color:v
 
   <h2>Spotify-Playlisten</h2>
   <div id="playlists"></div>
+
+  <h2>Entdeckt in Playlists</h2>
+  <div id="found"></div>
 
   <h2>Apple Music</h2>
   <div id="apple"></div>
@@ -343,6 +350,43 @@ fetch("data/history.json?"+Date.now()).then(r=>r.json()).then(h=>{
   document.getElementById("log").textContent = (h.log||[]).join("\n") || "Keine Meldungen.";
   render();
 }).catch(e=>{ document.getElementById("cards").innerHTML=`<div class="note">Daten konnten nicht geladen werden (${esc(e.message)}).</div>`; });
+
+// Entdeckt in Playlists (data/playlists_found.json, täglich 05:23 geprüft)
+function renderFound(F){
+  const box = document.getElementById("found");
+  const list = Object.values(F.playlists||{}).filter(e=>e.verified)
+    .sort((a,b)=>(a.status==="entfernt")-(b.status==="entfernt") || (b.count||0)-(a.count||0) || (b.followers||0)-(a.followers||0));
+  const pend = Object.values(F.pending||{});
+  const s = F.summary||{};
+  let h = `<div class="kpis"><div class="kpi"><div class="lab">Playlisten</div><div class="val" style="color:var(--spotify)">${fmt(s.playlists||0)}</div><div class="sub">mit WUHA-Songs</div></div>
+    <div class="kpi"><div class="lab">Platzierungen</div><div class="val">${fmt(s.songs||0)}</div><div class="sub">WUHA-Songs in diesen Playlisten</div></div>
+    <div class="kpi"><div class="lab">Follower gesamt</div><div class="val">${fmt(s.followers||0)}</div><div class="sub">der Playlisten</div></div></div>`;
+  if(list.length){
+    h += `<div class="tablewrap gap"><table><thead><tr><th>Playlist</th><th>WUHA-Songs</th><th class="n">Anzahl</th><th class="n">Follower</th><th>Entdeckt</th><th>Quelle</th><th>Status</th></tr></thead><tbody>${
+      list.map(e=>{ const gone = e.status==="entfernt";
+        const songs = (e.songs||[]).map(x=>`${esc(x.title)} <span class="biglab">#${x.pos}</span>`).join("<br>");
+        return `<tr class="${gone?"gone":""}"><td><a href="${esc(e.url)}" target="_blank" rel="noopener" style="color:var(--text)">${esc(e.name)}</a>${e.curator?`<div class="biglab">${esc(e.curator)}</div>`:""}</td>
+          <td>${songs||"–"}</td><td class="n">${gone?0:fmt(e.count)}</td><td class="n">${e.followers!=null?fmt(e.followers):esc(e.followers_text||"–")}</td>
+          <td>${deDate(e.first_seen)}</td><td>${esc(e.source||"")}</td>
+          <td>${gone?`<span class="tag">nicht mehr drin · wird morgen gelöscht</span>`:`<span class="tag ok">aktiv</span>`}${e.checked_ok===false&&!gone?`<div class="biglab">heute nicht prüfbar</div>`:""}</td></tr>`;}).join("")}</tbody></table></div>`;
+  } else {
+    h += `<div class="note gap">Noch keine bestätigte Playlist. Die Prüfung läuft jeden Morgen um 05:23 Uhr.</div>`;
+  }
+  if(pend.length){
+    h += `<details><summary>${pend.length} Meldungen ohne Spotify-Link (noch nicht prüfbar)</summary>
+      <p class="biglab">Link fehlt in der Mail. Mit Spotify-Schlüssel wird er automatisch gesucht – oder Name + Link in <code>data/imports/playlists_manuell.csv</code> eintragen.</p>
+      <div class="tablewrap"><table><thead><tr><th>Playlist</th><th>Song</th><th>Gemeldet</th><th>Quelle</th></tr></thead><tbody>${
+      pend.sort((a,b)=>b.first_seen.localeCompare(a.first_seen)).map(p=>`<tr><td>${esc(p.name)}</td><td>${esc((p.songs||[]).join(", "))}</td><td>${deDate(p.first_seen)}</td><td>${esc(p.source||"")}</td></tr>`).join("")}</tbody></table></div></details>`;
+  }
+  if((F.removed||[]).length){
+    h += `<details><summary>Zuletzt entfernt (${F.removed.length})</summary><div class="tablewrap"><table><tbody>${
+      F.removed.map(r=>`<tr class="gone"><td><a href="${esc(r.url)}">${esc(r.name)}</a></td><td>${esc((r.songs||[]).join(", "))}</td><td>${deDate(r.removed)}</td></tr>`).join("")}</tbody></table></div></details>`;
+  }
+  h += `<p class="biglab">Geprüft ${F.updated?new Date(F.updated).toLocaleString("de-AT",{dateStyle:"short",timeStyle:"short"}):"–"} · Quelle: Gmail-Label „Playlist Sub“ + Spotify</p>`;
+  box.innerHTML = h;
+}
+fetch("data/playlists_found.json?"+Date.now()).then(r=>r.json()).then(renderFound)
+  .catch(()=>{ document.getElementById("found").innerHTML = `<div class="note">Playlist-Liste noch nicht vorhanden.</div>`; });
 </script>
 </body>
 </html>
