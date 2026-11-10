@@ -357,6 +357,7 @@ function renderFound(F){
   const list = Object.values(F.playlists||{}).filter(e=>e.verified)
     .sort((a,b)=>(a.status==="entfernt")-(b.status==="entfernt") || (b.count||0)-(a.count||0) || (b.followers||0)-(a.followers||0));
   const pend = Object.values(F.pending||{});
+  const part = Object.values(F.playlists||{}).filter(e=>!e.verified && e.status==="teilweise");
   const s = F.summary||{};
   let h = `<div class="kpis"><div class="kpi"><div class="lab">Playlisten</div><div class="val" style="color:var(--spotify)">${fmt(s.playlists||0)}</div><div class="sub">mit WUHA-Songs</div></div>
     <div class="kpi"><div class="lab">Platzierungen</div><div class="val">${fmt(s.songs||0)}</div><div class="sub">WUHA-Songs in diesen Playlisten</div></div>
@@ -371,6 +372,12 @@ function renderFound(F){
           <td>${gone?`<span class="tag">nicht mehr drin · wird morgen gelöscht</span>`:`<span class="tag ok">aktiv</span>`}${e.checked_ok===false&&!gone?`<div class="biglab">heute nicht prüfbar</div>`:""}</td></tr>`;}).join("")}</tbody></table></div>`;
   } else {
     h += `<div class="note gap">Noch keine bestätigte Playlist. Die Prüfung läuft jeden Morgen um 05:23 Uhr.</div>`;
+  }
+  if(part.length){
+    h += `<details><summary>${part.length} gemeldet, aber nur teilweise prüfbar (Playlist über 100 Titel)</summary>
+      <p class="biglab">Spotify zeigt nur die ersten 100 Titel – WUHA steht weiter hinten. Werden automatisch bestätigt, sobald WUHA in den ersten 100 auftaucht.</p>
+      <div class="tablewrap"><table><thead><tr><th>Playlist</th><th class="n">Titel</th><th class="n">Follower</th><th>Gemeldet</th><th>Quelle</th></tr></thead><tbody>${
+      part.map(e=>`<tr><td><a href="${esc(e.url)}" target="_blank" rel="noopener" style="color:var(--text)">${esc(e.name)}</a></td><td class="n">${fmt(e.total_tracks)}+</td><td class="n">${e.followers!=null?fmt(e.followers):"–"}</td><td>${deDate(e.first_seen)}</td><td>${esc(e.source||"")}</td></tr>`).join("")}</tbody></table></div></details>`;
   }
   if(pend.length){
     h += `<details><summary>${pend.length} Meldungen ohne Spotify-Link (noch nicht prüfbar)</summary>
