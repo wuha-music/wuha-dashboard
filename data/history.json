@@ -75,7 +75,7 @@
    ]
   ],
   "source": "songs_1790726364_2015-06-30_2026-11-07.csv",
-  "updated": "2026-11-09"
+  "updated": "2026-11-10"
  },
  "apple_daily": {},
  "apple_totals": {
@@ -117,7 +117,7 @@
   ],
   "rows": [],
   "source": "playlists.csv",
-  "updated": "2026-11-09"
+  "updated": "2026-11-10"
  },
  "snapshots": {
   "2026-11-08": {
@@ -157,6 +157,29 @@
    }
   },
   "2026-11-09": {
+   "deezer": {
+    "albums": 7,
+    "followers": 0
+   },
+   "soundcloud": {
+    "followers": 55,
+    "tracks": 7
+   },
+   "tiktok": {
+    "followers": 84,
+    "likes": 532,
+    "videos": 40
+   },
+   "whatsapp": {
+    "followers": 7
+   },
+   "youtube": {
+    "followers": 11,
+    "videos": 21,
+    "views_total": 4588
+   }
+  },
+  "2026-11-10": {
    "deezer": {
     "albums": 7,
     "followers": 0
@@ -5392,5 +5415,5 @@
    "streams": 4
   }
  },
- "updated": "2026-11-09T14:09+00:00"
+ "updated": "2026-11-10T05:58+00:00"
 }
