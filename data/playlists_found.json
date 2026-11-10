@@ -1,8 +1,105 @@
 {
  "log": [
-  "Gmail: GMAIL_USER / GMAIL_APP_PASSWORD fehlen – Mails werden nicht gelesen.",
+  "Gmail: 51 Mails mit Label „Playlist Sub“, davon neu: 51",
+  "Spotify-API 11AsWdtwhMyptOFhh962or: HTTP Error 403: Forbidden – versuche Einbettung",
+  "Spotify-API 6yLlaE5K5JH9cGMPI26QzY: HTTP Error 403: Forbidden – versuche Einbettung",
+  "Spotify-API 7hfqgiG8RBxlxGnk4PacVa: HTTP Error 403: Forbidden – versuche Einbettung",
+  "Spotify-API 102o90CH5zKfBiK0mD6ZuD: HTTP Error 403: Forbidden – versuche Einbettung",
+  "Spotify-API 4Elb0jdmhFjV71SbzuGwk9: HTTP Error 403: Forbidden – versuche Einbettung",
+  "Spotify-API 4nZlghcGI57IxZbESeFYjk: HTTP Error 403: Forbidden – versuche Einbettung",
+  "Spotify-API 1NS6PuzuvWghorRlQHnD1U: HTTP Error 403: Forbidden – versuche Einbettung",
+  "Spotify-API 3sCXpyujWoLScwx3HhvRtf: HTTP Error 403: Forbidden – versuche Einbettung",
+  "Spotify-API 0M285CxGkKgZMZxKVP2JSZ: HTTP Error 403: Forbidden – versuche Einbettung",
+  "Spotify-API 274eHdTqnqjrjtpmhGNxKC: HTTP Error 403: Forbidden – versuche Einbettung",
+  "Spotify-API 1dn036UhlPcqvVzhpJU2P5: HTTP Error 403: Forbidden – versuche Einbettung",
+  "Spotify-API 2U59iduFQA0HScPu7N2LFC: HTTP Error 403: Forbidden – versuche Einbettung",
+  "Spotify-API 2an9bD5SK7DZCijsVo7pjv: HTTP Error 403: Forbidden – versuche Einbettung",
+  "Spotify-API 35m7r1Lkpo4CSosL91nAdA: HTTP Error 403: Forbidden – versuche Einbettung",
+  "Spotify-API 2PDHttbsddraTL9nu7DboA: HTTP Error 403: Forbidden – versuche Einbettung",
+  "Spotify-API 3DJJnASAqqP58RIkOabs8j: HTTP Error 403: Forbidden – versuche Einbettung",
+  "Spotify-API 4PyXsBgJ5tJ3KIOAZxUR2G: HTTP Error 403: Forbidden – versuche Einbettung",
+  "Spotify-API 5KySi2zOxBnYrNnRBIGfHh: HTTP Error 403: Forbidden – versuche Einbettung",
+  "Spotify-API 5juI9RVPrFjkIVwHcBubL8: HTTP Error 403: Forbidden – versuche Einbettung",
+  "Spotify-API 2TNlA4WjgpLqnI2OufJ4Qy: HTTP Error 403: Forbidden – versuche Einbettung",
+  "Spotify-API 7xqsGFQo8wWvNK05OuMxgt: HTTP Error 403: Forbidden – versuche Einbettung",
+  "Spotify-API 1hc5BMQzhk0gudaQemNB9R: HTTP Error 403: Forbidden – versuche Einbettung",
+  "Spotify-API 7isTHVBZTxJNcw5buH61rp: HTTP Error 403: Forbidden – versuche Einbettung",
+  "Spotify-API 7cfrEYYKhVHoHuJKH32Ux9: HTTP Error 403: Forbidden – versuche Einbettung",
+  "Spotify-API 4c91JIPJuHukr8txH0y2t6: HTTP Error 403: Forbidden – versuche Einbettung",
+  "Spotify-API 1YmZnOsxn3cyDArHtrxXyM: HTTP Error 403: Forbidden – versuche Einbettung",
+  "Beauty of Synth & Rock: nur 100 Titel sichtbar, WUHA nicht dabei – Spotify-Schlüssel nötig.",
+  "Spotify-API 37ZJ6FoiQFUOlmoMF377Qn: HTTP Error 403: Forbidden – versuche Einbettung",
   "Pop Psychology - Take a Thrill Pill!: nur 100 Titel sichtbar, WUHA nicht dabei – Spotify-Schlüssel nötig.",
-  "Beauty of Synth & Rock: nur 100 Titel sichtbar, WUHA nicht dabei – Spotify-Schlüssel nötig."
+  "Spotify-API 2mBWqVjWv01puf7ixDQbg4: HTTP Error 404: Not Found – versuche Einbettung",
+  "Spotify-API 7MGdKiVaZwVb95zk2shn8K: HTTP Error 403: Forbidden – versuche Einbettung",
+  "Spotify-API 1u9rqBHNRlmxbPXw28ekNI: HTTP Error 403: Forbidden – versuche Einbettung",
+  "Spotify-API 102o90CH5zKfBiK0mD6ZuD: HTTP Error 403: Forbidden – versuche Einbettung",
+  "Spotify-API 4Elb0jdmhFjV71SbzuGwk9: HTTP Error 403: Forbidden – versuche Einbettung",
+  "Delicious: nur 100 Titel sichtbar, WUHA nicht dabei – Spotify-Schlüssel nötig.",
+  "Spotify-API 4nZlghcGI57IxZbESeFYjk: HTTP Error 403: Forbidden – versuche Einbettung",
+  "Spotify-API 1NS6PuzuvWghorRlQHnD1U: HTTP Error 403: Forbidden – versuche Einbettung",
+  "Spotify-API 274eHdTqnqjrjtpmhGNxKC: HTTP Error 403: Forbidden – versuche Einbettung",
+  "Indie POP & DANCE New Horizons: nur 100 Titel sichtbar, WUHA nicht dabei – Spotify-Schlüssel nötig.",
+  "Spotify-API 1dn036UhlPcqvVzhpJU2P5: HTTP Error 403: Forbidden – versuche Einbettung",
+  "Spotify-API 2U59iduFQA0HScPu7N2LFC: HTTP Error 403: Forbidden – versuche Einbettung",
+  "Spotify-API 5KySi2zOxBnYrNnRBIGfHh: HTTP Error 403: Forbidden – versuche Einbettung",
+  "NEW WAVE SIGNAL: nur 100 Titel sichtbar, WUHA nicht dabei – Spotify-Schlüssel nötig.",
+  "Spotify-API 5juI9RVPrFjkIVwHcBubL8: HTTP Error 403: Forbidden – versuche Einbettung",
+  "Spotify-API 2TNlA4WjgpLqnI2OufJ4Qy: HTTP Error 403: Forbidden – versuche Einbettung",
+  "Spotify-API 4c91JIPJuHukr8txH0y2t6: HTTP Error 403: Forbidden – versuche Einbettung"
+ ],
+ "mails_seen": [
+  "1825321852762272607",
+  "1853870320441464722",
+  "1864539736222153375",
+  "1868899420791384348",
+  "1868901272391973149",
+  "1869090073117319795",
+  "1869097550202411908",
+  "1869099475109181190",
+  "1869467496351244913",
+  "1870616989366827251",
+  "1870705667087606996",
+  "1871065184299036441",
+  "1871177487796513849",
+  "1871369987977627292",
+  "1871398543691469273",
+  "1871444219956521928",
+  "1871445669776170218",
+  "1871517302000871877",
+  "1871521630665039279",
+  "1875171371285319154",
+  "1876031715474179943",
+  "1876668639830303582",
+  "1877042843317028594",
+  "1877105481666925992",
+  "1877111463573760803",
+  "1879563541073728633",
+  "1879566247639864580",
+  "1879653823862269230",
+  "1879835375101715612",
+  "1879925945760925371",
+  "1880020239919318171",
+  "1880111085260165129",
+  "1880198531263482867",
+  "1880201442860453262",
+  "1880382583546158095",
+  "1880473271423534828",
+  "1880563780025495679",
+  "1880654387075396133",
+  "1880745235318062826",
+  "1880835592178012228",
+  "1880926191328376081",
+  "1881016743043023693",
+  "1881108466508320880",
+  "1881191352213761959",
+  "1881193226459274666",
+  "1881195139873110866",
+  "1881196997433463295",
+  "1881197958717249269",
+  "1881288627320670289",
+  "1881379464936502688",
+  "1881454938577148530"
  ],
  "pending": {
   "car radio vibes": {
@@ -15,46 +112,10 @@
    ],
    "source": "Soundcharts"
   },
-  "dance aura 2026 edm progressive house dance pop": {
-   "first_seen": "2026-07-21",
-   "followers_text": "3.96K",
-   "name": "Dance Aura 2026 | EDM | Progressive House | Dance Pop",
-   "songs": [
-    "Nothing Is Forever"
-   ],
-   "source": "Soundcharts"
-  },
-  "delicious glam edition": {
-   "first_seen": "2026-09-11",
-   "followers_text": "142",
-   "name": "Delicious Glam Edition 💎",
-   "songs": [
-    "Losing My Shape"
-   ],
-   "source": "Soundcharts"
-  },
   "gay artist playlist 2026": {
    "first_seen": "2026-09-23",
    "followers_text": "2.87K",
    "name": "GAY ARTIST Playlist 2026",
-   "songs": [
-    "Losing My Shape"
-   ],
-   "source": "Soundcharts"
-  },
-  "groover city pop": {
-   "first_seen": "2026-06-24",
-   "followers_text": "381",
-   "name": "Groover City - POP",
-   "songs": [
-    "Nothing Is Forever"
-   ],
-   "source": "Soundcharts"
-  },
-  "house without borders": {
-   "first_seen": "2026-09-18",
-   "followers_text": "528",
-   "name": "House Without Borders",
    "songs": [
     "Losing My Shape"
    ],
@@ -69,46 +130,10 @@
    ],
    "source": "Soundcharts"
   },
-  "indie pop dance new horizons": {
-   "first_seen": "2026-06-26",
-   "followers_text": "1.09K",
-   "name": "Indie POP & DANCE New Horizons",
-   "songs": [
-    "Nothing Is Forever"
-   ],
-   "source": "Soundcharts"
-  },
-  "itunes pop top 50": {
-   "first_seen": "2026-09-01",
-   "followers_text": "2.21K",
-   "name": "Itunes Pop Top 50",
-   "songs": [
-    "Losing My Shape"
-   ],
-   "source": "Soundcharts"
-  },
-  "lost in the feeling updated weekly": {
-   "first_seen": "2026-07-14",
-   "followers_text": "879",
-   "name": "Lost in the Feeling \"Updated Weekly\"",
-   "songs": [
-    "Caroline - Extended Club Mix"
-   ],
-   "source": "Soundcharts"
-  },
   "new hit music by linktr ee maximumboost": {
    "first_seen": "2026-11-07",
    "followers_text": "199",
    "name": "NEW HIT MUSIC 🎤👨‍🎤 by Linktr.ee/MaXimumBoost",
-   "songs": [
-    "Losing My Shape"
-   ],
-   "source": "Soundcharts"
-  },
-  "new wave signal": {
-   "first_seen": "2026-09-22",
-   "followers_text": "138",
-   "name": "NEW WAVE SIGNAL",
    "songs": [
     "Losing My Shape"
    ],
@@ -120,33 +145,6 @@
    "name": "Pop Hits Daily",
    "songs": [
     "Losing My Shape",
-    "Nothing Is Forever"
-   ],
-   "source": "Soundcharts"
-  },
-  "pop radar indie dream pop electropop alt pop revista soundloop": {
-   "first_seen": "2026-11-09",
-   "followers_text": null,
-   "name": "Pop Radar | Indie, Dream Pop, Electropop & Alt-Pop — Revista Soundloop",
-   "songs": [
-    "Nothing Is Forever"
-   ],
-   "source": "DailyPlaylists"
-  },
-  "real music by real indie no ai linktr ee maximumboost": {
-   "first_seen": "2026-11-07",
-   "followers_text": "512",
-   "name": "Real Music by Real Indie ⛔️No AI Linktr.ee/MaXimumBoost",
-   "songs": [
-    "Losing My Shape"
-   ],
-   "source": "Soundcharts"
-  },
-  "rock on my children": {
-   "first_seen": "2026-06-30",
-   "followers_text": "1.15K",
-   "name": "Rock On My Children!",
-   "songs": [
     "Nothing Is Forever"
    ],
    "source": "Soundcharts"
@@ -169,15 +167,6 @@
    ],
    "source": "Soundcharts"
   },
-  "superstar hits 2027 linktr ee maximumboost": {
-   "first_seen": "2026-11-07",
-   "followers_text": "263",
-   "name": "Superstar Hits 2027 🎤👩‍🎤 Linktr.ee/MaXimumBoost",
-   "songs": [
-    "Losing My Shape"
-   ],
-   "source": "Soundcharts"
-  },
   "worldwide dance pop": {
    "first_seen": "2026-11-07",
    "followers_text": "996",
@@ -189,6 +178,33 @@
   }
  },
  "playlists": {
+  "102o90CH5zKfBiK0mD6ZuD": {
+   "checked_ok": true,
+   "count": 1,
+   "curator": "BlvkeMusicRecords",
+   "first_seen": "2026-07-21",
+   "followers": null,
+   "followers_text": "3.96K",
+   "id": "102o90CH5zKfBiK0mD6ZuD",
+   "last_check": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "missing_since": null,
+   "name": "Dance Aura 2026 | EDM | Progressive House | Dance Pop",
+   "names": [
+    "Dance Aura 2026 | EDM | Progressive House | Dance Pop"
+   ],
+   "songs": [
+    {
+     "pos": 55,
+     "title": "Nothing Is Forever"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 88,
+   "url": "https://open.spotify.com/playlist/102o90CH5zKfBiK0mD6ZuD",
+   "verified": true
+  },
   "1YmZnOsxn3cyDArHtrxXyM": {
    "checked_ok": false,
    "curator": "AZ Studio Records",
@@ -203,6 +219,50 @@
    "source": "SubmitHub",
    "total_tracks": 100,
    "url": "https://open.spotify.com/playlist/1YmZnOsxn3cyDArHtrxXyM",
+   "verified": false
+  },
+  "1u9rqBHNRlmxbPXw28ekNI": {
+   "checked_ok": true,
+   "count": 1,
+   "curator": "Revista Soundloop",
+   "first_seen": "2026-11-09",
+   "followers": null,
+   "followers_text": null,
+   "id": "1u9rqBHNRlmxbPXw28ekNI",
+   "last_check": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "missing_since": null,
+   "name": "Pop Radar | Indie, Dream Pop, Electropop & Alt-Pop — Revista Soundloop",
+   "names": [
+    "Pop Radar | Indie, Dream Pop, Electropop & Alt-Pop — Revista Soundloop"
+   ],
+   "songs": [
+    {
+     "pos": 48,
+     "title": "Nothing Is Forever"
+    }
+   ],
+   "source": "DailyPlaylists",
+   "status": "aktiv",
+   "total_tracks": 51,
+   "url": "https://open.spotify.com/playlist/1u9rqBHNRlmxbPXw28ekNI",
+   "verified": true
+  },
+  "274eHdTqnqjrjtpmhGNxKC": {
+   "checked_ok": false,
+   "curator": "Silfredim Mercury",
+   "first_seen": "2026-06-26",
+   "followers": null,
+   "followers_text": "1.09K",
+   "id": "274eHdTqnqjrjtpmhGNxKC",
+   "last_check": "2026-11-10",
+   "name": "Indie POP & DANCE New Horizons",
+   "names": [
+    "Indie POP & DANCE New Horizons"
+   ],
+   "source": "Soundcharts",
+   "total_tracks": 100,
+   "url": "https://open.spotify.com/playlist/274eHdTqnqjrjtpmhGNxKC",
    "verified": false
   },
   "37ZJ6FoiQFUOlmoMF377Qn": {
@@ -221,14 +281,102 @@
    "total_tracks": 100,
    "url": "https://open.spotify.com/playlist/37ZJ6FoiQFUOlmoMF377Qn",
    "verified": false
+  },
+  "4Elb0jdmhFjV71SbzuGwk9": {
+   "checked_ok": false,
+   "curator": "Andrea_SV",
+   "first_seen": "2026-09-11",
+   "followers": null,
+   "followers_text": "142",
+   "id": "4Elb0jdmhFjV71SbzuGwk9",
+   "last_check": "2026-11-10",
+   "name": "Delicious",
+   "names": [
+    "Delicious Glam Edition 💎"
+   ],
+   "source": "Soundcharts",
+   "total_tracks": 100,
+   "url": "https://open.spotify.com/playlist/4Elb0jdmhFjV71SbzuGwk9",
+   "verified": false
+  },
+  "4c91JIPJuHukr8txH0y2t6": {
+   "checked_ok": true,
+   "count": 1,
+   "curator": "MaXimum Boost",
+   "first_seen": "2026-11-07",
+   "followers": null,
+   "followers_text": "263",
+   "id": "4c91JIPJuHukr8txH0y2t6",
+   "last_check": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "missing_since": null,
+   "name": "Superstar Hits 2027 🎤👩‍🎤  Linktr.ee/MaXimumBoost",
+   "names": [
+    "Superstar Hits 2027 🎤👩‍🎤 Linktr.ee/MaXimumBoost"
+   ],
+   "songs": [
+    {
+     "pos": 38,
+     "title": "Losing My Shape"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 48,
+   "url": "https://open.spotify.com/playlist/4c91JIPJuHukr8txH0y2t6",
+   "verified": true
+  },
+  "5KySi2zOxBnYrNnRBIGfHh": {
+   "checked_ok": false,
+   "curator": "Culema",
+   "first_seen": "2026-09-22",
+   "followers": null,
+   "followers_text": "138",
+   "id": "5KySi2zOxBnYrNnRBIGfHh",
+   "last_check": "2026-11-10",
+   "name": "NEW WAVE SIGNAL",
+   "names": [
+    "NEW WAVE SIGNAL"
+   ],
+   "source": "Soundcharts",
+   "total_tracks": 100,
+   "url": "https://open.spotify.com/playlist/5KySi2zOxBnYrNnRBIGfHh",
+   "verified": false
+  },
+  "5juI9RVPrFjkIVwHcBubL8": {
+   "checked_ok": true,
+   "count": 1,
+   "curator": "MaXimum Boost",
+   "first_seen": "2026-11-07",
+   "followers": null,
+   "followers_text": "512",
+   "id": "5juI9RVPrFjkIVwHcBubL8",
+   "last_check": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "missing_since": null,
+   "name": "Real Music by Real Indie ⛔️No AI  Linktr.ee/MaXimumBoost  ",
+   "names": [
+    "Real Music by Real Indie ⛔️No AI Linktr.ee/MaXimumBoost"
+   ],
+   "songs": [
+    {
+     "pos": 42,
+     "title": "Losing My Shape"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 55,
+   "url": "https://open.spotify.com/playlist/5juI9RVPrFjkIVwHcBubL8",
+   "verified": true
   }
  },
  "removed": [],
- "spotify_api": false,
+ "spotify_api": true,
  "summary": {
   "followers": 0,
-  "playlists": 0,
-  "songs": 0
+  "playlists": 4,
+  "songs": 4
  },
- "updated": "2026-11-10T08:39+00:00"
+ "updated": "2026-11-10T09:08+00:00"
 }
