@@ -94,9 +94,6 @@ tr.gone td a{color:var(--muted)!important}
   <h2>Spotify</h2>
   <div id="spotify"></div>
 
-  <h2>Spotify-Playlisten</h2>
-  <div id="playlists"></div>
-
   <h2>Entdeckt in Playlists</h2>
   <div id="found"></div>
 
@@ -230,7 +227,6 @@ function render(){
   }
 
   renderSpotify(sp, label);
-  renderPlaylists();
   renderApple(label);
   renderTable();
 }
@@ -308,15 +304,6 @@ function csvTable(t){
     <tbody>${t.rows.map(r=>`<tr>${r.map((c,i)=>`<td class="${numCol[i]?"n":""}">${/^https?:\/\//.test(c)?`<a href="${esc(c)}" style="color:var(--text)">öffnen</a>`:esc(c)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
 }
 
-function renderPlaylists(){
-  const box = document.getElementById("playlists"), pl = H.playlists;
-  if(!pl || !pl.rows.length){
-    box.innerHTML = `<div class="note"><b>Noch keine Playlisten-Liste.</b> In <i>Spotify for Artists → Musik → Playlisten</i> seht ihr, in welchen Playlisten ihr seid.
-      Tragt sie in <code>data/imports/playlists.csv</code> ein (Vorlage liegt bei) oder ladet dort einen CSV-Export hoch.</div>`;
-    return;
-  }
-  box.innerHTML = `${csvTable(pl)}<p class="biglab">${pl.rows.length} Playlisten · Quelle: ${esc(pl.source)}, Stand ${deDate(pl.updated)}</p>`;
-}
 
 function renderTable(){
   const rows=[];
