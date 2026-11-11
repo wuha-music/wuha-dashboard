@@ -1,7 +1,7 @@
 {
  "log": [
   "Gmail: 53 Mails mit Label „Playlist Sub“, davon neu: 0",
-  "Soundcharts: SOUNDCHARTS_APP_ID / SOUNDCHARTS_API_KEY fehlen – übersprungen.",
+  "Soundcharts: 68 Playlists mit WUHA · Rest-Kontingent 998",
   "Spotify-API: Playlist-Inhalte gesperrt (403) – prüfe über Spotify-Einbettung (erste 100 Titel).",
   "Beauty of Synth & Rock: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
   "Indie POP & DANCE New Horizons: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
@@ -76,15 +76,6 @@
    ],
    "source": "Soundcharts"
   },
-  "gay artist playlist 2026": {
-   "first_seen": "2026-09-23",
-   "followers_text": "2.87K",
-   "name": "GAY ARTIST Playlist 2026",
-   "songs": [
-    "Losing My Shape"
-   ],
-   "source": "Soundcharts"
-  },
   "indie pop": {
    "first_seen": "2026-06-26",
    "followers_text": "642",
@@ -93,54 +84,417 @@
     "Nothing Is Forever"
    ],
    "source": "Soundcharts"
-  },
-  "new hit music by linktr ee maximumboost": {
-   "first_seen": "2026-11-07",
-   "followers_text": "199",
-   "name": "NEW HIT MUSIC 🎤👨‍🎤 by Linktr.ee/MaXimumBoost",
-   "songs": [
-    "Losing My Shape"
-   ],
-   "source": "Soundcharts"
-  },
-  "pop hits daily": {
-   "first_seen": "2026-09-23",
-   "followers_text": "631",
-   "name": "Pop Hits Daily",
-   "songs": [
-    "Losing My Shape",
-    "Nothing Is Forever"
-   ],
-   "source": "Soundcharts"
-  },
-  "selection jeffinho ryplay": {
-   "first_seen": "2026-10-27",
-   "followers_text": "293",
-   "name": "SELECTION JEFFINHO RYPLAY",
-   "songs": [
-    "Losing My Shape"
-   ],
-   "source": "Soundcharts"
-  },
-  "worldwide dance pop": {
-   "first_seen": "2026-11-07",
-   "followers_text": "996",
-   "name": "Worldwide Dance Pop",
-   "songs": [
-    "Caroline - Extended Club Mix"
-   ],
-   "source": "Soundcharts"
   }
  },
  "playlists": {
+  "0BKFCBxiowSdqsWIgVnlGs": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-10-09",
+   "followers": 468,
+   "id": "0BKFCBxiowSdqsWIgVnlGs",
+   "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84983cec4184ab07ba12983173",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Edren’s Best Singers of Instagram",
+   "names": [
+    "Edren’s Best Singers of Instagram"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 261,
+     "pos": 261,
+     "title": "Losing My Shape"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 663,
+   "url": "https://open.spotify.com/playlist/0BKFCBxiowSdqsWIgVnlGs",
+   "verified": true
+  },
+  "0EryoyebNNQBSkCKuDS5ej": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-08-11",
+   "followers": 911,
+   "id": "0EryoyebNNQBSkCKuDS5ej",
+   "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da840d57f097db66c2f3c0b3acab",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "We Know How You Feel",
+   "names": [
+    "We Know How You Feel"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 32,
+     "pos": 1073,
+     "title": "Caroline - Extended Club Mix"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 1133,
+   "url": "https://open.spotify.com/playlist/0EryoyebNNQBSkCKuDS5ej",
+   "verified": true
+  },
+  "0Gc0cUSwNxq0M0rgGtHIE7": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-07-06",
+   "followers": 298,
+   "id": "0Gc0cUSwNxq0M0rgGtHIE7",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84c1a586ee20042187dd2837b6",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Breaking Free",
+   "names": [
+    "Breaking Free"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 57,
+     "pos": 57,
+     "title": "Nothing Is Forever"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 93,
+   "url": "https://open.spotify.com/playlist/0Gc0cUSwNxq0M0rgGtHIE7",
+   "verified": true
+  },
+  "0LBVIXBqYxQffH9Jn3JhPH": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-09-21",
+   "followers": 154,
+   "id": "0LBVIXBqYxQffH9Jn3JhPH",
+   "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84656bcc8bd1923f7f45162f08",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Run on Repeat",
+   "names": [
+    "Run on Repeat"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 87,
+     "pos": 108,
+     "title": "Losing My Shape"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 225,
+   "url": "https://open.spotify.com/playlist/0LBVIXBqYxQffH9Jn3JhPH",
+   "verified": true
+  },
+  "0OXnamjfxNMMtV2Jcl8g1a": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-07-09",
+   "followers": 483,
+   "id": "0OXnamjfxNMMtV2Jcl8g1a",
+   "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8449498061c5a26c1a57e23600",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Trap Royale",
+   "names": [
+    "Trap Royale"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 333,
+     "pos": 333,
+     "title": "Nothing Is Forever"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 599,
+   "url": "https://open.spotify.com/playlist/0OXnamjfxNMMtV2Jcl8g1a",
+   "verified": true
+  },
+  "0Po2ANi88BwAFPtsjxPv5F": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-08-12",
+   "followers": 239,
+   "id": "0Po2ANi88BwAFPtsjxPv5F",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84895a6672e78ecb7e5f10fec0",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Taste Me (Delicious Edition)",
+   "names": [
+    "Taste Me (Delicious Edition)"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 255,
+     "pos": 255,
+     "title": "Rainbow Eyes - EDM Club Mix"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 316,
+   "url": "https://open.spotify.com/playlist/0Po2ANi88BwAFPtsjxPv5F",
+   "verified": true
+  },
+  "0SzwLWL9OEqxDJzBgets7u": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-09-23",
+   "followers": 919,
+   "followers_text": "2.87K",
+   "id": "0SzwLWL9OEqxDJzBgets7u",
+   "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84cb8ac28d00bc9499474c99b8",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "GAY ARTIST Playlist  2026",
+   "names": [
+    "GAY ARTIST Playlist  2026",
+    "GAY ARTIST Playlist 2026"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 28,
+     "pos": 192,
+     "title": "Losing My Shape"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 453,
+   "url": "https://open.spotify.com/playlist/0SzwLWL9OEqxDJzBgets7u",
+   "verified": true
+  },
+  "0TviJc4OdrhW7AE7gg61z8": {
+   "checked_ok": true,
+   "count": 2,
+   "first_seen": "2026-06-18",
+   "followers": 154,
+   "id": "0TviJc4OdrhW7AE7gg61z8",
+   "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84d658e8917bd5ad1ec81c294b",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Delicious Glam Edition 💎",
+   "names": [
+    "Delicious Glam Edition 💎"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 384,
+     "pos": 384,
+     "title": "Nothing Is Forever"
+    },
+    {
+     "peak": 454,
+     "pos": 454,
+     "title": "Losing My Shape"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 473,
+   "url": "https://open.spotify.com/playlist/0TviJc4OdrhW7AE7gg61z8",
+   "verified": true
+  },
+  "0W6qRK06E05ekT4pH6FkVS": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-09-15",
+   "followers": 117,
+   "id": "0W6qRK06E05ekT4pH6FkVS",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f6c5b1994d9489bc54be0e62",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Indie Pop Discovery",
+   "names": [
+    "Indie Pop Discovery"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 239,
+     "pos": 239,
+     "title": "Caroline - Extended Club Mix"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 387,
+   "url": "https://open.spotify.com/playlist/0W6qRK06E05ekT4pH6FkVS",
+   "verified": true
+  },
+  "0WdD4mkT4p5rTSi8QhlxqV": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-06-18",
+   "followers": 285,
+   "id": "0WdD4mkT4p5rTSi8QhlxqV",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8481db27926a5540be3b7c2c9c",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Restaurant Music 2025",
+   "names": [
+    "Restaurant Music 2025"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 15,
+     "pos": 15,
+     "title": "Nothing Is Forever"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 64,
+   "url": "https://open.spotify.com/playlist/0WdD4mkT4p5rTSi8QhlxqV",
+   "verified": true
+  },
+  "0WnOSOpJD6SZn0g85q1p16": {
+   "checked_ok": true,
+   "count": 4,
+   "first_seen": "2025-12-22",
+   "followers": 341,
+   "id": "0WnOSOpJD6SZn0g85q1p16",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8412888362a29356694ea115b3",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Playlist Car Music",
+   "names": [
+    "Playlist Car Music"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 764,
+     "pos": 857,
+     "title": "Rainbow Eyes - EDM Club Mix"
+    },
+    {
+     "peak": 1060,
+     "pos": 1061,
+     "title": "Caroline"
+    },
+    {
+     "peak": 1121,
+     "pos": 1121,
+     "title": "Caroline - Extended Club Mix"
+    },
+    {
+     "peak": 1251,
+     "pos": 1251,
+     "title": "Nothing Is Forever"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 1758,
+   "url": "https://open.spotify.com/playlist/0WnOSOpJD6SZn0g85q1p16",
+   "verified": true
+  },
+  "0s43Yf8S3m01oZvhf4WZjb": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-09-15",
+   "followers": 337,
+   "id": "0s43Yf8S3m01oZvhf4WZjb",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da847505ccf4496c9cddf467c9bb",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Indie Italia spotify playlist",
+   "names": [
+    "Indie Italia spotify playlist"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 3361,
+     "pos": 3362,
+     "title": "Rainbow Eyes - EDM Club Mix"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 3571,
+   "url": "https://open.spotify.com/playlist/0s43Yf8S3m01oZvhf4WZjb",
+   "verified": true
+  },
+  "0vFTM2qnCGQ20xoaAJBgjp": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-10-10",
+   "followers": 201,
+   "id": "0vFTM2qnCGQ20xoaAJBgjp",
+   "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8414b5e193abba0b6c6ce26950",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Edren's Most Talented Singers Friends",
+   "names": [
+    "Edren's Most Talented Singers Friends"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 115,
+     "pos": 115,
+     "title": "Caroline"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 287,
+   "url": "https://open.spotify.com/playlist/0vFTM2qnCGQ20xoaAJBgjp",
+   "verified": true
+  },
   "102o90CH5zKfBiK0mD6ZuD": {
    "checked_ok": true,
    "count": 1,
    "curator": "BlvkeMusicRecords",
    "first_seen": "2026-07-21",
-   "followers": 3960,
+   "followers": 4181,
    "followers_text": "3.96K",
    "id": "102o90CH5zKfBiK0mD6ZuD",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cbb6921c4beb7de62fc7b007d",
    "last_check": "2026-11-11",
    "last_seen": "2026-11-11",
    "missing_since": null,
@@ -148,8 +502,11 @@
    "names": [
     "Dance Aura 2026 | EDM | Progressive House | Dance Pop"
    ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
    "songs": [
     {
+     "peak": 28,
      "pos": 55,
      "title": "Nothing Is Forever"
     }
@@ -158,6 +515,211 @@
    "status": "aktiv",
    "total_tracks": 88,
    "url": "https://open.spotify.com/playlist/102o90CH5zKfBiK0mD6ZuD",
+   "verified": true
+  },
+  "19nc440mgBE9HqWKiTYjl2": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-06-18",
+   "followers": 240,
+   "id": "19nc440mgBE9HqWKiTYjl2",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8446e81cba3b87751b10cde964",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Girls night out  2025",
+   "names": [
+    "Girls night out  2025"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 15,
+     "pos": 15,
+     "title": "Nothing Is Forever"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 73,
+   "url": "https://open.spotify.com/playlist/19nc440mgBE9HqWKiTYjl2",
+   "verified": true
+  },
+  "1CPcX0ZKHvzM2TeUpmnrg7": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-11-07",
+   "followers": 1008,
+   "followers_text": "996",
+   "id": "1CPcX0ZKHvzM2TeUpmnrg7",
+   "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8475259c3f6fc4f58bd46210e7",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Worldwide Dance Pop",
+   "names": [
+    "Worldwide Dance Pop"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 21,
+     "pos": 30,
+     "title": "Caroline - Extended Club Mix"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 233,
+   "url": "https://open.spotify.com/playlist/1CPcX0ZKHvzM2TeUpmnrg7",
+   "verified": true
+  },
+  "1MWIOdBGzrRz5f5fCv1qbT": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2025-08-06",
+   "followers": 161,
+   "id": "1MWIOdBGzrRz5f5fCv1qbT",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a55242b5c70ddc3d13e698fd",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Edm mix",
+   "names": [
+    "Edm mix"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 81,
+     "pos": 81,
+     "title": "Caroline - Extended Club Mix"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 822,
+   "url": "https://open.spotify.com/playlist/1MWIOdBGzrRz5f5fCv1qbT",
+   "verified": true
+  },
+  "1N6lFsop6lxrvELfg0q45I": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2025-12-24",
+   "followers": 464,
+   "id": "1N6lFsop6lxrvELfg0q45I",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84d4e967e61064495d858ded2f",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Pop Vibes For Happy Guys",
+   "names": [
+    "Pop Vibes For Happy Guys"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 175,
+     "pos": 175,
+     "title": "Rainbow Eyes - EDM Club Mix"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 210,
+   "url": "https://open.spotify.com/playlist/1N6lFsop6lxrvELfg0q45I",
+   "verified": true
+  },
+  "1QO8waF0cvXqmJExXTkpGg": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-10-27",
+   "followers": 296,
+   "followers_text": "293",
+   "id": "1QO8waF0cvXqmJExXTkpGg",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84cd91710828624391b4521385",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "SELECTION JEFFINHO RYPLAY",
+   "names": [
+    "SELECTION JEFFINHO RYPLAY"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 77,
+     "pos": 77,
+     "title": "Losing My Shape"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 77,
+   "url": "https://open.spotify.com/playlist/1QO8waF0cvXqmJExXTkpGg",
+   "verified": true
+  },
+  "1UAAXbCUqhTWG7W1XehHbK": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2025-11-12",
+   "followers": 573,
+   "id": "1UAAXbCUqhTWG7W1XehHbK",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84117e0125b725801bf98d1be7",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Indie Music Artists Essentials",
+   "names": [
+    "Indie Music Artists Essentials"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 47,
+     "pos": 47,
+     "title": "Rainbow Eyes"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 104,
+   "url": "https://open.spotify.com/playlist/1UAAXbCUqhTWG7W1XehHbK",
+   "verified": true
+  },
+  "1VFRkHaKkqSvvnsTfrM3k3": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2025-07-02",
+   "followers": 188,
+   "id": "1VFRkHaKkqSvvnsTfrM3k3",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8417f8cb6372f45079c12b2bbd",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Singer Songwriter",
+   "names": [
+    "Singer Songwriter"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 106,
+     "pos": 107,
+     "title": "Caroline"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 247,
+   "url": "https://open.spotify.com/playlist/1VFRkHaKkqSvvnsTfrM3k3",
    "verified": true
   },
   "1YmZnOsxn3cyDArHtrxXyM": {
@@ -177,14 +739,73 @@
    "url": "https://open.spotify.com/playlist/1YmZnOsxn3cyDArHtrxXyM",
    "verified": false
   },
+  "1c66mgdrPmio97QsJHNN2M": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-10-14",
+   "followers": 6158,
+   "id": "1c66mgdrPmio97QsJHNN2M",
+   "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72c4ad8be0c0261f94ae19151aa",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "All New Music",
+   "names": [
+    "All New Music"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 40,
+     "pos": 40,
+     "title": "Nothing Is Forever"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 222,
+   "url": "https://open.spotify.com/playlist/1c66mgdrPmio97QsJHNN2M",
+   "verified": true
+  },
+  "1iYqy7MBoFUI8tcYzyafs9": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2025-07-12",
+   "followers": 170,
+   "id": "1iYqy7MBoFUI8tcYzyafs9",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da843a31023d6fe2468a22979467",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Best of Pop",
+   "names": [
+    "Best of Pop"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 791,
+     "pos": 791,
+     "title": "Caroline - Extended Club Mix"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 797,
+   "url": "https://open.spotify.com/playlist/1iYqy7MBoFUI8tcYzyafs9",
+   "verified": true
+  },
   "1u9rqBHNRlmxbPXw28ekNI": {
    "checked_ok": true,
    "count": 1,
    "curator": "Revista Soundloop",
    "first_seen": "2026-11-09",
-   "followers": null,
+   "followers": 221,
    "followers_text": null,
    "id": "1u9rqBHNRlmxbPXw28ekNI",
+   "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84e37d500da58506afb3a65557",
    "last_check": "2026-11-11",
    "last_seen": "2026-11-11",
    "missing_since": null,
@@ -192,16 +813,77 @@
    "names": [
     "Pop Radar | Indie, Dream Pop, Electropop & Alt-Pop — Revista Soundloop"
    ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
    "songs": [
     {
+     "peak": 48,
      "pos": 48,
      "title": "Nothing Is Forever"
     }
    ],
    "source": "DailyPlaylists",
    "status": "aktiv",
-   "total_tracks": 58,
+   "total_tracks": 51,
    "url": "https://open.spotify.com/playlist/1u9rqBHNRlmxbPXw28ekNI",
+   "verified": true
+  },
+  "1vjfA6wxFVLjq5NfcpZeqh": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2025-06-03",
+   "followers": 1310,
+   "id": "1vjfA6wxFVLjq5NfcpZeqh",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da848f4b5805d043adda49574f45",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "House & EDM Mix",
+   "names": [
+    "House & EDM Mix"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 45,
+     "pos": 50,
+     "title": "Caroline - Extended Club Mix"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 67,
+   "url": "https://open.spotify.com/playlist/1vjfA6wxFVLjq5NfcpZeqh",
+   "verified": true
+  },
+  "25aRgZNSk3GVTfkXywu5z1": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-06-30",
+   "followers": 529,
+   "id": "25aRgZNSk3GVTfkXywu5z1",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da840b8e15668e7d7ee376dd384b",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "CaliVada Pop Fair",
+   "names": [
+    "CaliVada Pop Fair"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 14,
+     "pos": 31,
+     "title": "Nothing Is Forever"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 98,
+   "url": "https://open.spotify.com/playlist/25aRgZNSk3GVTfkXywu5z1",
    "verified": true
   },
   "274eHdTqnqjrjtpmhGNxKC": {
@@ -222,6 +904,325 @@
    "url": "https://open.spotify.com/playlist/274eHdTqnqjrjtpmhGNxKC",
    "verified": false
   },
+  "2EO0sA5mBgXfAZrifjKPYu": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-10-16",
+   "followers": 2096,
+   "id": "2EO0sA5mBgXfAZrifjKPYu",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a58fa25938c10ffeca0fd39f",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Fresh Music Arena",
+   "names": [
+    "Fresh Music Arena"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 121,
+     "pos": 121,
+     "title": "Nothing Is Forever"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 341,
+   "url": "https://open.spotify.com/playlist/2EO0sA5mBgXfAZrifjKPYu",
+   "verified": true
+  },
+  "2Fj8SO62BIbsNTihx20ZG1": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-04-29",
+   "followers": 649,
+   "id": "2Fj8SO62BIbsNTihx20ZG1",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8462b1f42e19797d928b3b32dd",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Indie Pop Hits",
+   "names": [
+    "Indie Pop Hits"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 1632,
+     "pos": 1632,
+     "title": "Rainbow Eyes - EDM Club Mix"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 112,
+   "url": "https://open.spotify.com/playlist/2Fj8SO62BIbsNTihx20ZG1",
+   "verified": true
+  },
+  "2GVAskFaTyuHVrVPCbND7i": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-10-07",
+   "followers": 114,
+   "id": "2GVAskFaTyuHVrVPCbND7i",
+   "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84178785af408ea40c3c3da27e",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Fix my Broken Heart 💘 Linktr.ee/MaXimumBoost",
+   "names": [
+    "Fix my Broken Heart 💘 Linktr.ee/MaXimumBoost"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 33,
+     "pos": 33,
+     "title": "Losing My Shape"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 79,
+   "url": "https://open.spotify.com/playlist/2GVAskFaTyuHVrVPCbND7i",
+   "verified": true
+  },
+  "2L3X6HRFG8JQSKUkHf9vLj": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-01-13",
+   "followers": 855,
+   "id": "2L3X6HRFG8JQSKUkHf9vLj",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84b3532dce00f391603deb59bf",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "2026 | Feel Good Moments",
+   "names": [
+    "2026 | Feel Good Moments"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 77,
+     "pos": 77,
+     "title": "Rainbow Eyes - EDM Club Mix"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 529,
+   "url": "https://open.spotify.com/playlist/2L3X6HRFG8JQSKUkHf9vLj",
+   "verified": true
+  },
+  "2Q0TBSb9oUyp38i7fBvaxJ": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2025-10-29",
+   "followers": 441,
+   "id": "2Q0TBSb9oUyp38i7fBvaxJ",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8411d685c3881bf9d9c74b4790",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Hit Music",
+   "names": [
+    "Hit Music"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 128,
+     "pos": 128,
+     "title": "Rainbow Eyes"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 140,
+   "url": "https://open.spotify.com/playlist/2Q0TBSb9oUyp38i7fBvaxJ",
+   "verified": true
+  },
+  "2Si5A50qdqcZDUdDJfQuUz": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-09-03",
+   "followers": 1673,
+   "id": "2Si5A50qdqcZDUdDJfQuUz",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84eb73da343f3d4c255b4be2ad",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "2026 | Just Hit Shuffle",
+   "names": [
+    "2026 | Just Hit Shuffle"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 1427,
+     "pos": 1427,
+     "title": "Losing My Shape"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 1637,
+   "url": "https://open.spotify.com/playlist/2Si5A50qdqcZDUdDJfQuUz",
+   "verified": true
+  },
+  "2UzZdZG4bRbqATHAfeL6Hd": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-07-18",
+   "followers": 1915,
+   "id": "2UzZdZG4bRbqATHAfeL6Hd",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da849151cdf85da60268ca5ec3b8",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Club Music Hits",
+   "names": [
+    "Club Music Hits"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 241,
+     "pos": 247,
+     "title": "Rainbow Eyes - EDM Club Mix"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 518,
+   "url": "https://open.spotify.com/playlist/2UzZdZG4bRbqATHAfeL6Hd",
+   "verified": true
+  },
+  "2aIl5GsHm3AlIGJ0XDmdNK": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-05-27",
+   "followers": 186,
+   "id": "2aIl5GsHm3AlIGJ0XDmdNK",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da845092c66a9eae345fb2286641",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Queerlectric ⚡",
+   "names": [
+    "Queerlectric ⚡"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 185,
+     "pos": 185,
+     "title": "Caroline - Extended Club Mix"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 294,
+   "url": "https://open.spotify.com/playlist/2aIl5GsHm3AlIGJ0XDmdNK",
+   "verified": true
+  },
+  "2fiNbEkFPp1hbCPB7YoMuG": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-09-15",
+   "followers": 284,
+   "id": "2fiNbEkFPp1hbCPB7YoMuG",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da845434678b12fdaad39f6f61ea",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Playlist Musica Alternativa",
+   "names": [
+    "Playlist Musica Alternativa"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 3015,
+     "pos": 3015,
+     "title": "Rainbow Eyes - EDM Club Mix"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 3210,
+   "url": "https://open.spotify.com/playlist/2fiNbEkFPp1hbCPB7YoMuG",
+   "verified": true
+  },
+  "2nwY8efXEbxq2bnZIIGpj9": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-07-18",
+   "followers": 2815,
+   "id": "2nwY8efXEbxq2bnZIIGpj9",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da847140baeb09be4d80578b49e7",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Pop Island",
+   "names": [
+    "Pop Island"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 343,
+     "pos": 344,
+     "title": "Rainbow Eyes - EDM Club Mix"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 685,
+   "url": "https://open.spotify.com/playlist/2nwY8efXEbxq2bnZIIGpj9",
+   "verified": true
+  },
+  "34FsH2iPXSkEDY7MgE2Nj1": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-06-09",
+   "followers": 241,
+   "id": "34FsH2iPXSkEDY7MgE2Nj1",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da843abbabeb87b6a1f672cbf881",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Top Radio Hits This Week",
+   "names": [
+    "Top Radio Hits This Week"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 390,
+     "pos": 414,
+     "title": "Nothing Is Forever"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 433,
+   "url": "https://open.spotify.com/playlist/34FsH2iPXSkEDY7MgE2Nj1",
+   "verified": true
+  },
   "37ZJ6FoiQFUOlmoMF377Qn": {
    "checked_ok": false,
    "curator": "Laurelanne  (laurelanne.media)",
@@ -239,6 +1240,64 @@
    "total_tracks": 100,
    "url": "https://open.spotify.com/playlist/37ZJ6FoiQFUOlmoMF377Qn",
    "verified": false
+  },
+  "3Bv77Nh1H3Hl0DVoDKHYA0": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-10-20",
+   "followers": 110,
+   "id": "3Bv77Nh1H3Hl0DVoDKHYA0",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84db4a700a2916b4bff1a2235e",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Blue Ipod",
+   "names": [
+    "Blue Ipod"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 4,
+     "pos": 4,
+     "title": "Losing My Shape"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 154,
+   "url": "https://open.spotify.com/playlist/3Bv77Nh1H3Hl0DVoDKHYA0",
+   "verified": true
+  },
+  "3ChYAhjMajQ3dXamoTL5Hf": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-10-14",
+   "followers": 635,
+   "id": "3ChYAhjMajQ3dXamoTL5Hf",
+   "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84b867020a02d70e1155b05df1",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Synthetic Soul",
+   "names": [
+    "Synthetic Soul"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 1,
+     "pos": 1,
+     "title": "Nothing Is Forever"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 31,
+   "url": "https://open.spotify.com/playlist/3ChYAhjMajQ3dXamoTL5Hf",
+   "verified": true
   },
   "3FeXviPUCaJrt6vNHhtjrv": {
    "checked_ok": false,
@@ -258,6 +1317,239 @@
    "url": "https://open.spotify.com/playlist/3FeXviPUCaJrt6vNHhtjrv",
    "verified": false
   },
+  "3HhyBb82jXA1qNxr2X6mV1": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-10-20",
+   "followers": 646,
+   "id": "3HhyBb82jXA1qNxr2X6mV1",
+   "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84289160f1b2e7e16488d1d3bf",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Soft Chill Vibes",
+   "names": [
+    "Soft Chill Vibes"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 21,
+     "pos": 153,
+     "title": "Caroline - Extended Club Mix"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 220,
+   "url": "https://open.spotify.com/playlist/3HhyBb82jXA1qNxr2X6mV1",
+   "verified": true
+  },
+  "3IqKyZfZ5sVHsQeoiTAAX4": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-09-15",
+   "followers": 35,
+   "id": "3IqKyZfZ5sVHsQeoiTAAX4",
+   "image": "https://mosaic.scdn.co/640/ab67616d00001e026a3fa0ce0aaaa2cfab2d6785ab67616d00001e027ed5955250b5dca252313c05ab67616d00001e02ab7db0d395ea60774915ba24ab67616d00001e02f1d50bf1d132d736d3ea5303",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Friuli pop/rock",
+   "names": [
+    "Friuli pop/rock"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 2372,
+     "pos": 2373,
+     "title": "Rainbow Eyes - EDM Club Mix"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 2465,
+   "url": "https://open.spotify.com/playlist/3IqKyZfZ5sVHsQeoiTAAX4",
+   "verified": true
+  },
+  "3JtHacNp1AcWu3wYxoFJqd": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-09-15",
+   "followers": 21,
+   "id": "3JtHacNp1AcWu3wYxoFJqd",
+   "image": "https://mosaic.scdn.co/640/ab67616d00001e0220900374754fa2d02f06a9b0ab67616d00001e02673f70a4c739d0408245a1a7ab67616d00001e027c36302ceb2e3099fb9bde2aab67616d00001e0295f2c56a6619835f47904910",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "La mia playlist n. 7",
+   "names": [
+    "La mia playlist n. 7"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 2281,
+     "pos": 2281,
+     "title": "Rainbow Eyes - EDM Club Mix"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 2371,
+   "url": "https://open.spotify.com/playlist/3JtHacNp1AcWu3wYxoFJqd",
+   "verified": true
+  },
+  "3V8s80yIJ3DipGg7xhWJL4": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-06-11",
+   "followers": 314,
+   "id": "3V8s80yIJ3DipGg7xhWJL4",
+   "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da845fffa765ff34a625024d1b2c",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "SLUT POP 👄",
+   "names": [
+    "SLUT POP 👄"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 854,
+     "pos": 854,
+     "title": "Nothing Is Forever"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 1014,
+   "url": "https://open.spotify.com/playlist/3V8s80yIJ3DipGg7xhWJL4",
+   "verified": true
+  },
+  "3Vl1xNZcApNyXaUcChnwCb": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-03-03",
+   "followers": 1095,
+   "id": "3Vl1xNZcApNyXaUcChnwCb",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da842573d5ad5b85d60b5cb49b26",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "2026 | Global Talent",
+   "names": [
+    "2026 | Global Talent"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 250,
+     "pos": 250,
+     "title": "Caroline"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 779,
+   "url": "https://open.spotify.com/playlist/3Vl1xNZcApNyXaUcChnwCb",
+   "verified": true
+  },
+  "3q06PPOxUcpPhv2gNksmvm": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-09-15",
+   "followers": 35,
+   "id": "3q06PPOxUcpPhv2gNksmvm",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da842c02e81a613cbd78567464ce",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Musica Indie Rock Italia",
+   "names": [
+    "Musica Indie Rock Italia"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 2172,
+     "pos": 2172,
+     "title": "Rainbow Eyes - EDM Club Mix"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 2263,
+   "url": "https://open.spotify.com/playlist/3q06PPOxUcpPhv2gNksmvm",
+   "verified": true
+  },
+  "3sKt2gtFNrqefhZMxG1u91": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-09-23",
+   "followers": 721,
+   "followers_text": "631",
+   "id": "3sKt2gtFNrqefhZMxG1u91",
+   "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84c2199bf9f0302b043024295e",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Pop Hits Daily",
+   "names": [
+    "Pop Hits Daily"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 149,
+     "pos": 155,
+     "title": "Losing My Shape"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 331,
+   "url": "https://open.spotify.com/playlist/3sKt2gtFNrqefhZMxG1u91",
+   "verified": true
+  },
+  "475xryiZHdpkubdYr5GZQR": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-09-30",
+   "followers": 1149,
+   "id": "475xryiZHdpkubdYr5GZQR",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cc1bf1ee11325ee8cae43d02e",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Middle Child Selects 🔥",
+   "names": [
+    "Middle Child Selects 🔥"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 117,
+     "pos": 117,
+     "title": "Losing My Shape"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 291,
+   "url": "https://open.spotify.com/playlist/475xryiZHdpkubdYr5GZQR",
+   "verified": true
+  },
   "4Elb0jdmhFjV71SbzuGwk9": {
    "checked_ok": false,
    "curator": "Andrea_SV",
@@ -276,6 +1568,35 @@
    "url": "https://open.spotify.com/playlist/4Elb0jdmhFjV71SbzuGwk9",
    "verified": false
   },
+  "4YbEd5QIsSBJianJwYpibd": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-06-26",
+   "followers": 249,
+   "id": "4YbEd5QIsSBJianJwYpibd",
+   "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8436628bba0d1095cad3012b0b",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Settembre in Repeat",
+   "names": [
+    "Settembre in Repeat"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 3,
+     "pos": 42,
+     "title": "Nothing Is Forever"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 248,
+   "url": "https://open.spotify.com/playlist/4YbEd5QIsSBJianJwYpibd",
+   "verified": true
+  },
   "4c91JIPJuHukr8txH0y2t6": {
    "checked_ok": true,
    "count": 1,
@@ -284,23 +1605,115 @@
    "followers": 263,
    "followers_text": "263",
    "id": "4c91JIPJuHukr8txH0y2t6",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84b990dd9e4f8604e3e975dbe9",
    "last_check": "2026-11-11",
    "last_seen": "2026-11-11",
    "missing_since": null,
    "name": "Superstar Hits 2027 🎤👩‍🎤  Linktr.ee/MaXimumBoost",
    "names": [
-    "Superstar Hits 2027 🎤👩‍🎤 Linktr.ee/MaXimumBoost"
+    "Superstar Hits 2027 🎤👩‍🎤 Linktr.ee/MaXimumBoost",
+    "Superstar Hits 2027 🎤👩‍🎤  Linktr.ee/MaXimumBoost"
    ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
    "songs": [
     {
+     "peak": 38,
      "pos": 38,
      "title": "Losing My Shape"
     }
    ],
    "source": "Soundcharts",
    "status": "aktiv",
-   "total_tracks": 50,
+   "total_tracks": 48,
    "url": "https://open.spotify.com/playlist/4c91JIPJuHukr8txH0y2t6",
+   "verified": true
+  },
+  "4iUwK4QKT4CZn4tmohQ0V8": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-07-09",
+   "followers": 249,
+   "id": "4iUwK4QKT4CZn4tmohQ0V8",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da841454432eec02a0d3b667f7fb",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "WHEN THE LOVE REAL............",
+   "names": [
+    "WHEN THE LOVE REAL............"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 64,
+     "pos": 188,
+     "title": "Rainbow Eyes - EDM Club Mix"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 434,
+   "url": "https://open.spotify.com/playlist/4iUwK4QKT4CZn4tmohQ0V8",
+   "verified": true
+  },
+  "5AxPUWx1dFpBkGx5nQplPu": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-10-12",
+   "followers": 639,
+   "id": "5AxPUWx1dFpBkGx5nQplPu",
+   "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da847694b91830fe13aaf1152624",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "The Comeback",
+   "names": [
+    "The Comeback"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 180,
+     "pos": 180,
+     "title": "Losing My Shape"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 425,
+   "url": "https://open.spotify.com/playlist/5AxPUWx1dFpBkGx5nQplPu",
+   "verified": true
+  },
+  "5KTo9nX8oP9ke97sHC02Fx": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-07-21",
+   "followers": 1400,
+   "id": "5KTo9nX8oP9ke97sHC02Fx",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8444ea3451fc8e2bd0901710ce",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Here Comes The Sun",
+   "names": [
+    "Here Comes The Sun"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 25,
+     "pos": 171,
+     "title": "Nothing Is Forever"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 481,
+   "url": "https://open.spotify.com/playlist/5KTo9nX8oP9ke97sHC02Fx",
    "verified": true
   },
   "5KySi2zOxBnYrNnRBIGfHh": {
@@ -326,36 +1739,528 @@
    "count": 1,
    "curator": "MaXimum Boost",
    "first_seen": "2026-11-07",
-   "followers": 512,
+   "followers": 513,
    "followers_text": "512",
    "id": "5juI9RVPrFjkIVwHcBubL8",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8455dd5ee38c5c173401033c5a",
    "last_check": "2026-11-11",
    "last_seen": "2026-11-11",
    "missing_since": null,
-   "name": "Real Music by Real Indie ⛔️No AI  Linktr.ee/MaXimumBoost  ",
+   "name": "Real Music by Real Indie ⛔️No AI  Linktr.ee/MaXimumBoost",
    "names": [
-    "Real Music by Real Indie ⛔️No AI Linktr.ee/MaXimumBoost"
+    "Real Music by Real Indie ⛔️No AI Linktr.ee/MaXimumBoost",
+    "Real Music by Real Indie ⛔️No AI  Linktr.ee/MaXimumBoost"
    ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
    "songs": [
     {
+     "peak": 42,
      "pos": 42,
      "title": "Losing My Shape"
     }
    ],
    "source": "Soundcharts",
    "status": "aktiv",
-   "total_tracks": 59,
+   "total_tracks": 55,
    "url": "https://open.spotify.com/playlist/5juI9RVPrFjkIVwHcBubL8",
+   "verified": true
+  },
+  "60q1adkigX9xII1tRa3qbJ": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-09-02",
+   "followers": 11,
+   "id": "60q1adkigX9xII1tRa3qbJ",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a9c8e4470c37fac7a986806a",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Worldwide Millennial Temporada 36",
+   "names": [
+    "Worldwide Millennial Temporada 36"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 18,
+     "pos": 18,
+     "title": "Rainbow Eyes - EDM Club Mix"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 295,
+   "url": "https://open.spotify.com/playlist/60q1adkigX9xII1tRa3qbJ",
+   "verified": true
+  },
+  "6A1JgRuiwBoZlssoW2L6uW": {
+   "checked_ok": true,
+   "count": 3,
+   "first_seen": "2025-11-12",
+   "followers": 255,
+   "id": "6A1JgRuiwBoZlssoW2L6uW",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84c2303f01387ea9288d527fc1",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Pop mix",
+   "names": [
+    "Pop mix"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 585,
+     "pos": 585,
+     "title": "Rainbow Eyes"
+    },
+    {
+     "peak": 726,
+     "pos": 726,
+     "title": "Rainbow Eyes - EDM Club Mix"
+    },
+    {
+     "peak": 830,
+     "pos": 830,
+     "title": "Caroline - Extended Club Mix"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 1036,
+   "url": "https://open.spotify.com/playlist/6A1JgRuiwBoZlssoW2L6uW",
+   "verified": true
+  },
+  "6HReXbGOLyJ2UieOlrOCx0": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-04-14",
+   "followers": 370,
+   "id": "6HReXbGOLyJ2UieOlrOCx0",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84149916f765f8cbd566d730c8",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Undiscovered Pop Music Archive",
+   "names": [
+    "Undiscovered Pop Music Archive"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 496,
+     "pos": 497,
+     "title": "Rainbow Eyes"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 783,
+   "url": "https://open.spotify.com/playlist/6HReXbGOLyJ2UieOlrOCx0",
+   "verified": true
+  },
+  "6I2zrYYimVJDnFSl2G0BgC": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-05-27",
+   "followers": 169,
+   "id": "6I2zrYYimVJDnFSl2G0BgC",
+   "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84fbef0880daf3f8d92540e259",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Next Fresh Music",
+   "names": [
+    "Next Fresh Music"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 154,
+     "pos": 154,
+     "title": "Caroline - Extended Club Mix"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 264,
+   "url": "https://open.spotify.com/playlist/6I2zrYYimVJDnFSl2G0BgC",
+   "verified": true
+  },
+  "6I61sv26qklqomNrKcUwyP": {
+   "checked_ok": true,
+   "count": 6,
+   "first_seen": "2026-04-14",
+   "followers": 245,
+   "id": "6I61sv26qklqomNrKcUwyP",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84c700d1e35d525fb35081f6cf",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Drive Vibes from WUHA",
+   "names": [
+    "Drive Vibes from WUHA"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 1,
+     "pos": 1,
+     "title": "Losing My Shape"
+    },
+    {
+     "peak": 1,
+     "pos": 3,
+     "title": "Nothing Is Forever"
+    },
+    {
+     "peak": 6,
+     "pos": 6,
+     "title": "Rainbow Eyes - EDM Club Mix"
+    },
+    {
+     "peak": 3,
+     "pos": 8,
+     "title": "Caroline"
+    },
+    {
+     "peak": 9,
+     "pos": 13,
+     "title": "Caroline - Extended Club Mix"
+    },
+    {
+     "peak": 12,
+     "pos": 100,
+     "title": "Rainbow Eyes"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 101,
+   "url": "https://open.spotify.com/playlist/6I61sv26qklqomNrKcUwyP",
+   "verified": true
+  },
+  "6KUdtfa3HOqFcd90qz0lII": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-11-10",
+   "followers": 1244,
+   "id": "6KUdtfa3HOqFcd90qz0lII",
+   "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84d0ac54e6e75523c40f2025f7",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Pop Horizon",
+   "names": [
+    "Pop Horizon"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 341,
+     "pos": 341,
+     "title": "Nothing Is Forever"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 352,
+   "url": "https://open.spotify.com/playlist/6KUdtfa3HOqFcd90qz0lII",
+   "verified": true
+  },
+  "6R2qncKerXkLCsULtzJMpf": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2025-08-06",
+   "followers": 234,
+   "id": "6R2qncKerXkLCsULtzJMpf",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84edce589d96f6ce630b849791",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "EDM - Electronic Dance Music*",
+   "names": [
+    "EDM - Electronic Dance Music*"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 65,
+     "pos": 65,
+     "title": "Caroline - Extended Club Mix"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 152,
+   "url": "https://open.spotify.com/playlist/6R2qncKerXkLCsULtzJMpf",
+   "verified": true
+  },
+  "6TX8UrmXjeH4qYwJ2YQESk": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-07-18",
+   "followers": 1770,
+   "id": "6TX8UrmXjeH4qYwJ2YQESk",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8406023b8d19d1f0ef8ced6914",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "International Hits",
+   "names": [
+    "International Hits"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 259,
+     "pos": 260,
+     "title": "Rainbow Eyes - EDM Club Mix"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 616,
+   "url": "https://open.spotify.com/playlist/6TX8UrmXjeH4qYwJ2YQESk",
+   "verified": true
+  },
+  "6l3YZD1Xjc6zJEnnzG5xez": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2025-08-06",
+   "followers": 121,
+   "id": "6l3YZD1Xjc6zJEnnzG5xez",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84608b5e84ec2139869a7e54b8",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Edm beat",
+   "names": [
+    "Edm beat"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 89,
+     "pos": 89,
+     "title": "Caroline - Extended Club Mix"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 719,
+   "url": "https://open.spotify.com/playlist/6l3YZD1Xjc6zJEnnzG5xez",
+   "verified": true
+  },
+  "6ukiL0O1AoGEHazNDdXJZP": {
+   "checked_ok": true,
+   "count": 2,
+   "first_seen": "2026-05-10",
+   "followers": 249,
+   "id": "6ukiL0O1AoGEHazNDdXJZP",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84fa86413d8d0de6bbd48a18cf",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "spotify musica gratis online",
+   "names": [
+    "spotify musica gratis online"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 210,
+     "pos": 210,
+     "title": "Caroline"
+    },
+    {
+     "peak": 910,
+     "pos": 910,
+     "title": "Nothing Is Forever"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 935,
+   "url": "https://open.spotify.com/playlist/6ukiL0O1AoGEHazNDdXJZP",
+   "verified": true
+  },
+  "78uWRN20Qfpl5qIRQ51pIy": {
+   "checked_ok": true,
+   "count": 2,
+   "first_seen": "2025-09-18",
+   "followers": 1283,
+   "id": "78uWRN20Qfpl5qIRQ51pIy",
+   "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da845551589b4190a25255f803d9",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Dance-Popdance-Dancehall",
+   "names": [
+    "Dance-Popdance-Dancehall"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 466,
+     "pos": 470,
+     "title": "Caroline - Extended Club Mix"
+    },
+    {
+     "peak": 1222,
+     "pos": 1222,
+     "title": "Rainbow Eyes - EDM Club Mix"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 2626,
+   "url": "https://open.spotify.com/playlist/78uWRN20Qfpl5qIRQ51pIy",
+   "verified": true
+  },
+  "7Eic3Pogyu00lHDYVMhiQW": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-10-08",
+   "followers": 389,
+   "id": "7Eic3Pogyu00lHDYVMhiQW",
+   "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84936dae106e23f0eeb7977ab1",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "EMERGING TALENT - UP Music Promotion",
+   "names": [
+    "EMERGING TALENT - UP Music Promotion"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 178,
+     "pos": 178,
+     "title": "Losing My Shape"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 544,
+   "url": "https://open.spotify.com/playlist/7Eic3Pogyu00lHDYVMhiQW",
+   "verified": true
+  },
+  "7eUxBxls8Gi6i7G7BkBB7b": {
+   "checked_ok": true,
+   "count": 2,
+   "first_seen": "2026-05-11",
+   "followers": 585,
+   "id": "7eUxBxls8Gi6i7G7BkBB7b",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8492728e97dc0a75f814db0812",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "luna park songs",
+   "names": [
+    "luna park songs"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 1198,
+     "pos": 1198,
+     "title": "Caroline"
+    },
+    {
+     "peak": 1609,
+     "pos": 1609,
+     "title": "Nothing Is Forever"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 1957,
+   "url": "https://open.spotify.com/playlist/7eUxBxls8Gi6i7G7BkBB7b",
+   "verified": true
+  },
+  "7v5yiwpGzBflfFosZjNUD8": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2025-09-17",
+   "followers": 390,
+   "id": "7v5yiwpGzBflfFosZjNUD8",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8434c514040e00eae20d54f9b9",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "Todo EDM",
+   "names": [
+    "Todo EDM"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 753,
+     "pos": 762,
+     "title": "Caroline - Extended Club Mix"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 1469,
+   "url": "https://open.spotify.com/playlist/7v5yiwpGzBflfFosZjNUD8",
+   "verified": true
+  },
+  "7zETYkTb6SQtW1QVtrUUcc": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-11-07",
+   "followers": 199,
+   "followers_text": "199",
+   "id": "7zETYkTb6SQtW1QVtrUUcc",
+   "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84bcce7f40d1c4001ce87debc5",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "missing_since": null,
+   "name": "NEW HIT MUSIC 🎤👨‍🎤  by Linktr.ee/MaXimumBoost",
+   "names": [
+    "NEW HIT MUSIC 🎤👨‍🎤  by Linktr.ee/MaXimumBoost",
+    "NEW HIT MUSIC 🎤👨‍🎤 by Linktr.ee/MaXimumBoost"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-11",
+   "songs": [
+    {
+     "peak": 40,
+     "pos": 40,
+     "title": "Losing My Shape"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 54,
+   "url": "https://open.spotify.com/playlist/7zETYkTb6SQtW1QVtrUUcc",
    "verified": true
   }
  },
  "removed": [],
- "soundcharts": false,
+ "soundcharts": true,
  "spotify_api": true,
  "summary": {
-  "followers": 4735,
-  "playlists": 4,
-  "songs": 4
+  "followers": 47263,
+  "playlists": 68,
+  "songs": 82
  },
- "updated": "2026-11-11T06:31+00:00"
+ "updated": "2026-11-11T06:42+00:00"
 }
