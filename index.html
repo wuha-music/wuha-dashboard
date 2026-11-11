@@ -399,7 +399,7 @@ function renderFound(F){
     h += `<details><summary>Zuletzt entfernt (${F.removed.length})</summary><div class="tablewrap"><table><tbody>${
       F.removed.map(r=>`<tr class="gone"><td><a href="${esc(r.url)}">${esc(r.name)}</a></td><td>${esc((r.songs||[]).join(", "))}</td><td>${deDate(r.removed)}</td></tr>`).join("")}</tbody></table></div></details>`;
   }
-  h += `<p class="biglab">Geprüft ${F.updated?new Date(F.updated).toLocaleString("de-AT",{dateStyle:"short",timeStyle:"short"}):"–"} · Quelle: Gmail-Label „Playlist Sub“ + Spotify</p>`;
+  h += `<p class="biglab">Geprüft ${F.updated?new Date(F.updated).toLocaleString("de-AT",{dateStyle:"short",timeStyle:"short"}):"–"} · Quelle: ${F.soundcharts?"Soundcharts + ":""}Gmail-Label „Playlist Sub“ + Spotify</p>`;
   box.innerHTML = h;
 }
 fetch("data/playlists_found.json?"+Date.now()).then(r=>r.json()).then(renderFound)

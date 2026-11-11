@@ -18,6 +18,8 @@ Von Hand bearbeiten: data/imports/playlists_manuell.csv
   Name + Link          -> Name einer Soundcharts-Meldung mit dem richtigen Link verbinden
 
 Secrets (GitHub → Settings → Secrets → Actions):
+  SOUNDCHARTS_APP_ID, SOUNDCHARTS_API_KEY  Soundcharts: alle aktuellen WUHA-Playlists (Hauptquelle,
+                                          ~1–3 Abfragen/Tag, Position auch hinter Titel 100)
   GMAIL_USER, GMAIL_APP_PASSWORD          Gmail lesen
   SPOTIFY_CLIENT_ID, SPOTIFY_CLIENT_SECRET Spotify-Suche + vollständige Prüfung
 Ohne Spotify-Schlüssel wird die öffentliche Spotify-Einbettung genutzt (nur Playlisten mit Link).
@@ -58,7 +60,7 @@ LOG = []
 
 def log(msg):
     msg = str(msg)
-    for k in ("GMAIL_APP_PASSWORD", "SPOTIFY_CLIENT_SECRET"):
+    for k in ("GMAIL_APP_PASSWORD", "SPOTIFY_CLIENT_SECRET", "SOUNDCHARTS_API_KEY"):
         v = os.environ.get(k, "").strip()
         if len(v) > 4:
             msg = msg.replace(v, "[entfernt]")
@@ -347,6 +349,67 @@ def search_playlist(name, song=None):
     return None
 
 
+# ------------------------------------------------------------- Soundcharts
+
+SC_BASE = "https://customer.api.soundcharts.com"
+SC_UUID = CFG.get("soundcharts_artist_uuid", "")
+
+
+def soundcharts_playlists():
+    """Alle aktuellen Spotify-Playlist-Einträge von WUHA laut Soundcharts.
+    -> {spotify_id: {...}} oder None (keine Schlüssel / Fehler)."""
+    app, key = os.environ.get("SOUNDCHARTS_APP_ID", "").strip(), os.environ.get("SOUNDCHARTS_API_KEY", "").strip()
+    if not (app and key):
+        log("Soundcharts: SOUNDCHARTS_APP_ID / SOUNDCHARTS_API_KEY fehlen – übersprungen.")
+        return None
+    hdr = {"x-app-id": app, "x-api-key": key, "Accept": "application/json"}
+    quota = None
+
+    def get(path):
+        nonlocal quota
+        req = urllib.request.Request(SC_BASE + path, headers={**hdr, "User-Agent": UA})
+        with urllib.request.urlopen(req, timeout=30) as r:
+            quota = r.headers.get("x-quota-remaining", quota)
+            return json.loads(r.read().decode("utf-8"))
+
+    uuid = SC_UUID
+    try:
+        if not uuid:
+            uuid = get(f"/api/v2.9/artist/by-platform/spotify/{ARTIST_ID}")["object"]["uuid"]
+            log(f"Soundcharts: Künstler-UUID {uuid} – bitte in config.json als soundcharts_artist_uuid eintragen.")
+        out, offset, limit = {}, 0, 100
+        while True:
+            q = urllib.parse.urlencode({"type": "all", "currentOnly": 1, "offset": offset, "limit": limit,
+                                        "sortBy": "entryDate", "sortOrder": "desc"})
+            page = get(f"/api/v2.20/artist/{uuid}/playlist/current/spotify?{q}")
+            items = page.get("items") or []
+            for it in items:
+                pl, song = it.get("playlist") or {}, it.get("song") or {}
+                pid = pl.get("identifier")
+                if not pid or it.get("exitDate"):
+                    continue
+                e = out.setdefault(pid, {"name": (pl.get("name") or "").strip(), "followers": pl.get("latestSubscriberCount"),
+                                         "total": pl.get("latestTrackCount"), "type": pl.get("type"),
+                                         "image": pl.get("imageUrl"), "first": None, "songs": []})
+                title = song.get("name") or "?"
+                if not any(x["title"] == title for x in e["songs"]):
+                    e["songs"].append({"title": title, "pos": it.get("position"), "peak": it.get("peakPosition")})
+                d = (it.get("entryDate") or "")[:10]
+                if d and (not e["first"] or d < e["first"]):
+                    e["first"] = d
+            total = (page.get("page") or {}).get("total")
+            offset += limit
+            if len(items) < limit or (total is not None and offset >= total) or offset >= 2000:
+                break
+    except Exception as ex:  # noqa: BLE001
+        log(f"Soundcharts: Fehler – {ex}")
+        return None
+    for e in out.values():
+        e["songs"].sort(key=lambda x: x.get("pos") or 0)
+    log(f"Soundcharts: {len(out)} Playlists mit WUHA" + (f" · Rest-Kontingent {quota}" if quota else ""))
+    return out
+
+
 # ------------------------------------------------------------------ Ablauf
 
 def load_manual():
@@ -406,6 +469,22 @@ def main():
         e["first_seen"] = min(e["first_seen"], c.get("mail_date", TODAY))
         pls[pid] = e
 
+    # Soundcharts: bestätigte Einträge direkt übernehmen
+    sc = soundcharts_playlists()
+    for pid, r in (sc or {}).items():
+        e = pls.get(pid) or {"id": pid, "first_seen": r["first"] or TODAY, "names": []}
+        if r["name"] and r["name"] not in e.setdefault("names", []):
+            e["names"].append(r["name"])
+        e["source"] = e.get("source") or "Soundcharts"
+        if r["first"]:
+            e["first_seen"] = min(e.get("first_seen") or r["first"], r["first"])
+        e.update({"name": r["name"] or e.get("name"), "followers": r["followers"], "total_tracks": r["total"],
+                  "songs": r["songs"], "count": len(r["songs"]), "status": "aktiv", "verified": True,
+                  "url": f"https://open.spotify.com/playlist/{pid}", "image": r.get("image"), "pl_type": r.get("type"),
+                  "last_check": TODAY, "last_seen": TODAY, "missing_since": None, "checked_ok": True, "sc": TODAY})
+        e.pop("tries", None)
+        pls[pid] = e
+
     # Namen ohne Link auflösen (manuelle Zuordnung oder Spotify-Suche)
     known = {norm(n): pid for pid, e in pls.items() for n in (e.get("names") or []) + [e.get("name")] if n}
     for key, p in list(pending.items()):
@@ -429,6 +508,17 @@ def main():
     for pid, e in list(pls.items()):
         if pid in hidden or norm((e.get("names") or [""])[0]) in hidden:
             del pls[pid]
+            continue
+        if e.get("sc") == TODAY:
+            continue                    # heute von Soundcharts bestätigt
+        if sc is not None and e.get("sc") and e.get("verified"):
+            # war bei Soundcharts, ist dort nicht mehr -> entfernt (1 Tag grau, dann weg)
+            if not e.get("missing_since"):
+                e.update({"missing_since": TODAY, "status": "entfernt", "count": 0, "last_check": TODAY})
+            elif e["missing_since"] < TODAY:
+                state["removed"].insert(0, {"name": e["name"], "url": e["url"], "removed": TODAY,
+                                            "songs": [x["title"] for x in e.get("songs", [])]})
+                del pls[pid]
             continue
         try:
             r = check(pid)
@@ -473,6 +563,7 @@ def main():
                         "followers": sum(e.get("followers") or 0 for e in active)}
     state["updated"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes")
     state["spotify_api"] = bool(sp_token())
+    state["soundcharts"] = sc is not None
     state["log"] = LOG
     with open(OUT, "w", encoding="utf-8") as f:
         json.dump(state, f, ensure_ascii=False, indent=1, sort_keys=True)
