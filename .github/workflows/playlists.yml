@@ -48,6 +48,8 @@ jobs:
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
           SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          SOUNDCHARTS_APP_ID: ${{ secrets.SOUNDCHARTS_APP_ID }}
+          SOUNDCHARTS_API_KEY: ${{ secrets.SOUNDCHARTS_API_KEY }}
         run: python playlist_watch.py
 
       - name: Speichern
