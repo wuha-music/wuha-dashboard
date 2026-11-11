@@ -103,6 +103,7 @@
  },
  "log": [
   "Meta: Fehler - HTTP 400: Error validating access token: The session is invalid because the user logged out.",
+  "Spotify-Import: WUHA-audience-timeline-2026-11-09.csv (9 Tage)",
   "Spotify-Import: WUHA-audience-timeline.csv (1042 Tage)",
   "Apple-Import: songs_1790726364_2015-06-30_2026-11-07.csv (8 Songs, Spalten: Titel, Wiedergaben, Durchschn. Hörer:innen pro Tag, Shazam-Anzahl, Radio Spins, Käufe)"
  ],
@@ -5433,7 +5434,17 @@
    "followers": 484,
    "listeners": 3,
    "streams": 4
+  },
+  "2026-11-08": {
+   "followers": 490,
+   "listeners": 1,
+   "streams": 1
+  },
+  "2026-11-09": {
+   "followers": 502,
+   "listeners": 3,
+   "streams": 3
   }
  },
- "updated": "2026-11-11T06:04+00:00"
+ "updated": "2026-11-11T07:01+00:00"
 }
