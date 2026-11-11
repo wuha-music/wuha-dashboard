@@ -1,12 +1,13 @@
 {
  "log": [
-  "Gmail: 51 Mails mit Label „Playlist Sub“, davon neu: 0",
+  "Gmail: 53 Mails mit Label „Playlist Sub“, davon neu: 2",
   "Spotify-API: Playlist-Inhalte gesperrt (403) – prüfe über Spotify-Einbettung (erste 100 Titel).",
   "Beauty of Synth & Rock: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
   "Indie POP & DANCE New Horizons: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
   "Pop Psychology - Take a Thrill Pill!: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
   "Delicious: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
-  "NEW WAVE SIGNAL: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei."
+  "NEW WAVE SIGNAL: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
+  "Soft/Chill Vibes: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei."
  ],
  "mails_seen": [
   "1825321852762272607",
@@ -59,7 +60,9 @@
   "1881197958717249269",
   "1881288627320670289",
   "1881379464936502688",
-  "1881454938577148530"
+  "1881454938577148530",
+  "1881472568311057583",
+  "1881485769719095262"
  ],
  "pending": {
   "car radio vibes": {
@@ -118,15 +121,6 @@
    ],
    "source": "Soundcharts"
   },
-  "soft chill vibes": {
-   "first_seen": "2026-10-20",
-   "followers_text": "559",
-   "name": "Soft Chill Vibes",
-   "songs": [
-    "Caroline - Extended Club Mix"
-   ],
-   "source": "Soundcharts"
-  },
   "worldwide dance pop": {
    "first_seen": "2026-11-07",
    "followers_text": "996",
@@ -146,8 +140,8 @@
    "followers": 3960,
    "followers_text": "3.96K",
    "id": "102o90CH5zKfBiK0mD6ZuD",
-   "last_check": "2026-11-10",
-   "last_seen": "2026-11-10",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
    "missing_since": null,
    "name": "Dance Aura 2026 | EDM | Progressive House | Dance Pop",
    "names": [
@@ -171,7 +165,7 @@
    "first_seen": "2026-07-19",
    "followers": null,
    "id": "1YmZnOsxn3cyDArHtrxXyM",
-   "last_check": "2026-11-10",
+   "last_check": "2026-11-11",
    "name": "Beauty of Synth & Rock",
    "names": [
     "Beauty of Synth & Rock"
@@ -190,8 +184,8 @@
    "followers": null,
    "followers_text": null,
    "id": "1u9rqBHNRlmxbPXw28ekNI",
-   "last_check": "2026-11-10",
-   "last_seen": "2026-11-10",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
    "missing_since": null,
    "name": "Pop Radar | Indie, Dream Pop, Electropop & Alt-Pop — Revista Soundloop",
    "names": [
@@ -205,7 +199,7 @@
    ],
    "source": "DailyPlaylists",
    "status": "aktiv",
-   "total_tracks": 51,
+   "total_tracks": 58,
    "url": "https://open.spotify.com/playlist/1u9rqBHNRlmxbPXw28ekNI",
    "verified": true
   },
@@ -216,7 +210,7 @@
    "followers": 1090,
    "followers_text": "1.09K",
    "id": "274eHdTqnqjrjtpmhGNxKC",
-   "last_check": "2026-11-10",
+   "last_check": "2026-11-11",
    "name": "Indie POP & DANCE New Horizons",
    "names": [
     "Indie POP & DANCE New Horizons"
@@ -234,7 +228,7 @@
    "followers": 185,
    "followers_text": "185",
    "id": "37ZJ6FoiQFUOlmoMF377Qn",
-   "last_check": "2026-11-10",
+   "last_check": "2026-11-11",
    "name": "Pop Psychology - Take a Thrill Pill!",
    "names": [
     "Pop Psychology 🎤🎧🎸"
@@ -245,6 +239,24 @@
    "url": "https://open.spotify.com/playlist/37ZJ6FoiQFUOlmoMF377Qn",
    "verified": false
   },
+  "3FeXviPUCaJrt6vNHhtjrv": {
+   "checked_ok": false,
+   "curator": "Ant Young",
+   "first_seen": "2026-10-20",
+   "followers": 559,
+   "followers_text": "559",
+   "id": "3FeXviPUCaJrt6vNHhtjrv",
+   "last_check": "2026-11-11",
+   "name": "Soft/Chill Vibes",
+   "names": [
+    "Soft Chill Vibes"
+   ],
+   "source": "Soundcharts",
+   "status": "teilweise",
+   "total_tracks": 100,
+   "url": "https://open.spotify.com/playlist/3FeXviPUCaJrt6vNHhtjrv",
+   "verified": false
+  },
   "4Elb0jdmhFjV71SbzuGwk9": {
    "checked_ok": false,
    "curator": "Andrea_SV",
@@ -252,7 +264,7 @@
    "followers": 142,
    "followers_text": "142",
    "id": "4Elb0jdmhFjV71SbzuGwk9",
-   "last_check": "2026-11-10",
+   "last_check": "2026-11-11",
    "name": "Delicious",
    "names": [
     "Delicious Glam Edition 💎"
@@ -271,8 +283,8 @@
    "followers": 263,
    "followers_text": "263",
    "id": "4c91JIPJuHukr8txH0y2t6",
-   "last_check": "2026-11-10",
-   "last_seen": "2026-11-10",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
    "missing_since": null,
    "name": "Superstar Hits 2027 🎤👩‍🎤  Linktr.ee/MaXimumBoost",
    "names": [
@@ -286,7 +298,7 @@
    ],
    "source": "Soundcharts",
    "status": "aktiv",
-   "total_tracks": 48,
+   "total_tracks": 50,
    "url": "https://open.spotify.com/playlist/4c91JIPJuHukr8txH0y2t6",
    "verified": true
   },
@@ -297,7 +309,7 @@
    "followers": 138,
    "followers_text": "138",
    "id": "5KySi2zOxBnYrNnRBIGfHh",
-   "last_check": "2026-11-10",
+   "last_check": "2026-11-11",
    "name": "NEW WAVE SIGNAL",
    "names": [
     "NEW WAVE SIGNAL"
@@ -316,8 +328,8 @@
    "followers": 512,
    "followers_text": "512",
    "id": "5juI9RVPrFjkIVwHcBubL8",
-   "last_check": "2026-11-10",
-   "last_seen": "2026-11-10",
+   "last_check": "2026-11-11",
+   "last_seen": "2026-11-11",
    "missing_since": null,
    "name": "Real Music by Real Indie ⛔️No AI  Linktr.ee/MaXimumBoost  ",
    "names": [
@@ -331,7 +343,7 @@
    ],
    "source": "Soundcharts",
    "status": "aktiv",
-   "total_tracks": 55,
+   "total_tracks": 59,
    "url": "https://open.spotify.com/playlist/5juI9RVPrFjkIVwHcBubL8",
    "verified": true
   }
@@ -343,5 +355,5 @@
   "playlists": 4,
   "songs": 4
  },
- "updated": "2026-11-10T10:13+00:00"
+ "updated": "2026-11-11T05:18+00:00"
 }
