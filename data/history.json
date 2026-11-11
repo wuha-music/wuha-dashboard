@@ -102,7 +102,7 @@
   }
  },
  "log": [
-  "Meta: Fehler - HTTP 400: Error validating access token: The session is invalid because the user logged out.",
+  "Meta: Seite 'WUHA' über Personen-Token gefunden",
   "Spotify-Import: WUHA-audience-timeline-2026-11-09.csv (9 Tage)",
   "Spotify-Import: WUHA-audience-timeline.csv (1042 Tage)",
   "Apple-Import: songs_1790726364_2015-06-30_2026-11-07.csv (8 Songs, Spalten: Titel, Wiedergaben, Durchschn. Hörer:innen pro Tag, Shazam-Anzahl, Radio Spins, Käufe)"
@@ -204,6 +204,19 @@
    "deezer": {
     "albums": 7,
     "followers": 0
+   },
+   "facebook": {
+    "followers": 1176,
+    "likes": 1176,
+    "reach": 5,
+    "views": 11
+   },
+   "instagram": {
+    "followers": 78,
+    "posts": 42,
+    "profile_views": 0,
+    "reach": 0,
+    "views": 0
    },
    "soundcloud": {
     "followers": 55,
@@ -5446,5 +5459,5 @@
    "streams": 3
   }
  },
- "updated": "2026-11-11T07:01+00:00"
+ "updated": "2026-11-11T07:31+00:00"
 }
