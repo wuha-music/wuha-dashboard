@@ -355,10 +355,15 @@ SC_BASE = "https://customer.api.soundcharts.com"
 SC_UUID = CFG.get("soundcharts_artist_uuid", "")
 
 
-def soundcharts_playlists():
+def soundcharts_playlists(last_date=None):
     """Alle aktuellen Spotify-Playlist-Einträge von WUHA laut Soundcharts.
     -> {spotify_id: {...}} oder None (keine Schlüssel / Fehler)."""
     app, key = os.environ.get("SOUNDCHARTS_APP_ID", "").strip(), os.environ.get("SOUNDCHARTS_API_KEY", "").strip()
+    days = CFG.get("soundcharts_weekdays", [0, 3])          # 0=Mo … 6=So
+    if dt.datetime.now(TZ).weekday() not in days or last_date == TODAY:
+        log(f"Soundcharts: heute keine Abfrage (nur {', '.join('Mo Di Mi Do Fr Sa So'.split()[d] for d in days)}"
+            f"; letzte: {last_date or '–'}).")
+        return None
     if not (app and key):
         log("Soundcharts: SOUNDCHARTS_APP_ID / SOUNDCHARTS_API_KEY fehlen – übersprungen.")
         return None
@@ -470,7 +475,9 @@ def main():
         pls[pid] = e
 
     # Soundcharts: bestätigte Einträge direkt übernehmen
-    sc = soundcharts_playlists()
+    sc = soundcharts_playlists(state.get("soundcharts_date"))
+    if sc is not None:
+        state["soundcharts_date"] = TODAY
     for pid, r in (sc or {}).items():
         e = pls.get(pid) or {"id": pid, "first_seen": r["first"] or TODAY, "names": []}
         if r["name"] and r["name"] not in e.setdefault("names", []):
@@ -511,6 +518,13 @@ def main():
             continue
         if e.get("sc") == TODAY:
             continue                    # heute von Soundcharts bestätigt
+        if e.get("sc") and e.get("status") == "entfernt" and e.get("missing_since", TODAY) < TODAY:
+            state["removed"].insert(0, {"name": e["name"], "url": e["url"], "removed": TODAY,
+                                        "songs": [x["title"] for x in e.get("songs", [])]})
+            del pls[pid]
+            continue
+        if e.get("sc") and sc is None:
+            continue                    # Soundcharts-Playlist: bis zur nächsten Abfrage unverändert
         if sc is not None and e.get("sc") and e.get("verified"):
             # war bei Soundcharts, ist dort nicht mehr -> entfernt (1 Tag grau, dann weg)
             if not e.get("missing_since"):
@@ -563,7 +577,7 @@ def main():
                         "followers": sum(e.get("followers") or 0 for e in active)}
     state["updated"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes")
     state["spotify_api"] = bool(sp_token())
-    state["soundcharts"] = sc is not None
+    state["soundcharts"] = bool(state.get("soundcharts_date"))
     state["log"] = LOG
     with open(OUT, "w", encoding="utf-8") as f:
         json.dump(state, f, ensure_ascii=False, indent=1, sort_keys=True)

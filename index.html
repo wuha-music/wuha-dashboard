@@ -369,13 +369,15 @@ function renderFound(F){
   const fl = {ok:ok.reduce((a,e)=>a+(e.followers||fol(e.followers_text)),0), part:part.reduce((a,e)=>a+(e.followers||fol(e.followers_text)),0), pend:pend.reduce((a,p)=>a+fol(p.followers_text),0)};
   const tot = o => o.ok+o.part+o.pend;
   const split = o => `${fmt(o.ok)} bestätigt · ${fmt(o.part)} teilweise · ${fmt(o.pend)} ohne Link`;
-  let h = `<div class="kpis"><div class="kpi"><div class="lab">Playlisten gesamt</div><div class="val" style="color:var(--spotify)">${fmt(tot(n))}</div><div class="sub">${split(n)}</div></div>
+  const top = ok.filter(e=>(e.songs||[]).some(x=>x.pos&&x.pos<=100)).length;
+  const scd = F.soundcharts_date ? deDate(F.soundcharts_date) : "–";
+  let h = `<div class="note">Soundcharts-Abfrage vom <b>${scd}</b> (2× pro Woche: Mo + Do) · ${fmt(top)} Playlists mit WUHA in den Top 100</div><div class="kpis"><div class="kpi"><div class="lab">Playlisten gesamt</div><div class="val" style="color:var(--spotify)">${fmt(tot(n))}</div><div class="sub">${split(n)}</div></div>
     <div class="kpi"><div class="lab">Platzierungen gesamt</div><div class="val">${fmt(tot(songs))}</div><div class="sub">${split(songs)}</div></div>
     <div class="kpi"><div class="lab">Follower gesamt</div><div class="val">${fmt(tot(fl))}</div><div class="sub">${split(fl)}</div></div></div>`;
   if(list.length){
     h += `<div class="tablewrap gap"><table><thead><tr><th>Playlist</th><th>WUHA-Songs</th><th class="n">Anzahl</th><th class="n">Follower</th><th>Entdeckt</th><th>Quelle</th><th>Status</th></tr></thead><tbody>${
       list.map(e=>{ const gone = e.status==="entfernt";
-        const songs = (e.songs||[]).map(x=>`${esc(x.title)} <span class="biglab">#${x.pos}</span>`).join("<br>");
+        const songs = (e.songs||[]).map(x=>`${esc(x.title)} <span class="biglab">#${x.pos}</span>${x.pos&&x.pos<=100?` <span class="tag ok">Top 100</span>`:""}`).join("<br>");
         return `<tr class="${gone?"gone":""}"><td><a href="${esc(e.url)}" target="_blank" rel="noopener" style="color:var(--text)">${esc(e.name)}</a>${e.curator?`<div class="biglab">${esc(e.curator)}</div>`:""}</td>
           <td>${songs||"–"}</td><td class="n">${gone?0:fmt(e.count)}</td><td class="n">${e.followers!=null?fmt(e.followers):esc(e.followers_text||"–")}</td>
           <td>${deDate(e.first_seen)}</td><td>${esc(e.source||"")}</td>
@@ -399,7 +401,7 @@ function renderFound(F){
     h += `<details><summary>Zuletzt entfernt (${F.removed.length})</summary><div class="tablewrap"><table><tbody>${
       F.removed.map(r=>`<tr class="gone"><td><a href="${esc(r.url)}">${esc(r.name)}</a></td><td>${esc((r.songs||[]).join(", "))}</td><td>${deDate(r.removed)}</td></tr>`).join("")}</tbody></table></div></details>`;
   }
-  h += `<p class="biglab">Geprüft ${F.updated?new Date(F.updated).toLocaleString("de-AT",{dateStyle:"short",timeStyle:"short"}):"–"} · Quelle: ${F.soundcharts?"Soundcharts + ":""}Gmail-Label „Playlist Sub“ + Spotify</p>`;
+  h += `<p class="biglab">Geprüft ${F.updated?new Date(F.updated).toLocaleString("de-AT",{dateStyle:"short",timeStyle:"short"}):"–"} · Quelle: ${F.soundcharts?`Soundcharts (${scd}) + `:""}Gmail-Label „Playlist Sub“ + Spotify</p>`;
   box.innerHTML = h;
 }
 fetch("data/playlists_found.json?"+Date.now()).then(r=>r.json()).then(renderFound)
