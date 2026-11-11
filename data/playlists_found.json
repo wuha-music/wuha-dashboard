@@ -1,13 +1,14 @@
 {
  "log": [
-  "Gmail: 53 Mails mit Label „Playlist Sub“, davon neu: 2",
+  "Gmail: 53 Mails mit Label „Playlist Sub“, davon neu: 0",
+  "Soundcharts: SOUNDCHARTS_APP_ID / SOUNDCHARTS_API_KEY fehlen – übersprungen.",
   "Spotify-API: Playlist-Inhalte gesperrt (403) – prüfe über Spotify-Einbettung (erste 100 Titel).",
   "Beauty of Synth & Rock: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
   "Indie POP & DANCE New Horizons: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
   "Pop Psychology - Take a Thrill Pill!: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
+  "Soft/Chill Vibes: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
   "Delicious: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
-  "NEW WAVE SIGNAL: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
-  "Soft/Chill Vibes: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei."
+  "NEW WAVE SIGNAL: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei."
  ],
  "mails_seen": [
   "1825321852762272607",
@@ -349,11 +350,12 @@
   }
  },
  "removed": [],
+ "soundcharts": false,
  "spotify_api": true,
  "summary": {
   "followers": 4735,
   "playlists": 4,
   "songs": 4
  },
- "updated": "2026-11-11T05:18+00:00"
+ "updated": "2026-11-11T06:31+00:00"
 }
