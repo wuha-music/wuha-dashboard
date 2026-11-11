@@ -1,7 +1,7 @@
 {
  "log": [
   "Gmail: 53 Mails mit Label „Playlist Sub“, davon neu: 0",
-  "Soundcharts: 68 Playlists mit WUHA · Rest-Kontingent 998",
+  "Soundcharts: 68 Playlists mit WUHA · Rest-Kontingent 997",
   "Spotify-API: Playlist-Inhalte gesperrt (403) – prüfe über Spotify-Einbettung (erste 100 Titel).",
   "Beauty of Synth & Rock: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
   "Indie POP & DANCE New Horizons: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
@@ -2262,5 +2262,5 @@
   "playlists": 68,
   "songs": 82
  },
- "updated": "2026-11-11T06:42+00:00"
+ "updated": "2026-11-11T06:44+00:00"
 }
