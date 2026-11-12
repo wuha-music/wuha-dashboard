@@ -1,14 +1,15 @@
 {
  "log": [
-  "Gmail: 53 Mails mit Label „Playlist Sub“, davon neu: 0",
-  "Soundcharts: heute keine Abfrage (nur Mo, Do; letzte: 2026-11-11).",
+  "Gmail: 54 Mails mit Label „Playlist Sub“, davon neu: 1",
+  "Soundcharts: 69 Playlists mit WUHA · Rest-Kontingent 996",
   "Spotify-API: Playlist-Inhalte gesperrt (403) – prüfe über Spotify-Einbettung (erste 100 Titel).",
   "Beauty of Synth & Rock: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
   "Indie POP & DANCE New Horizons: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
   "Pop Psychology - Take a Thrill Pill!: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
   "Soft/Chill Vibes: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
   "Delicious: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
-  "NEW WAVE SIGNAL: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei."
+  "NEW WAVE SIGNAL: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
+  "Indie Pop: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei."
  ],
  "mails_seen": [
   "1825321852762272607",
@@ -63,7 +64,8 @@
   "1881379464936502688",
   "1881454938577148530",
   "1881472568311057583",
-  "1881485769719095262"
+  "1881485769719095262",
+  "1881555594857380882"
  ],
  "pending": {
   "car radio vibes": {
@@ -75,15 +77,6 @@
     "Nothing Is Forever"
    ],
    "source": "Soundcharts"
-  },
-  "indie pop": {
-   "first_seen": "2026-06-26",
-   "followers_text": "642",
-   "name": "Indie Pop",
-   "songs": [
-    "Nothing Is Forever"
-   ],
-   "source": "Soundcharts"
   }
  },
  "playlists": {
@@ -91,18 +84,18 @@
    "checked_ok": true,
    "count": 1,
    "first_seen": "2026-10-09",
-   "followers": 468,
+   "followers": 474,
    "id": "0BKFCBxiowSdqsWIgVnlGs",
    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84983cec4184ab07ba12983173",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Edren’s Best Singers of Instagram",
    "names": [
     "Edren’s Best Singers of Instagram"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 261,
@@ -112,7 +105,7 @@
    ],
    "source": "Soundcharts",
    "status": "aktiv",
-   "total_tracks": 663,
+   "total_tracks": 669,
    "url": "https://open.spotify.com/playlist/0BKFCBxiowSdqsWIgVnlGs",
    "verified": true
   },
@@ -120,18 +113,18 @@
    "checked_ok": true,
    "count": 1,
    "first_seen": "2026-08-11",
-   "followers": 911,
+   "followers": 913,
    "id": "0EryoyebNNQBSkCKuDS5ej",
    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da840d57f097db66c2f3c0b3acab",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "We Know How You Feel",
    "names": [
     "We Know How You Feel"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 32,
@@ -152,15 +145,15 @@
    "followers": 298,
    "id": "0Gc0cUSwNxq0M0rgGtHIE7",
    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84c1a586ee20042187dd2837b6",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Breaking Free",
    "names": [
     "Breaking Free"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 57,
@@ -178,18 +171,18 @@
    "checked_ok": true,
    "count": 1,
    "first_seen": "2026-09-21",
-   "followers": 154,
+   "followers": 155,
    "id": "0LBVIXBqYxQffH9Jn3JhPH",
    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84656bcc8bd1923f7f45162f08",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Run on Repeat",
    "names": [
     "Run on Repeat"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 87,
@@ -199,7 +192,7 @@
    ],
    "source": "Soundcharts",
    "status": "aktiv",
-   "total_tracks": 225,
+   "total_tracks": 228,
    "url": "https://open.spotify.com/playlist/0LBVIXBqYxQffH9Jn3JhPH",
    "verified": true
   },
@@ -210,15 +203,15 @@
    "followers": 483,
    "id": "0OXnamjfxNMMtV2Jcl8g1a",
    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8449498061c5a26c1a57e23600",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Trap Royale",
    "names": [
     "Trap Royale"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 333,
@@ -236,18 +229,18 @@
    "checked_ok": true,
    "count": 1,
    "first_seen": "2026-08-12",
-   "followers": 239,
+   "followers": 240,
    "id": "0Po2ANi88BwAFPtsjxPv5F",
    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84895a6672e78ecb7e5f10fec0",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Taste Me (Delicious Edition)",
    "names": [
     "Taste Me (Delicious Edition)"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 255,
@@ -269,8 +262,8 @@
    "followers_text": "2.87K",
    "id": "0SzwLWL9OEqxDJzBgets7u",
    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84cb8ac28d00bc9499474c99b8",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "GAY ARTIST Playlist  2026",
    "names": [
@@ -278,7 +271,7 @@
     "GAY ARTIST Playlist 2026"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 28,
@@ -299,15 +292,15 @@
    "followers": 154,
    "id": "0TviJc4OdrhW7AE7gg61z8",
    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84d658e8917bd5ad1ec81c294b",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Delicious Glam Edition 💎",
    "names": [
     "Delicious Glam Edition 💎"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 384,
@@ -333,15 +326,15 @@
    "followers": 117,
    "id": "0W6qRK06E05ekT4pH6FkVS",
    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f6c5b1994d9489bc54be0e62",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Indie Pop Discovery",
    "names": [
     "Indie Pop Discovery"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 239,
@@ -362,15 +355,15 @@
    "followers": 285,
    "id": "0WdD4mkT4p5rTSi8QhlxqV",
    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8481db27926a5540be3b7c2c9c",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Restaurant Music 2025",
    "names": [
     "Restaurant Music 2025"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 15,
@@ -388,18 +381,18 @@
    "checked_ok": true,
    "count": 4,
    "first_seen": "2025-12-22",
-   "followers": 341,
+   "followers": 342,
    "id": "0WnOSOpJD6SZn0g85q1p16",
    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8412888362a29356694ea115b3",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Playlist Car Music",
    "names": [
     "Playlist Car Music"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 764,
@@ -424,7 +417,7 @@
    ],
    "source": "Soundcharts",
    "status": "aktiv",
-   "total_tracks": 1758,
+   "total_tracks": 1763,
    "url": "https://open.spotify.com/playlist/0WnOSOpJD6SZn0g85q1p16",
    "verified": true
   },
@@ -432,18 +425,18 @@
    "checked_ok": true,
    "count": 1,
    "first_seen": "2026-09-15",
-   "followers": 337,
+   "followers": 338,
    "id": "0s43Yf8S3m01oZvhf4WZjb",
    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da847505ccf4496c9cddf467c9bb",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Indie Italia spotify playlist",
    "names": [
     "Indie Italia spotify playlist"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 3361,
@@ -453,7 +446,7 @@
    ],
    "source": "Soundcharts",
    "status": "aktiv",
-   "total_tracks": 3571,
+   "total_tracks": 3601,
    "url": "https://open.spotify.com/playlist/0s43Yf8S3m01oZvhf4WZjb",
    "verified": true
   },
@@ -461,18 +454,18 @@
    "checked_ok": true,
    "count": 1,
    "first_seen": "2026-10-10",
-   "followers": 201,
+   "followers": 208,
    "id": "0vFTM2qnCGQ20xoaAJBgjp",
    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8414b5e193abba0b6c6ce26950",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Edren's Most Talented Singers Friends",
    "names": [
     "Edren's Most Talented Singers Friends"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 115,
@@ -482,7 +475,7 @@
    ],
    "source": "Soundcharts",
    "status": "aktiv",
-   "total_tracks": 287,
+   "total_tracks": 293,
    "url": "https://open.spotify.com/playlist/0vFTM2qnCGQ20xoaAJBgjp",
    "verified": true
   },
@@ -491,19 +484,19 @@
    "count": 1,
    "curator": "BlvkeMusicRecords",
    "first_seen": "2026-07-21",
-   "followers": 4181,
+   "followers": 4182,
    "followers_text": "3.96K",
    "id": "102o90CH5zKfBiK0mD6ZuD",
    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cbb6921c4beb7de62fc7b007d",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Dance Aura 2026 | EDM | Progressive House | Dance Pop",
    "names": [
     "Dance Aura 2026 | EDM | Progressive House | Dance Pop"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 28,
@@ -524,15 +517,15 @@
    "followers": 240,
    "id": "19nc440mgBE9HqWKiTYjl2",
    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8446e81cba3b87751b10cde964",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Girls night out  2025",
    "names": [
     "Girls night out  2025"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 15,
@@ -554,15 +547,15 @@
    "followers_text": "996",
    "id": "1CPcX0ZKHvzM2TeUpmnrg7",
    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8475259c3f6fc4f58bd46210e7",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Worldwide Dance Pop",
    "names": [
     "Worldwide Dance Pop"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 21,
@@ -572,8 +565,56 @@
    ],
    "source": "Soundcharts",
    "status": "aktiv",
-   "total_tracks": 233,
+   "total_tracks": 235,
    "url": "https://open.spotify.com/playlist/1CPcX0ZKHvzM2TeUpmnrg7",
+   "verified": true
+  },
+  "1CqYaN9Iv3NmsizW6Z4cFd": {
+   "checked_ok": false,
+   "curator": "SteveKing",
+   "first_seen": "2026-06-26",
+   "followers": 642,
+   "followers_text": "642",
+   "id": "1CqYaN9Iv3NmsizW6Z4cFd",
+   "last_check": "2026-11-12",
+   "name": "Indie Pop",
+   "names": [
+    "Indie Pop"
+   ],
+   "source": "Soundcharts",
+   "status": "teilweise",
+   "total_tracks": 100,
+   "url": "https://open.spotify.com/playlist/1CqYaN9Iv3NmsizW6Z4cFd",
+   "verified": false
+  },
+  "1FDGE3uBOys5bOHqvVAuhk": {
+   "checked_ok": true,
+   "count": 1,
+   "first_seen": "2026-11-11",
+   "followers": 380,
+   "followers_text": "380",
+   "id": "1FDGE3uBOys5bOHqvVAuhk",
+   "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84785004826e47e8ae265a2b44",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
+   "missing_since": null,
+   "name": "Dreampop and Shoegaze 2026",
+   "names": [
+    "Dreampop and Shoegaze 2026"
+   ],
+   "pl_type": "Curators & Listeners",
+   "sc": "2026-11-12",
+   "songs": [
+    {
+     "peak": 252,
+     "pos": 252,
+     "title": "Nothing Is Forever"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 255,
+   "url": "https://open.spotify.com/playlist/1FDGE3uBOys5bOHqvVAuhk",
    "verified": true
   },
   "1MWIOdBGzrRz5f5fCv1qbT": {
@@ -583,15 +624,15 @@
    "followers": 161,
    "id": "1MWIOdBGzrRz5f5fCv1qbT",
    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a55242b5c70ddc3d13e698fd",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Edm mix",
    "names": [
     "Edm mix"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 81,
@@ -612,15 +653,15 @@
    "followers": 464,
    "id": "1N6lFsop6lxrvELfg0q45I",
    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84d4e967e61064495d858ded2f",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Pop Vibes For Happy Guys",
    "names": [
     "Pop Vibes For Happy Guys"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 175,
@@ -642,15 +683,15 @@
    "followers_text": "293",
    "id": "1QO8waF0cvXqmJExXTkpGg",
    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84cd91710828624391b4521385",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "SELECTION JEFFINHO RYPLAY",
    "names": [
     "SELECTION JEFFINHO RYPLAY"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 77,
@@ -671,15 +712,15 @@
    "followers": 573,
    "id": "1UAAXbCUqhTWG7W1XehHbK",
    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84117e0125b725801bf98d1be7",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Indie Music Artists Essentials",
    "names": [
     "Indie Music Artists Essentials"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 47,
@@ -700,15 +741,15 @@
    "followers": 188,
    "id": "1VFRkHaKkqSvvnsTfrM3k3",
    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8417f8cb6372f45079c12b2bbd",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Singer Songwriter",
    "names": [
     "Singer Songwriter"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 106,
@@ -728,7 +769,7 @@
    "first_seen": "2026-07-19",
    "followers": null,
    "id": "1YmZnOsxn3cyDArHtrxXyM",
-   "last_check": "2026-11-11",
+   "last_check": "2026-11-12",
    "name": "Beauty of Synth & Rock",
    "names": [
     "Beauty of Synth & Rock"
@@ -743,18 +784,18 @@
    "checked_ok": true,
    "count": 1,
    "first_seen": "2026-10-14",
-   "followers": 6158,
+   "followers": 6162,
    "id": "1c66mgdrPmio97QsJHNN2M",
    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72c4ad8be0c0261f94ae19151aa",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "All New Music",
    "names": [
     "All New Music"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 40,
@@ -775,15 +816,15 @@
    "followers": 170,
    "id": "1iYqy7MBoFUI8tcYzyafs9",
    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da843a31023d6fe2468a22979467",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Best of Pop",
    "names": [
     "Best of Pop"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 791,
@@ -806,15 +847,15 @@
    "followers_text": null,
    "id": "1u9rqBHNRlmxbPXw28ekNI",
    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84e37d500da58506afb3a65557",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Pop Radar | Indie, Dream Pop, Electropop & Alt-Pop — Revista Soundloop",
    "names": [
     "Pop Radar | Indie, Dream Pop, Electropop & Alt-Pop — Revista Soundloop"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 48,
@@ -824,7 +865,7 @@
    ],
    "source": "DailyPlaylists",
    "status": "aktiv",
-   "total_tracks": 51,
+   "total_tracks": 58,
    "url": "https://open.spotify.com/playlist/1u9rqBHNRlmxbPXw28ekNI",
    "verified": true
   },
@@ -832,18 +873,18 @@
    "checked_ok": true,
    "count": 1,
    "first_seen": "2025-06-03",
-   "followers": 1310,
+   "followers": 1309,
    "id": "1vjfA6wxFVLjq5NfcpZeqh",
    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da848f4b5805d043adda49574f45",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "House & EDM Mix",
    "names": [
     "House & EDM Mix"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 45,
@@ -864,15 +905,15 @@
    "followers": 529,
    "id": "25aRgZNSk3GVTfkXywu5z1",
    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da840b8e15668e7d7ee376dd384b",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "CaliVada Pop Fair",
    "names": [
     "CaliVada Pop Fair"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 14,
@@ -893,7 +934,7 @@
    "followers": 1090,
    "followers_text": "1.09K",
    "id": "274eHdTqnqjrjtpmhGNxKC",
-   "last_check": "2026-11-11",
+   "last_check": "2026-11-12",
    "name": "Indie POP & DANCE New Horizons",
    "names": [
     "Indie POP & DANCE New Horizons"
@@ -908,18 +949,18 @@
    "checked_ok": true,
    "count": 1,
    "first_seen": "2026-10-16",
-   "followers": 2096,
+   "followers": 2097,
    "id": "2EO0sA5mBgXfAZrifjKPYu",
    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a58fa25938c10ffeca0fd39f",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Fresh Music Arena",
    "names": [
     "Fresh Music Arena"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 121,
@@ -929,7 +970,7 @@
    ],
    "source": "Soundcharts",
    "status": "aktiv",
-   "total_tracks": 341,
+   "total_tracks": 360,
    "url": "https://open.spotify.com/playlist/2EO0sA5mBgXfAZrifjKPYu",
    "verified": true
   },
@@ -940,15 +981,15 @@
    "followers": 649,
    "id": "2Fj8SO62BIbsNTihx20ZG1",
    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8462b1f42e19797d928b3b32dd",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Indie Pop Hits",
    "names": [
     "Indie Pop Hits"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 1632,
@@ -958,7 +999,7 @@
    ],
    "source": "Soundcharts",
    "status": "aktiv",
-   "total_tracks": 112,
+   "total_tracks": 114,
    "url": "https://open.spotify.com/playlist/2Fj8SO62BIbsNTihx20ZG1",
    "verified": true
   },
@@ -966,18 +1007,18 @@
    "checked_ok": true,
    "count": 1,
    "first_seen": "2026-10-07",
-   "followers": 114,
+   "followers": 115,
    "id": "2GVAskFaTyuHVrVPCbND7i",
    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84178785af408ea40c3c3da27e",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Fix my Broken Heart 💘 Linktr.ee/MaXimumBoost",
    "names": [
     "Fix my Broken Heart 💘 Linktr.ee/MaXimumBoost"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 33,
@@ -987,7 +1028,7 @@
    ],
    "source": "Soundcharts",
    "status": "aktiv",
-   "total_tracks": 79,
+   "total_tracks": 82,
    "url": "https://open.spotify.com/playlist/2GVAskFaTyuHVrVPCbND7i",
    "verified": true
   },
@@ -998,15 +1039,15 @@
    "followers": 855,
    "id": "2L3X6HRFG8JQSKUkHf9vLj",
    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84b3532dce00f391603deb59bf",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "2026 | Feel Good Moments",
    "names": [
     "2026 | Feel Good Moments"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 77,
@@ -1016,7 +1057,7 @@
    ],
    "source": "Soundcharts",
    "status": "aktiv",
-   "total_tracks": 529,
+   "total_tracks": 531,
    "url": "https://open.spotify.com/playlist/2L3X6HRFG8JQSKUkHf9vLj",
    "verified": true
   },
@@ -1027,15 +1068,15 @@
    "followers": 441,
    "id": "2Q0TBSb9oUyp38i7fBvaxJ",
    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8411d685c3881bf9d9c74b4790",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Hit Music",
    "names": [
     "Hit Music"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 128,
@@ -1056,15 +1097,15 @@
    "followers": 1673,
    "id": "2Si5A50qdqcZDUdDJfQuUz",
    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84eb73da343f3d4c255b4be2ad",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "2026 | Just Hit Shuffle",
    "names": [
     "2026 | Just Hit Shuffle"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 1427,
@@ -1074,7 +1115,7 @@
    ],
    "source": "Soundcharts",
    "status": "aktiv",
-   "total_tracks": 1637,
+   "total_tracks": 1644,
    "url": "https://open.spotify.com/playlist/2Si5A50qdqcZDUdDJfQuUz",
    "verified": true
   },
@@ -1082,18 +1123,18 @@
    "checked_ok": true,
    "count": 1,
    "first_seen": "2026-07-18",
-   "followers": 1915,
+   "followers": 1913,
    "id": "2UzZdZG4bRbqATHAfeL6Hd",
    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da849151cdf85da60268ca5ec3b8",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Club Music Hits",
    "names": [
     "Club Music Hits"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 241,
@@ -1114,15 +1155,15 @@
    "followers": 186,
    "id": "2aIl5GsHm3AlIGJ0XDmdNK",
    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da845092c66a9eae345fb2286641",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Queerlectric ⚡",
    "names": [
     "Queerlectric ⚡"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 185,
@@ -1143,15 +1184,15 @@
    "followers": 284,
    "id": "2fiNbEkFPp1hbCPB7YoMuG",
    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da845434678b12fdaad39f6f61ea",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Playlist Musica Alternativa",
    "names": [
     "Playlist Musica Alternativa"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 3015,
@@ -1161,7 +1202,7 @@
    ],
    "source": "Soundcharts",
    "status": "aktiv",
-   "total_tracks": 3210,
+   "total_tracks": 3242,
    "url": "https://open.spotify.com/playlist/2fiNbEkFPp1hbCPB7YoMuG",
    "verified": true
   },
@@ -1169,18 +1210,18 @@
    "checked_ok": true,
    "count": 1,
    "first_seen": "2026-07-18",
-   "followers": 2815,
+   "followers": 2814,
    "id": "2nwY8efXEbxq2bnZIIGpj9",
    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da847140baeb09be4d80578b49e7",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Pop Island",
    "names": [
     "Pop Island"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 343,
@@ -1201,15 +1242,15 @@
    "followers": 241,
    "id": "34FsH2iPXSkEDY7MgE2Nj1",
    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da843abbabeb87b6a1f672cbf881",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Top Radio Hits This Week",
    "names": [
     "Top Radio Hits This Week"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 390,
@@ -1230,7 +1271,7 @@
    "followers": 185,
    "followers_text": "185",
    "id": "37ZJ6FoiQFUOlmoMF377Qn",
-   "last_check": "2026-11-11",
+   "last_check": "2026-11-12",
    "name": "Pop Psychology - Take a Thrill Pill!",
    "names": [
     "Pop Psychology 🎤🎧🎸"
@@ -1248,15 +1289,15 @@
    "followers": 110,
    "id": "3Bv77Nh1H3Hl0DVoDKHYA0",
    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84db4a700a2916b4bff1a2235e",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Blue Ipod",
    "names": [
     "Blue Ipod"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 4,
@@ -1266,7 +1307,7 @@
    ],
    "source": "Soundcharts",
    "status": "aktiv",
-   "total_tracks": 154,
+   "total_tracks": 159,
    "url": "https://open.spotify.com/playlist/3Bv77Nh1H3Hl0DVoDKHYA0",
    "verified": true
   },
@@ -1277,19 +1318,19 @@
    "followers": 635,
    "id": "3ChYAhjMajQ3dXamoTL5Hf",
    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84b867020a02d70e1155b05df1",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Synthetic Soul",
    "names": [
     "Synthetic Soul"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 1,
-     "pos": 1,
+     "pos": 30,
      "title": "Nothing Is Forever"
     }
    ],
@@ -1306,7 +1347,7 @@
    "followers": 559,
    "followers_text": "559",
    "id": "3FeXviPUCaJrt6vNHhtjrv",
-   "last_check": "2026-11-11",
+   "last_check": "2026-11-12",
    "name": "Soft/Chill Vibes",
    "names": [
     "Soft Chill Vibes"
@@ -1321,18 +1362,18 @@
    "checked_ok": true,
    "count": 1,
    "first_seen": "2026-10-20",
-   "followers": 646,
+   "followers": 651,
    "id": "3HhyBb82jXA1qNxr2X6mV1",
    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84289160f1b2e7e16488d1d3bf",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Soft Chill Vibes",
    "names": [
     "Soft Chill Vibes"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 21,
@@ -1342,7 +1383,7 @@
    ],
    "source": "Soundcharts",
    "status": "aktiv",
-   "total_tracks": 220,
+   "total_tracks": 221,
    "url": "https://open.spotify.com/playlist/3HhyBb82jXA1qNxr2X6mV1",
    "verified": true
   },
@@ -1353,25 +1394,25 @@
    "followers": 35,
    "id": "3IqKyZfZ5sVHsQeoiTAAX4",
    "image": "https://mosaic.scdn.co/640/ab67616d00001e026a3fa0ce0aaaa2cfab2d6785ab67616d00001e027ed5955250b5dca252313c05ab67616d00001e02ab7db0d395ea60774915ba24ab67616d00001e02f1d50bf1d132d736d3ea5303",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Friuli pop/rock",
    "names": [
     "Friuli pop/rock"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 2372,
-     "pos": 2373,
+     "pos": 2375,
      "title": "Rainbow Eyes - EDM Club Mix"
     }
    ],
    "source": "Soundcharts",
    "status": "aktiv",
-   "total_tracks": 2465,
+   "total_tracks": 2467,
    "url": "https://open.spotify.com/playlist/3IqKyZfZ5sVHsQeoiTAAX4",
    "verified": true
   },
@@ -1382,15 +1423,15 @@
    "followers": 21,
    "id": "3JtHacNp1AcWu3wYxoFJqd",
    "image": "https://mosaic.scdn.co/640/ab67616d00001e0220900374754fa2d02f06a9b0ab67616d00001e02673f70a4c739d0408245a1a7ab67616d00001e027c36302ceb2e3099fb9bde2aab67616d00001e0295f2c56a6619835f47904910",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "La mia playlist n. 7",
    "names": [
     "La mia playlist n. 7"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 2281,
@@ -1411,15 +1452,15 @@
    "followers": 314,
    "id": "3V8s80yIJ3DipGg7xhWJL4",
    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da845fffa765ff34a625024d1b2c",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "SLUT POP 👄",
    "names": [
     "SLUT POP 👄"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 854,
@@ -1429,7 +1470,7 @@
    ],
    "source": "Soundcharts",
    "status": "aktiv",
-   "total_tracks": 1014,
+   "total_tracks": 1015,
    "url": "https://open.spotify.com/playlist/3V8s80yIJ3DipGg7xhWJL4",
    "verified": true
   },
@@ -1440,15 +1481,15 @@
    "followers": 1095,
    "id": "3Vl1xNZcApNyXaUcChnwCb",
    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da842573d5ad5b85d60b5cb49b26",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "2026 | Global Talent",
    "names": [
     "2026 | Global Talent"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 250,
@@ -1458,7 +1499,7 @@
    ],
    "source": "Soundcharts",
    "status": "aktiv",
-   "total_tracks": 779,
+   "total_tracks": 781,
    "url": "https://open.spotify.com/playlist/3Vl1xNZcApNyXaUcChnwCb",
    "verified": true
   },
@@ -1469,15 +1510,15 @@
    "followers": 35,
    "id": "3q06PPOxUcpPhv2gNksmvm",
    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da842c02e81a613cbd78567464ce",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Musica Indie Rock Italia",
    "names": [
     "Musica Indie Rock Italia"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 2172,
@@ -1495,19 +1536,19 @@
    "checked_ok": true,
    "count": 1,
    "first_seen": "2026-09-23",
-   "followers": 721,
+   "followers": 725,
    "followers_text": "631",
    "id": "3sKt2gtFNrqefhZMxG1u91",
    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84c2199bf9f0302b043024295e",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Pop Hits Daily",
    "names": [
     "Pop Hits Daily"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 149,
@@ -1517,7 +1558,7 @@
    ],
    "source": "Soundcharts",
    "status": "aktiv",
-   "total_tracks": 331,
+   "total_tracks": 337,
    "url": "https://open.spotify.com/playlist/3sKt2gtFNrqefhZMxG1u91",
    "verified": true
   },
@@ -1525,18 +1566,18 @@
    "checked_ok": true,
    "count": 1,
    "first_seen": "2026-09-30",
-   "followers": 1149,
+   "followers": 1153,
    "id": "475xryiZHdpkubdYr5GZQR",
    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cc1bf1ee11325ee8cae43d02e",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Middle Child Selects 🔥",
    "names": [
     "Middle Child Selects 🔥"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 117,
@@ -1557,7 +1598,7 @@
    "followers": 142,
    "followers_text": "142",
    "id": "4Elb0jdmhFjV71SbzuGwk9",
-   "last_check": "2026-11-11",
+   "last_check": "2026-11-12",
    "name": "Delicious",
    "names": [
     "Delicious Glam Edition 💎"
@@ -1575,15 +1616,15 @@
    "followers": 249,
    "id": "4YbEd5QIsSBJianJwYpibd",
    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8436628bba0d1095cad3012b0b",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Settembre in Repeat",
    "names": [
     "Settembre in Repeat"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 3,
@@ -1606,8 +1647,8 @@
    "followers_text": "263",
    "id": "4c91JIPJuHukr8txH0y2t6",
    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84b990dd9e4f8604e3e975dbe9",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Superstar Hits 2027 🎤👩‍🎤  Linktr.ee/MaXimumBoost",
    "names": [
@@ -1615,7 +1656,7 @@
     "Superstar Hits 2027 🎤👩‍🎤  Linktr.ee/MaXimumBoost"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 38,
@@ -1625,7 +1666,7 @@
    ],
    "source": "Soundcharts",
    "status": "aktiv",
-   "total_tracks": 48,
+   "total_tracks": 50,
    "url": "https://open.spotify.com/playlist/4c91JIPJuHukr8txH0y2t6",
    "verified": true
   },
@@ -1636,25 +1677,25 @@
    "followers": 249,
    "id": "4iUwK4QKT4CZn4tmohQ0V8",
    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da841454432eec02a0d3b667f7fb",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "WHEN THE LOVE REAL............",
    "names": [
     "WHEN THE LOVE REAL............"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 64,
-     "pos": 188,
+     "pos": 191,
      "title": "Rainbow Eyes - EDM Club Mix"
     }
    ],
    "source": "Soundcharts",
    "status": "aktiv",
-   "total_tracks": 434,
+   "total_tracks": 437,
    "url": "https://open.spotify.com/playlist/4iUwK4QKT4CZn4tmohQ0V8",
    "verified": true
   },
@@ -1665,15 +1706,15 @@
    "followers": 639,
    "id": "5AxPUWx1dFpBkGx5nQplPu",
    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da847694b91830fe13aaf1152624",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "The Comeback",
    "names": [
     "The Comeback"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 180,
@@ -1694,15 +1735,15 @@
    "followers": 1400,
    "id": "5KTo9nX8oP9ke97sHC02Fx",
    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8444ea3451fc8e2bd0901710ce",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Here Comes The Sun",
    "names": [
     "Here Comes The Sun"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 25,
@@ -1723,7 +1764,7 @@
    "followers": 138,
    "followers_text": "138",
    "id": "5KySi2zOxBnYrNnRBIGfHh",
-   "last_check": "2026-11-11",
+   "last_check": "2026-11-12",
    "name": "NEW WAVE SIGNAL",
    "names": [
     "NEW WAVE SIGNAL"
@@ -1743,8 +1784,8 @@
    "followers_text": "512",
    "id": "5juI9RVPrFjkIVwHcBubL8",
    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8455dd5ee38c5c173401033c5a",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Real Music by Real Indie ⛔️No AI  Linktr.ee/MaXimumBoost",
    "names": [
@@ -1752,7 +1793,7 @@
     "Real Music by Real Indie ⛔️No AI  Linktr.ee/MaXimumBoost"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 42,
@@ -1762,7 +1803,7 @@
    ],
    "source": "Soundcharts",
    "status": "aktiv",
-   "total_tracks": 55,
+   "total_tracks": 59,
    "url": "https://open.spotify.com/playlist/5juI9RVPrFjkIVwHcBubL8",
    "verified": true
   },
@@ -1773,15 +1814,15 @@
    "followers": 11,
    "id": "60q1adkigX9xII1tRa3qbJ",
    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a9c8e4470c37fac7a986806a",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Worldwide Millennial Temporada 36",
    "names": [
     "Worldwide Millennial Temporada 36"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 18,
@@ -1802,15 +1843,15 @@
    "followers": 255,
    "id": "6A1JgRuiwBoZlssoW2L6uW",
    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84c2303f01387ea9288d527fc1",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Pop mix",
    "names": [
     "Pop mix"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 585,
@@ -1841,15 +1882,15 @@
    "followers": 370,
    "id": "6HReXbGOLyJ2UieOlrOCx0",
    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84149916f765f8cbd566d730c8",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Undiscovered Pop Music Archive",
    "names": [
     "Undiscovered Pop Music Archive"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 496,
@@ -1870,15 +1911,15 @@
    "followers": 169,
    "id": "6I2zrYYimVJDnFSl2G0BgC",
    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84fbef0880daf3f8d92540e259",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Next Fresh Music",
    "names": [
     "Next Fresh Music"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 154,
@@ -1896,18 +1937,18 @@
    "checked_ok": true,
    "count": 6,
    "first_seen": "2026-04-14",
-   "followers": 245,
+   "followers": 250,
    "id": "6I61sv26qklqomNrKcUwyP",
    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84c700d1e35d525fb35081f6cf",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Drive Vibes from WUHA",
    "names": [
     "Drive Vibes from WUHA"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 1,
@@ -1950,18 +1991,18 @@
    "checked_ok": true,
    "count": 1,
    "first_seen": "2026-11-10",
-   "followers": 1244,
+   "followers": 1255,
    "id": "6KUdtfa3HOqFcd90qz0lII",
    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84d0ac54e6e75523c40f2025f7",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Pop Horizon",
    "names": [
     "Pop Horizon"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 341,
@@ -1971,7 +2012,7 @@
    ],
    "source": "Soundcharts",
    "status": "aktiv",
-   "total_tracks": 352,
+   "total_tracks": 364,
    "url": "https://open.spotify.com/playlist/6KUdtfa3HOqFcd90qz0lII",
    "verified": true
   },
@@ -1982,15 +2023,15 @@
    "followers": 234,
    "id": "6R2qncKerXkLCsULtzJMpf",
    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84edce589d96f6ce630b849791",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "EDM - Electronic Dance Music*",
    "names": [
     "EDM - Electronic Dance Music*"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 65,
@@ -2008,18 +2049,18 @@
    "checked_ok": true,
    "count": 1,
    "first_seen": "2026-07-18",
-   "followers": 1770,
+   "followers": 1769,
    "id": "6TX8UrmXjeH4qYwJ2YQESk",
    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8406023b8d19d1f0ef8ced6914",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "International Hits",
    "names": [
     "International Hits"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 259,
@@ -2040,15 +2081,15 @@
    "followers": 121,
    "id": "6l3YZD1Xjc6zJEnnzG5xez",
    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84608b5e84ec2139869a7e54b8",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Edm beat",
    "names": [
     "Edm beat"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 89,
@@ -2069,15 +2110,15 @@
    "followers": 249,
    "id": "6ukiL0O1AoGEHazNDdXJZP",
    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84fa86413d8d0de6bbd48a18cf",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "spotify musica gratis online",
    "names": [
     "spotify musica gratis online"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 210,
@@ -2092,7 +2133,7 @@
    ],
    "source": "Soundcharts",
    "status": "aktiv",
-   "total_tracks": 935,
+   "total_tracks": 936,
    "url": "https://open.spotify.com/playlist/6ukiL0O1AoGEHazNDdXJZP",
    "verified": true
   },
@@ -2100,18 +2141,18 @@
    "checked_ok": true,
    "count": 2,
    "first_seen": "2025-09-18",
-   "followers": 1283,
+   "followers": 1282,
    "id": "78uWRN20Qfpl5qIRQ51pIy",
    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da845551589b4190a25255f803d9",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Dance-Popdance-Dancehall",
    "names": [
     "Dance-Popdance-Dancehall"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 466,
@@ -2126,7 +2167,7 @@
    ],
    "source": "Soundcharts",
    "status": "aktiv",
-   "total_tracks": 2626,
+   "total_tracks": 2630,
    "url": "https://open.spotify.com/playlist/78uWRN20Qfpl5qIRQ51pIy",
    "verified": true
   },
@@ -2134,18 +2175,18 @@
    "checked_ok": true,
    "count": 1,
    "first_seen": "2026-10-08",
-   "followers": 389,
+   "followers": 388,
    "id": "7Eic3Pogyu00lHDYVMhiQW",
    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84936dae106e23f0eeb7977ab1",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "EMERGING TALENT - UP Music Promotion",
    "names": [
     "EMERGING TALENT - UP Music Promotion"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 178,
@@ -2155,7 +2196,7 @@
    ],
    "source": "Soundcharts",
    "status": "aktiv",
-   "total_tracks": 544,
+   "total_tracks": 554,
    "url": "https://open.spotify.com/playlist/7Eic3Pogyu00lHDYVMhiQW",
    "verified": true
   },
@@ -2166,15 +2207,15 @@
    "followers": 585,
    "id": "7eUxBxls8Gi6i7G7BkBB7b",
    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8492728e97dc0a75f814db0812",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "luna park songs",
    "names": [
     "luna park songs"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 1198,
@@ -2189,7 +2230,7 @@
    ],
    "source": "Soundcharts",
    "status": "aktiv",
-   "total_tracks": 1957,
+   "total_tracks": 1959,
    "url": "https://open.spotify.com/playlist/7eUxBxls8Gi6i7G7BkBB7b",
    "verified": true
   },
@@ -2200,15 +2241,15 @@
    "followers": 390,
    "id": "7v5yiwpGzBflfFosZjNUD8",
    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8434c514040e00eae20d54f9b9",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "Todo EDM",
    "names": [
     "Todo EDM"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 753,
@@ -2230,8 +2271,8 @@
    "followers_text": "199",
    "id": "7zETYkTb6SQtW1QVtrUUcc",
    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84bcce7f40d1c4001ce87debc5",
-   "last_check": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_check": "2026-11-12",
+   "last_seen": "2026-11-12",
    "missing_since": null,
    "name": "NEW HIT MUSIC 🎤👨‍🎤  by Linktr.ee/MaXimumBoost",
    "names": [
@@ -2239,7 +2280,7 @@
     "NEW HIT MUSIC 🎤👨‍🎤 by Linktr.ee/MaXimumBoost"
    ],
    "pl_type": "Curators & Listeners",
-   "sc": "2026-11-11",
+   "sc": "2026-11-12",
    "songs": [
     {
      "peak": 40,
@@ -2249,19 +2290,19 @@
    ],
    "source": "Soundcharts",
    "status": "aktiv",
-   "total_tracks": 54,
+   "total_tracks": 56,
    "url": "https://open.spotify.com/playlist/7zETYkTb6SQtW1QVtrUUcc",
    "verified": true
   }
  },
  "removed": [],
  "soundcharts": true,
- "soundcharts_date": "2026-11-11",
+ "soundcharts_date": "2026-11-12",
  "spotify_api": true,
  "summary": {
-  "followers": 47263,
-  "playlists": 68,
-  "songs": 82
+  "followers": 47691,
+  "playlists": 69,
+  "songs": 83
  },
- "updated": "2026-11-11T06:47+00:00"
+ "updated": "2026-11-12T05:18+00:00"
 }
