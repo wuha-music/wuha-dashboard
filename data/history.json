@@ -75,7 +75,7 @@
    ]
   ],
   "source": "songs_1790726364_2015-06-30_2026-11-07.csv",
-  "updated": "2026-11-11"
+  "updated": "2026-11-12"
  },
  "apple_daily": {},
  "apple_totals": {
@@ -103,6 +103,7 @@
  },
  "log": [
   "Meta: Seite 'WUHA' über Personen-Token gefunden",
+  "TikTok: Fehler - öffentliche Profilzahlen nicht gefunden",
   "Spotify-Import: WUHA-audience-timeline-2026-11-09.csv (9 Tage)",
   "Spotify-Import: WUHA-audience-timeline.csv (1042 Tage)",
   "Apple-Import: songs_1790726364_2015-06-30_2026-11-07.csv (8 Songs, Spalten: Titel, Wiedergaben, Durchschn. Hörer:innen pro Tag, Shazam-Anzahl, Radio Spins, Käufe)"
@@ -115,7 +116,7 @@
   ],
   "rows": [],
   "source": "playlists_manuell.csv",
-  "updated": "2026-11-11"
+  "updated": "2026-11-12"
  },
  "snapshots": {
   "2026-11-08": {
@@ -226,6 +227,37 @@
     "followers": 84,
     "likes": 532,
     "videos": 40
+   },
+   "whatsapp": {
+    "followers": 7
+   },
+   "youtube": {
+    "followers": 11,
+    "videos": 21,
+    "views_total": 4588
+   }
+  },
+  "2026-11-12": {
+   "deezer": {
+    "albums": 7,
+    "followers": 0
+   },
+   "facebook": {
+    "followers": 1175,
+    "likes": 1175,
+    "reach": 22,
+    "views": 73
+   },
+   "instagram": {
+    "followers": 78,
+    "posts": 43,
+    "profile_views": 1,
+    "reach": 16,
+    "views": 26
+   },
+   "soundcloud": {
+    "followers": 55,
+    "tracks": 7
    },
    "whatsapp": {
     "followers": 7
@@ -5459,5 +5491,5 @@
    "streams": 3
   }
  },
- "updated": "2026-11-11T07:31+00:00"
+ "updated": "2026-11-12T06:08+00:00"
 }
