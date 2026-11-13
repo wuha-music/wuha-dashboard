@@ -64,6 +64,16 @@ tr.gone td{color:var(--muted);opacity:.55}
 tr.gone td a{color:var(--muted)!important}
 .tag{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:1px 8px;font-size:12px;color:var(--text-2);white-space:nowrap}
 .tag.ok{border-color:var(--spotify);color:var(--spotify)}
+.stations{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px;margin-top:16px}
+.station{background:var(--surface);border-radius:4px;overflow:hidden;display:flex;flex-direction:column;color:var(--text);text-decoration:none;border:1px solid transparent}
+a.station:hover{border-color:var(--line)}
+.station .logo{height:76px;display:flex;align-items:center;justify-content:center;background:var(--surface-2);padding:10px}
+.station .logo img{max-height:56px;max-width:80%;object-fit:contain;background:#fff;border-radius:6px;padding:4px}
+.station .mono{font:400 18px/1.05 Anton,Impact,sans-serif;text-transform:uppercase;letter-spacing:.5px;text-align:center;color:var(--text-2)}
+.station .mono small{display:block;font:500 11px Inter,sans-serif;letter-spacing:1px;color:var(--muted);margin-top:4px}
+.station .row{display:flex;justify-content:space-between;align-items:baseline;gap:8px;padding:8px 12px;border-top:1px solid var(--line);font-size:12px;color:var(--text-2)}
+.station .row b{font:400 20px/1 Anton,Impact,sans-serif;color:var(--text)}
+.station .row span{white-space:nowrap}
 @media (max-width:600px){.hero{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.card .big{font-size:40px}}
 .topr{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 button.pill.small:disabled{opacity:.6;cursor:wait}
@@ -462,16 +472,41 @@ fetch("data/playlists_found.json?"+Date.now()).then(r=>r.json()).then(renderFoun
   btn.addEventListener("contextmenu",e=>{e.preventDefault();askToken()});   // Rechtsklick: Schlüssel ändern
 })();
 
+// Logo nicht da? Nächste Endung probieren, sonst Sendername zeigen
+function senderLogoFallback(img){
+  const order=["png","jpg","jpeg","svg","webp"], i=order.indexOf(img.dataset.ext);
+  if(i>=0 && i<order.length-1){ img.dataset.ext=order[i+1]; img.src=img.src.replace(/\.[a-z]+$/, "."+order[i+1]); return; }
+  const d=document.createElement("div"); d.className="mono"; d.textContent=img.alt;
+  const sm=document.createElement("small"); sm.textContent=img.dataset.land||""; d.appendChild(sm); img.replaceWith(d);
+}
 // Radio-Airplays (data/airplays.json, aus weitergeleiteten Airplay-Mails)
 function renderAirplay(A){
   const box = document.getElementById("airplay"), s = A.summary||{}, plays = A.plays||[];
   if(!plays.length){ box.innerHTML = `<div class="note">Noch keine Airplays. Airplay-Mails werden jeden Morgen aus Gmail gelesen.</div>`; return; }
+  const extra = (A.extraStations||[]).filter(x=>x.name && !(s.stations||{})[x.name]);
+  const LOGO = {}; (A.extraStations||[]).forEach(x=>{ if(x.name&&x.logo) LOGO[x.name]=x.logo; });
+  const logoSrc = n => "data/logos-sender/" + (LOGO[n] ? encodeURIComponent(LOGO[n]) : slug(n)+".png");
+  const logoExt = n => LOGO[n] ? "fixed" : "png";
   const st = Object.entries(s.stations||{}).sort((a,b)=>b[1]-a[1]);
   const so = Object.entries(s.songs||{}).sort((a,b)=>b[1]-a[1]);
   let h = `<div class="kpis"><div class="kpi"><div class="lab">Airplays gesamt</div><div class="val" style="color:var(--spotify)">${fmt(s.total)}</div><div class="sub">seit ${deDate(plays[plays.length-1].date)}</div></div>
     <div class="kpi"><div class="lab">Letzte 7 Tage</div><div class="val">${fmt(s.last7)}</div><div class="sub">Einsätze</div></div>
     <div class="kpi"><div class="lab">Letzte 30 Tage</div><div class="val">${fmt(s.last30)}</div><div class="sub">Einsätze</div></div>
-    <div class="kpi"><div class="lab">Sender</div><div class="val">${fmt(st.length)}</div><div class="sub">${st.map(([n,c])=>`${esc(n)}: ${fmt(c)}`).join(" · ")}</div></div></div>`;
+    <div class="kpi"><div class="lab">Sender</div><div class="val">${fmt(st.length+extra.length)}</div><div class="sub">${fmt(st.length)} mit Zahlen${extra.length?` · ${fmt(extra.length)} ohne Zahlen`:""}</div></div></div>`;
+  // Sender-Kacheln: Logo aus data/logos-sender/ (Datei aus Spalte Logo in sender.csv, sonst <name>.png/.jpg/.svg/.webp) + Zeilen darunter
+  const slug = n => n.toLowerCase().normalize("NFKD").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
+  const SLINK = {"Amazing Radio":"https://amazingradio.com/profile/andreas-wuha/airplays","Amazing Radio USA":"https://amazingradio.us/profile/andreas-wuha/airplays"};
+  h += `<div class="stations">${st.map(([n,c])=>{
+    const ps = plays.filter(p=>p.station===n), last = ps[0], land = [...new Set(ps.map(p=>p.country).filter(Boolean))].join(", ");
+    const shows = [...new Set(ps.map(p=>p.show).filter(Boolean))].join(", ");
+    const tag = SLINK[n] ? "a" : "div", href = SLINK[n] ? ` href="${SLINK[n]}" target="_blank" rel="noopener"` : "";
+    return `<${tag} class="station"${href}><div class="logo"><img src="${logoSrc(n)}" alt="${esc(n)}" data-ext="${logoExt(n)}" data-land="${esc(land)}" onerror="senderLogoFallback(this)"></div>
+      <div class="row"><span><b>${fmt(c)}</b> Einsätze</span><span>zuletzt ${deDate(last.date)}</span></div>
+      <div class="row"><span>${esc(shows)}</span><span>${esc(land)}</span></div></${tag}>`;}).join("")}${
+    extra.map(x=>{ const tag = x.link?"a":"div", href = x.link?` href="${esc(x.link)}" target="_blank" rel="noopener"`:"";
+      return `<${tag} class="station"${href}><div class="logo"><img src="${logoSrc(x.name)}" alt="${esc(x.name)}" data-ext="${logoExt(x.name)}" data-land="${esc(x.land||"")}" onerror="senderLogoFallback(this)"></div>
+      <div class="row"><span>Gespielt${x.song?` · ${esc(x.song)}`:""}</span><span>${x.date?deDate(x.date):""}</span></div>
+      <div class="row"><span>${esc(x.note||"keine Play-Zahlen")}</span><span>${esc(x.land||"")}</span></div></${tag}>`;}).join("")}</div>`;
   h += `<p class="biglab gap">Songs: ${so.map(([n,c])=>`<b style="color:var(--text)">${esc(n)}</b> ${fmt(c)}×`).join(" · ")}</p>`;
   h += `<details id="airList"><summary><b>${fmt(plays.length)} Einsätze</b> – Liste anzeigen</summary><div class="tablewrap gap"><table><thead><tr><th>Datum</th><th>Uhrzeit</th><th>Song</th><th>Sender</th><th>Stream / Sendung</th><th>Land</th></tr></thead><tbody>${
     plays.map(p=>`<tr><td>${deDate(p.date)}</td><td>${esc(p.time)}${p.tz?` <span class="biglab">${esc(p.tz)}</span>`:""}</td><td>${esc(p.song)}</td><td>${esc(p.station)}</td><td>${esc(p.show||"")}</td><td>${esc(p.country||"")}</td></tr>`).join("")}</tbody></table></div></details>`;
@@ -481,7 +516,21 @@ function renderAirplay(A){
   try{ el.open = localStorage.getItem("wuha_air_open")==="1"; }catch(e){}
   el.addEventListener("toggle",()=>{ try{ localStorage.setItem("wuha_air_open", el.open?"1":"0"); }catch(e){} });
 }
-fetch("data/airplays.json?"+Date.now()).then(r=>r.json()).then(renderAirplay)
+function parseCsv(t){ const rows=[]; let row=[],f="",q=false; const first=(t.split(/\r?\n/)[0]||""), D=(first.split(";").length>first.split(",").length)?";":",";
+  for(let i=0;i<t.length;i++){ const c=t[i];
+    if(q){ if(c=='"'&&t[i+1]=='"'){f+='"';i++} else if(c=='"') q=false; else f+=c; }
+    else if(c=='"') q=true; else if(c==D){row.push(f);f=""} else if(c=='\n'||c=='\r'){ if(c=='\r'&&t[i+1]=='\n') i++; row.push(f); rows.push(row); row=[]; f=""; } else f+=c; }
+  if(f||row.length){row.push(f);rows.push(row)} return rows.filter(r=>r.some(x=>x.trim())); }
+Promise.all([
+  fetch("data/airplays.json?"+Date.now()).then(r=>r.json()),
+  fetch("data/imports/sender.csv?"+Date.now()).then(r=>r.ok?r.text():"").catch(()=>"")
+]).then(([A,csv])=>{
+  const rows=parseCsv(csv||""), hd=(rows.shift()||[]).map(h=>h.trim().toLowerCase());
+  const col=k=>hd.findIndex(h=>h.startsWith(k));
+  const g=(r,k)=>{ const i=col(k); return i<0?"":(r[i]||"").trim(); };
+  A.extraStations = rows.map(r=>({name:g(r,"sender"), land:g(r,"land"), link:g(r,"link"), song:g(r,"song"), date:g(r,"datum"), note:g(r,"notiz"), logo:g(r,"logo")}));
+  return A;
+}).then(renderAirplay)
   .catch(()=>{ document.getElementById("airplay").innerHTML = `<div class="note">Airplay-Liste noch nicht vorhanden.</div>`; });
 </script>
 </body>
