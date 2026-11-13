@@ -8,6 +8,7 @@ Zugangsdaten kommen aus Umgebungsvariablen (GitHub Secrets):
   TIKTOK_CLIENT_KEY      TikTok-App
   TIKTOK_CLIENT_SECRET
   TIKTOK_REFRESH_TOKEN
+  BANDSINTOWN_APP_ID     Bandsintown-API-Schlüssel (Bandsintown for Artists → Settings → General)
 Fehlt etwas, wird die Plattform übersprungen bzw. auf öffentliche Zahlen ausgewichen.
 """
 import csv
@@ -35,7 +36,7 @@ LOG = []
 def log(msg):
     # Zugangsschlüssel niemals ins (öffentliche) Protokoll schreiben
     msg = re.sub(r"(EAA|ya29\.|AIza|act\.)[A-Za-z0-9_\-.]{8,}", r"\1…[entfernt]", str(msg))
-    for k in ("META_PAGE_TOKEN", "YOUTUBE_API_KEY", "TIKTOK_CLIENT_SECRET", "TIKTOK_REFRESH_TOKEN"):
+    for k in ("META_PAGE_TOKEN", "YOUTUBE_API_KEY", "TIKTOK_CLIENT_SECRET", "TIKTOK_REFRESH_TOKEN", "BANDSINTOWN_APP_ID"):
         v = os.environ.get(k, "").strip()
         if len(v) > 8:
             msg = msg.replace(v, "[entfernt]")
@@ -225,6 +226,19 @@ def deezer():
     return {"deezer": {"followers": r.get("nb_fan"), "albums": r.get("nb_album")}}
 
 
+def bandsintown():
+    key = os.environ.get("BANDSINTOWN_APP_ID", "").strip()
+    if not key:
+        log("Bandsintown: BANDSINTOWN_APP_ID fehlt - übersprungen")
+        return {}
+    name = urllib.parse.quote(CFG.get("bandsintown_artist") or CFG.get("band", "WUHA"), safe="")
+    r = http(f"https://rest.bandsintown.com/artists/{name}?app_id={urllib.parse.quote(key)}",
+             headers={"Accept": "application/json"})
+    if not isinstance(r, dict) or "tracker_count" not in r:
+        raise RuntimeError(f"Antwort ohne Follower-Zahl: {str(r)[:120]}")
+    return {"bandsintown": {"followers": r.get("tracker_count"), "events": r.get("upcoming_event_count")}}
+
+
 def whatsapp():
     html = http(CFG["whatsapp_url"], ua=BROWSER_UA, as_json=False)
     m = re.search(r"([\d.,]+\s*[KkMm]?)\s*(?:followers|Abonnenten|Follower)", html)
@@ -389,7 +403,8 @@ def main():
     today = dt.date.today().isoformat()
     snap = {}
     for name, fn in [("Meta", meta), ("YouTube", youtube), ("TikTok", tiktok),
-                     ("SoundCloud", soundcloud), ("Deezer", deezer), ("WhatsApp", whatsapp)]:
+                     ("SoundCloud", soundcloud), ("Deezer", deezer), ("WhatsApp", whatsapp),
+                     ("Bandsintown", bandsintown)]:
         try:
             snap.update(fn())
         except Exception as e:  # noqa: BLE001

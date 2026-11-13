@@ -15,7 +15,7 @@
   --text:#ffffff; --text-2:#d9d9d9; --muted:#9a9993; --accent:#4c3f37; --accent-2:#6b5a4f;
   --good:#0ca30c; --critical:#e66767;
   --instagram:#d55181; --facebook:#3987e5; --tiktok:#199e70; --youtube:#e66767;
-  --soundcloud:#d95926; --spotify:#1baf7a; --deezer:#9085e9; --whatsapp:#c98500; --apple:#fa4d68;
+  --soundcloud:#d95926; --spotify:#1baf7a; --deezer:#9085e9; --whatsapp:#c98500; --bandsintown:#00cec8; --apple:#fa4d68;
 }
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 Inter,system-ui,sans-serif}
@@ -140,6 +140,7 @@ const PLATFORMS = {
   soundcloud:{name:"SoundCloud", metrics:{followers:["Follower","total"], tracks:["Tracks","total"]}},
   // deezer: {name:"Deezer", metrics:{followers:["Fans","total"], albums:["Releases","total"]}},  // ausgeblendet
   whatsapp:  {name:"WhatsApp-Kanal", metrics:{followers:["Follower","total"]}},
+  bandsintown:{name:"Bandsintown", metrics:{followers:["Follower","total"], events:["Konzerte geplant","total"]}},
 };
 const fmt = n => n==null ? "–" : new Intl.NumberFormat("de-AT").format(Math.round(n));
 const sign = n => n==null ? "–" : (n>0?"+":n<0?"−":"±") + fmt(Math.abs(n));
@@ -339,7 +340,7 @@ function renderTable(){
 
 function hint(p){
   return {instagram:"Braucht den Meta-Zugang (siehe Anleitung).", facebook:"Braucht den Meta-Zugang (siehe Anleitung).",
-    youtube:"YouTube-Kanal und API-Schlüssel fehlen noch.", tiktok:"TikTok-Zugang fehlt noch."}[p] || "";
+    youtube:"YouTube-Kanal und API-Schlüssel fehlen noch.", tiktok:"TikTok-Zugang fehlt noch.", bandsintown:"Wird beim nächsten Lauf von „Zahlen sammeln“ geholt."}[p] || "";
 }
 const esc = s => String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 
