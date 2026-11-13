@@ -8,6 +8,8 @@ on:
   push:
     paths:
       - "data/imports/playlists_manuell.csv"
+      - "data/imports/airplays_manuell.csv"
+      - "airplay_watch.py"
       - "playlist_watch.py"
 
 permissions:
@@ -52,12 +54,19 @@ jobs:
           SOUNDCHARTS_API_KEY: ${{ secrets.SOUNDCHARTS_API_KEY }}
         run: python playlist_watch.py
 
+      - name: Radio-Airplays aus Mails lesen
+        if: steps.gate.outputs.run == 'yes'
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: python airplay_watch.py
+
       - name: Speichern
         if: steps.gate.outputs.run == 'yes'
         run: |
           git config user.name "wuha-bot"
           git config user.email "wuha-bot@users.noreply.github.com"
-          git add data/playlists_found.json
+          git add data/playlists_found.json data/airplays.json
           git commit -m "Playlists $(TZ=Europe/Vienna date +%F)" || exit 0
           git pull --rebase origin main
           git push origin HEAD:main
