@@ -1,0 +1,160 @@
+{
+ "plays": [
+  {
+   "date": "2026-11-12",
+   "time": "16:23",
+   "song": "Losing My Shape",
+   "station": "Amazing Radio",
+   "show": "Pop Stream",
+   "country": "UK",
+   "tz": "GMT",
+   "source": "Amazing Radio Mail"
+  },
+  {
+   "date": "2026-11-11",
+   "time": "17:10",
+   "song": "Losing My Shape",
+   "station": "Amazing Radio USA",
+   "show": "Pop Stream",
+   "country": "USA",
+   "tz": "GMT",
+   "source": "Amazing Radio Mail"
+  },
+  {
+   "date": "2026-11-10",
+   "time": "16:39",
+   "song": "Losing My Shape",
+   "station": "Amazing Radio",
+   "show": "Pop Stream",
+   "country": "UK",
+   "tz": "GMT",
+   "source": "Amazing Radio Mail"
+  },
+  {
+   "date": "2026-11-08",
+   "time": "22:20",
+   "song": "Losing My Shape",
+   "station": "Amazing Radio USA",
+   "show": "Pop Stream",
+   "country": "USA",
+   "tz": "GMT",
+   "source": "Amazing Radio Mail"
+  },
+  {
+   "date": "2026-11-06",
+   "time": "13:04",
+   "song": "Losing My Shape",
+   "station": "Amazing Radio USA",
+   "show": "Pop Stream",
+   "country": "USA",
+   "tz": "GMT",
+   "source": "Amazing Radio Mail"
+  },
+  {
+   "date": "2026-11-06",
+   "time": "03:31",
+   "song": "Losing My Shape",
+   "station": "Amazing Radio",
+   "show": "Pop Stream",
+   "country": "UK",
+   "tz": "GMT",
+   "source": "Amazing Radio Mail"
+  },
+  {
+   "date": "2026-11-03",
+   "time": "21:57",
+   "song": "Losing My Shape",
+   "station": "Amazing Radio",
+   "show": "Pop Stream",
+   "country": "UK",
+   "tz": "GMT",
+   "source": "Amazing Radio Mail"
+  },
+  {
+   "date": "2026-10-31",
+   "time": "11:25",
+   "song": "Losing My Shape",
+   "station": "Amazing Radio",
+   "show": "Pop Stream",
+   "country": "UK",
+   "tz": "GMT",
+   "source": "Amazing Radio Mail"
+  },
+  {
+   "date": "2026-10-22",
+   "time": "01:56",
+   "song": "Losing My Shape",
+   "station": "Amazing Radio",
+   "show": "Pop Stream",
+   "country": "UK",
+   "tz": "GMT",
+   "source": "Amazing Radio Mail"
+  },
+  {
+   "date": "2026-10-20",
+   "time": "11:36",
+   "song": "Losing My Shape",
+   "station": "Amazing Radio",
+   "show": "Pop Stream",
+   "country": "UK",
+   "tz": "GMT",
+   "source": "Amazing Radio Mail"
+  },
+  {
+   "date": "2026-10-18",
+   "time": "10:15",
+   "song": "Losing My Shape",
+   "station": "Amazing Radio",
+   "show": "Pop Stream",
+   "country": "UK",
+   "tz": "GMT",
+   "source": "Amazing Radio Mail"
+  },
+  {
+   "date": "2026-10-01",
+   "time": "23:57",
+   "song": "Losing My Shape",
+   "station": "Amazing Radio",
+   "show": "Pop Stream",
+   "country": "UK",
+   "tz": "GMT",
+   "source": "Amazing Radio Mail"
+  },
+  {
+   "date": "2026-09-30",
+   "time": "11:57",
+   "song": "Losing My Shape",
+   "station": "Amazing Radio",
+   "show": "Pop Stream",
+   "country": "UK",
+   "tz": "GMT",
+   "source": "Amazing Radio Mail"
+  },
+  {
+   "date": "2026-09-27",
+   "time": "11:14",
+   "song": "Losing My Shape",
+   "station": "Amazing Radio",
+   "show": "Pop Stream",
+   "country": "UK",
+   "tz": "GMT",
+   "source": "Amazing Radio Mail"
+  }
+ ],
+ "summary": {
+  "total": 14,
+  "last7": 6,
+  "last30": 11,
+  "stations": {
+   "Amazing Radio": 11,
+   "Amazing Radio USA": 3
+  },
+  "songs": {
+   "Losing My Shape": 14
+  }
+ },
+ "updated": "2026-11-13T15:52+00:00",
+ "log": [
+  "Gmail: Zugangsdaten fehlen – Airplay-Mails nicht gelesen."
+ ]
+}
