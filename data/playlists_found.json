@@ -1,6 +1,6 @@
 {
  "log": [
-  "Gmail: 55 Mails mit Label „Playlist Sub“, davon neu: 1",
+  "Gmail: 55 Mails mit Label „Playlist Sub“, davon neu: 0",
   "Soundcharts: heute keine Abfrage (nur Mo, Do; letzte: 2026-11-12).",
   "Spotify-API: Playlist-Inhalte gesperrt (403) – prüfe über Spotify-Einbettung (erste 100 Titel).",
   "Indie Pop: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
@@ -9,7 +9,8 @@
   "Pop Psychology - Take a Thrill Pill!: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
   "Soft/Chill Vibes: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
   "Delicious: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
-  "NEW WAVE SIGNAL: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei."
+  "NEW WAVE SIGNAL: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
+  "Car Radio Vibes: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei."
  ],
  "mails_seen": [
   "1825321852762272607",
@@ -68,18 +69,7 @@
   "1881555594857380882",
   "1881638643763043510"
  ],
- "pending": {
-  "car radio vibes": {
-   "first_seen": "2026-07-13",
-   "followers_text": "375",
-   "name": "Car Radio Vibes",
-   "songs": [
-    "Rainbow Eyes - EDM Club Mix",
-    "Nothing Is Forever"
-   ],
-   "source": "Soundcharts"
-  }
- },
+ "pending": {},
  "playlists": {
   "0BKFCBxiowSdqsWIgVnlGs": {
    "checked_ok": true,
@@ -1061,6 +1051,24 @@
    "total_tracks": 531,
    "url": "https://open.spotify.com/playlist/2L3X6HRFG8JQSKUkHf9vLj",
    "verified": true
+  },
+  "2MhOSkXEtTzjEqkKZEHGFD": {
+   "checked_ok": false,
+   "curator": "Delyrium",
+   "first_seen": "2026-07-13",
+   "followers": 375,
+   "followers_text": "375",
+   "id": "2MhOSkXEtTzjEqkKZEHGFD",
+   "last_check": "2026-11-13",
+   "name": "Car Radio Vibes",
+   "names": [
+    "Car Radio Vibes"
+   ],
+   "source": "Soundcharts",
+   "status": "teilweise",
+   "total_tracks": 100,
+   "url": "https://open.spotify.com/playlist/2MhOSkXEtTzjEqkKZEHGFD",
+   "verified": false
   },
   "2Q0TBSb9oUyp38i7fBvaxJ": {
    "checked_ok": true,
@@ -2332,5 +2340,5 @@
   "playlists": 70,
   "songs": 84
  },
- "updated": "2026-11-13T05:17+00:00"
+ "updated": "2026-11-13T16:32+00:00"
 }
