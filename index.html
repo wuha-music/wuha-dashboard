@@ -113,6 +113,9 @@ button.pill.small:disabled{opacity:.6;cursor:wait}
   <h2>Entdeckt in Playlists</h2>
   <div id="found"></div>
 
+  <h2>Radio-Airplays</h2>
+  <div id="airplay"></div>
+
   <h2>Apple Music</h2>
   <div id="apple"></div>
 
@@ -457,6 +460,28 @@ fetch("data/playlists_found.json?"+Date.now()).then(r=>r.json()).then(renderFoun
   btn.addEventListener("click",run);
   btn.addEventListener("contextmenu",e=>{e.preventDefault();askToken()});   // Rechtsklick: Schlüssel ändern
 })();
+
+// Radio-Airplays (data/airplays.json, aus weitergeleiteten Airplay-Mails)
+function renderAirplay(A){
+  const box = document.getElementById("airplay"), s = A.summary||{}, plays = A.plays||[];
+  if(!plays.length){ box.innerHTML = `<div class="note">Noch keine Airplays. Airplay-Mails werden jeden Morgen aus Gmail gelesen.</div>`; return; }
+  const st = Object.entries(s.stations||{}).sort((a,b)=>b[1]-a[1]);
+  const so = Object.entries(s.songs||{}).sort((a,b)=>b[1]-a[1]);
+  let h = `<div class="kpis"><div class="kpi"><div class="lab">Airplays gesamt</div><div class="val" style="color:var(--spotify)">${fmt(s.total)}</div><div class="sub">seit ${deDate(plays[plays.length-1].date)}</div></div>
+    <div class="kpi"><div class="lab">Letzte 7 Tage</div><div class="val">${fmt(s.last7)}</div><div class="sub">Einsätze</div></div>
+    <div class="kpi"><div class="lab">Letzte 30 Tage</div><div class="val">${fmt(s.last30)}</div><div class="sub">Einsätze</div></div>
+    <div class="kpi"><div class="lab">Sender</div><div class="val">${fmt(st.length)}</div><div class="sub">${st.map(([n,c])=>`${esc(n)}: ${fmt(c)}`).join(" · ")}</div></div></div>`;
+  h += `<p class="biglab gap">Songs: ${so.map(([n,c])=>`<b style="color:var(--text)">${esc(n)}</b> ${fmt(c)}×`).join(" · ")}</p>`;
+  h += `<details id="airList"><summary><b>${fmt(plays.length)} Einsätze</b> – Liste anzeigen</summary><div class="tablewrap gap"><table><thead><tr><th>Datum</th><th>Uhrzeit</th><th>Song</th><th>Sender</th><th>Stream / Sendung</th><th>Land</th></tr></thead><tbody>${
+    plays.map(p=>`<tr><td>${deDate(p.date)}</td><td>${esc(p.time)}${p.tz?` <span class="biglab">${esc(p.tz)}</span>`:""}</td><td>${esc(p.song)}</td><td>${esc(p.station)}</td><td>${esc(p.show||"")}</td><td>${esc(p.country||"")}</td></tr>`).join("")}</tbody></table></div></details>`;
+  h += `<p class="biglab">Stand ${A.updated?new Date(A.updated).toLocaleString("de-AT",{dateStyle:"short",timeStyle:"short"}):"–"} · Quelle: Airplay-Mails (Amazing Radio) + data/imports/airplays_manuell.csv</p>`;
+  box.innerHTML = h;
+  const el = document.getElementById("airList");
+  try{ el.open = localStorage.getItem("wuha_air_open")==="1"; }catch(e){}
+  el.addEventListener("toggle",()=>{ try{ localStorage.setItem("wuha_air_open", el.open?"1":"0"); }catch(e){} });
+}
+fetch("data/airplays.json?"+Date.now()).then(r=>r.json()).then(renderAirplay)
+  .catch(()=>{ document.getElementById("airplay").innerHTML = `<div class="note">Airplay-Liste noch nicht vorhanden.</div>`; });
 </script>
 </body>
 </html>
