@@ -1,15 +1,15 @@
 {
  "log": [
-  "Gmail: 54 Mails mit Label „Playlist Sub“, davon neu: 1",
-  "Soundcharts: 69 Playlists mit WUHA · Rest-Kontingent 996",
+  "Gmail: 55 Mails mit Label „Playlist Sub“, davon neu: 1",
+  "Soundcharts: heute keine Abfrage (nur Mo, Do; letzte: 2026-11-12).",
   "Spotify-API: Playlist-Inhalte gesperrt (403) – prüfe über Spotify-Einbettung (erste 100 Titel).",
+  "Indie Pop: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
   "Beauty of Synth & Rock: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
   "Indie POP & DANCE New Horizons: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
   "Pop Psychology - Take a Thrill Pill!: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
   "Soft/Chill Vibes: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
   "Delicious: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
-  "NEW WAVE SIGNAL: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
-  "Indie Pop: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei."
+  "NEW WAVE SIGNAL: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei."
  ],
  "mails_seen": [
   "1825321852762272607",
@@ -65,7 +65,8 @@
   "1881454938577148530",
   "1881472568311057583",
   "1881485769719095262",
-  "1881555594857380882"
+  "1881555594857380882",
+  "1881638643763043510"
  ],
  "pending": {
   "car radio vibes": {
@@ -576,7 +577,7 @@
    "followers": 642,
    "followers_text": "642",
    "id": "1CqYaN9Iv3NmsizW6Z4cFd",
-   "last_check": "2026-11-12",
+   "last_check": "2026-11-13",
    "name": "Indie Pop",
    "names": [
     "Indie Pop"
@@ -769,7 +770,7 @@
    "first_seen": "2026-07-19",
    "followers": null,
    "id": "1YmZnOsxn3cyDArHtrxXyM",
-   "last_check": "2026-11-12",
+   "last_check": "2026-11-13",
    "name": "Beauty of Synth & Rock",
    "names": [
     "Beauty of Synth & Rock"
@@ -934,7 +935,7 @@
    "followers": 1090,
    "followers_text": "1.09K",
    "id": "274eHdTqnqjrjtpmhGNxKC",
-   "last_check": "2026-11-12",
+   "last_check": "2026-11-13",
    "name": "Indie POP & DANCE New Horizons",
    "names": [
     "Indie POP & DANCE New Horizons"
@@ -1119,6 +1120,33 @@
    "url": "https://open.spotify.com/playlist/2Si5A50qdqcZDUdDJfQuUz",
    "verified": true
   },
+  "2U59iduFQA0HScPu7N2LFC": {
+   "checked_ok": true,
+   "count": 1,
+   "curator": "Malik Amer",
+   "first_seen": "2026-11-12",
+   "followers": 1020,
+   "followers_text": "1.02K",
+   "id": "2U59iduFQA0HScPu7N2LFC",
+   "last_check": "2026-11-13",
+   "last_seen": "2026-11-13",
+   "missing_since": null,
+   "name": "Lost in the Feeling \"Updated Weekly\"",
+   "names": [
+    "Lost in the Feeling \"Updated Weekly\""
+   ],
+   "songs": [
+    {
+     "pos": 37,
+     "title": "Nothing Is Forever"
+    }
+   ],
+   "source": "Soundcharts",
+   "status": "aktiv",
+   "total_tracks": 49,
+   "url": "https://open.spotify.com/playlist/2U59iduFQA0HScPu7N2LFC",
+   "verified": true
+  },
   "2UzZdZG4bRbqATHAfeL6Hd": {
    "checked_ok": true,
    "count": 1,
@@ -1271,7 +1299,7 @@
    "followers": 185,
    "followers_text": "185",
    "id": "37ZJ6FoiQFUOlmoMF377Qn",
-   "last_check": "2026-11-12",
+   "last_check": "2026-11-13",
    "name": "Pop Psychology - Take a Thrill Pill!",
    "names": [
     "Pop Psychology 🎤🎧🎸"
@@ -1347,7 +1375,7 @@
    "followers": 559,
    "followers_text": "559",
    "id": "3FeXviPUCaJrt6vNHhtjrv",
-   "last_check": "2026-11-12",
+   "last_check": "2026-11-13",
    "name": "Soft/Chill Vibes",
    "names": [
     "Soft Chill Vibes"
@@ -1598,7 +1626,7 @@
    "followers": 142,
    "followers_text": "142",
    "id": "4Elb0jdmhFjV71SbzuGwk9",
-   "last_check": "2026-11-12",
+   "last_check": "2026-11-13",
    "name": "Delicious",
    "names": [
     "Delicious Glam Edition 💎"
@@ -1764,7 +1792,7 @@
    "followers": 138,
    "followers_text": "138",
    "id": "5KySi2zOxBnYrNnRBIGfHh",
-   "last_check": "2026-11-12",
+   "last_check": "2026-11-13",
    "name": "NEW WAVE SIGNAL",
    "names": [
     "NEW WAVE SIGNAL"
@@ -2300,9 +2328,9 @@
  "soundcharts_date": "2026-11-12",
  "spotify_api": true,
  "summary": {
-  "followers": 47691,
-  "playlists": 69,
-  "songs": 83
+  "followers": 48711,
+  "playlists": 70,
+  "songs": 84
  },
- "updated": "2026-11-12T05:18+00:00"
+ "updated": "2026-11-13T05:17+00:00"
 }
