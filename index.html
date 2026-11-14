@@ -372,7 +372,7 @@ fetch("data/history.json?"+Date.now()).then(r=>r.json()).then(h=>{
 function renderFound(F){
   const box = document.getElementById("found");
   const list = Object.values(F.playlists||{}).filter(e=>e.verified)
-    .sort((a,b)=>(a.status==="entfernt")-(b.status==="entfernt") || (b.count||0)-(a.count||0) || (b.followers||0)-(a.followers||0));
+    .sort((a,b)=>(a.status==="entfernt")-(b.status==="entfernt") || (b.first_seen>a.first_seen)-(b.first_seen<a.first_seen) || (b.count||0)-(a.count||0) || (b.followers||0)-(a.followers||0));
   const pend = Object.values(F.pending||{});
   const part = Object.values(F.playlists||{}).filter(e=>!e.verified && e.status==="teilweise");
   const fol = t => { const m=String(t||"").match(/([\d.,]+)\s*([KkMm])?/); if(!m) return 0;
