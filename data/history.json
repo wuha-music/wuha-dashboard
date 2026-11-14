@@ -103,6 +103,7 @@
  },
  "log": [
   "Meta: Seite 'WUHA' über Personen-Token gefunden",
+  "Spotify-Import: 0-soundcharts-followers.csv (3 Tage)",
   "Spotify-Import: WUHA-audience-timeline-2026-11-09.csv (9 Tage)",
   "Spotify-Import: WUHA-audience-timeline.csv (1042 Tage)",
   "Apple-Import: songs_1790726364_2015-06-30_2026-11-07.csv (8 Songs, Spalten: Titel, Wiedergaben, Durchschn. Hörer:innen pro Tag, Shazam-Anzahl, Radio Spins, Käufe)"
@@ -319,8 +320,8 @@
    "facebook": {
     "followers": 1175,
     "likes": 1175,
-    "reach": 15,
-    "views": 37
+    "reach": 18,
+    "views": 45
    },
    "instagram": {
     "followers": 78,
@@ -5568,7 +5569,16 @@
    "followers": 502,
    "listeners": 3,
    "streams": 3
+  },
+  "2026-11-10": {
+   "followers": 508
+  },
+  "2026-11-11": {
+   "followers": 513
+  },
+  "2026-11-12": {
+   "followers": 516
   }
  },
- "updated": "2026-11-14T05:55+00:00"
+ "updated": "2026-11-14T12:06+00:00"
 }
