@@ -9,6 +9,7 @@ Zugangsdaten kommen aus Umgebungsvariablen (GitHub Secrets):
   TIKTOK_CLIENT_SECRET
   TIKTOK_REFRESH_TOKEN
   BANDSINTOWN_APP_ID     Bandsintown-API-Schlüssel (Bandsintown for Artists → Settings → General)
+GOOGLE_SERVICE_ACCOUNT_JSON  Google-Dienstkonto (Google Analytics 4, Website-Besucher)
 Fehlt etwas, wird die Plattform übersprungen bzw. auf öffentliche Zahlen ausgewichen.
 """
 import csv
@@ -36,7 +37,8 @@ LOG = []
 def log(msg):
     # Zugangsschlüssel niemals ins (öffentliche) Protokoll schreiben
     msg = re.sub(r"(EAA|ya29\.|AIza|act\.)[A-Za-z0-9_\-.]{8,}", r"\1…[entfernt]", str(msg))
-    for k in ("META_PAGE_TOKEN", "YOUTUBE_API_KEY", "TIKTOK_CLIENT_SECRET", "TIKTOK_REFRESH_TOKEN", "BANDSINTOWN_APP_ID"):
+    for k in ("META_PAGE_TOKEN", "YOUTUBE_API_KEY", "TIKTOK_CLIENT_SECRET", "TIKTOK_REFRESH_TOKEN", "BANDSINTOWN_APP_ID",
+              "GOOGLE_SERVICE_ACCOUNT_JSON"):
         v = os.environ.get(k, "").strip()
         if len(v) > 8:
             msg = msg.replace(v, "[entfernt]")
@@ -378,6 +380,52 @@ def apple_imports(hist):
             log(f"Apple-Import: {name} ({len(rows) - 1} Songs, Spalten: {', '.join(hdr)})")
 
 
+# --------------------------------------------- Google Analytics 4 (Website)
+
+def ga4(hist):
+    """Website-Besucher pro Tag aus Google Analytics 4 -> hist["ga4_daily"].
+
+    Holt jedes Mal die letzten 90 Tage, damit Lücken automatisch aufgefüllt werden.
+    Braucht: Secret GOOGLE_SERVICE_ACCOUNT_JSON + "ga4_property_id" in config.json.
+    Das Dienstkonto muss in GA4 (Verwaltung -> Property-Zugriffsverwaltung) als Betrachter eingetragen sein.
+    """
+    raw = os.environ.get("GOOGLE_SERVICE_ACCOUNT_JSON", "").strip()
+    prop = str(CFG.get("ga4_property_id") or "").strip()
+    if not raw or not prop:
+        log("Google Analytics: GOOGLE_SERVICE_ACCOUNT_JSON oder ga4_property_id fehlt - übersprungen")
+        return
+    try:
+        from google.oauth2 import service_account
+        from google.auth.transport.requests import Request
+    except ImportError:
+        log("Google Analytics: Paket google-auth fehlt - übersprungen")
+        return
+    try:
+        info = json.loads(raw)
+    except ValueError:
+        log("Google Analytics: GOOGLE_SERVICE_ACCOUNT_JSON ist kein gültiges JSON")
+        return
+    creds = service_account.Credentials.from_service_account_info(
+        info, scopes=["https://www.googleapis.com/auth/analytics.readonly"])
+    creds.refresh(Request())
+    body = {"dateRanges": [{"startDate": "90daysAgo", "endDate": "yesterday"}],
+            "dimensions": [{"name": "date"}],
+            "metrics": [{"name": "activeUsers"}, {"name": "sessions"},
+                        {"name": "screenPageViews"}, {"name": "newUsers"}],
+            "limit": 1000}
+    r = http(f"https://analyticsdata.googleapis.com/v1beta/properties/{prop}:runReport",
+             data=json.dumps(body).encode(),
+             headers={"Authorization": f"Bearer {creds.token}", "Content-Type": "application/json"})
+    daily = hist.setdefault("ga4_daily", {})
+    keys = ["users", "sessions", "views", "new_users"]
+    n = 0
+    for row in r.get("rows", []):
+        d = row["dimensionValues"][0]["value"]  # JJJJMMTT
+        iso = f"{d[:4]}-{d[4:6]}-{d[6:]}"
+        daily[iso] = {k: int(float(m["value"])) for k, m in zip(keys, row["metricValues"])}
+        n += 1
+    log(f"Google Analytics: {n} Tage geladen")
+
 def playlists():
     """Wandelt data/imports/playlists*.csv in eine Tabelle für das Dashboard."""
     files = sorted(glob.glob(os.path.join(DATA, "imports", "playlists*.csv")) +
@@ -415,6 +463,10 @@ def main():
     hist["snapshots"][today] = old
 
     spotify_imports(hist)
+    try:
+        ga4(hist)
+    except Exception as e:  # noqa: BLE001
+        log(f"Google Analytics: Fehler - {e}")
     try:
         apple_imports(hist)
     except Exception as e:  # noqa: BLE001

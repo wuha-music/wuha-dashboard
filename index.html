@@ -15,7 +15,7 @@
   --text:#ffffff; --text-2:#d9d9d9; --muted:#9a9993; --accent:#4c3f37; --accent-2:#6b5a4f;
   --good:#0ca30c; --critical:#e66767;
   --instagram:#d55181; --facebook:#3987e5; --tiktok:#199e70; --youtube:#e66767;
-  --soundcloud:#d95926; --spotify:#1baf7a; --deezer:#9085e9; --whatsapp:#c98500; --bandsintown:#00cec8; --apple:#fa4d68;
+  --soundcloud:#d95926; --spotify:#1baf7a; --deezer:#9085e9; --whatsapp:#c98500; --bandsintown:#00cec8; --apple:#fa4d68; --website:#e8c547;
 }
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 Inter,system-ui,sans-serif}
@@ -126,7 +126,10 @@ button.pill.small:disabled{opacity:.6;cursor:wait}
   <h2>Entdeckt in Playlists</h2>
   <div id="found"></div>
 
-  <h2>Apple Music</h2>
+  <h2>Website</h2>
+<div id="website"></div>
+
+<h2>Apple Music</h2>
   <div id="apple"></div>
 
   <h2>Alle Zahlen</h2>
@@ -258,6 +261,7 @@ function render(){
 
   renderSpotify(sp, label);
   renderApple(label);
+  renderWebsite(label);
   renderTable();
 }
 
@@ -297,6 +301,19 @@ function renderSpotify(sp, label){
   box.innerHTML = "";
   dailyCards(box, [["Streams", sp.streams, "daily", "bar"], ["Hörer pro Tag", sp.listeners, "avg", "line"], ["Follower", sp.followers, "total", "line"]],
     css("--spotify"), "sp_", label);
+}
+
+function renderWebsite(label){
+  const box = document.getElementById("website");
+  const w = dailyOf(H.ga4_daily, ["users","sessions","views"]);
+  if(!w.users.length){
+    box.innerHTML = `<div class="note"><b>Noch keine Website-Daten.</b> Google Analytics wird beim nächsten Lauf von „Zahlen sammeln“ geholt
+    (braucht <code>ga4_property_id</code> in config.json und Lesezugriff des Dienstkontos in GA4).</div>`;
+    return;
+  }
+  box.innerHTML = "";
+  dailyCards(box, [["Besucher", w.users, "daily", "bar"], ["Sitzungen", w.sessions, "daily", "bar"], ["Seitenaufrufe", w.views, "daily", "bar"]],
+    css("--website"), "web_", label);
 }
 
 function renderApple(label){
