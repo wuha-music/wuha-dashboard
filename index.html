@@ -60,6 +60,11 @@ footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--line);color:v
 .spot{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
 .spot .chartbox{height:220px}
 .gap{margin-top:16px}
+.countries{display:grid;gap:8px;margin-top:14px}
+.crow{display:grid;grid-template-columns:minmax(90px,160px) 1fr auto 40px;gap:10px;align-items:center;font-size:14px}
+.cname{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cbar{height:10px;background:var(--line);border-radius:2px;overflow:hidden}.cbar i{display:block;height:100%;background:var(--website)}
+.crow b{font-variant-numeric:tabular-nums;text-align:right}.cpct{color:var(--muted);font-size:12px;text-align:right}
 tr.gone td{color:var(--muted);opacity:.55}
 tr.gone td a{color:var(--muted)!important}
 .tag{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:1px 8px;font-size:12px;color:var(--text-2);white-space:nowrap}
@@ -126,11 +131,11 @@ button.pill.small:disabled{opacity:.6;cursor:wait}
   <h2>Entdeckt in Playlists</h2>
   <div id="found"></div>
 
-  <h2>Website</h2>
-<div id="website"></div>
-
-<h2>Apple Music</h2>
+  <h2>Apple Music</h2>
   <div id="apple"></div>
+
+  <h2>Website</h2>
+  <div id="website"></div>
 
   <h2>Alle Zahlen</h2>
   <div class="tablewrap"><table id="table"></table></div>
@@ -314,6 +319,22 @@ function renderWebsite(label){
   box.innerHTML = "";
   dailyCards(box, [["Besucher", w.users, "daily", "bar"], ["Sitzungen", w.sessions, "daily", "bar"], ["Seitenaufrufe", w.views, "daily", "bar"]],
     css("--website"), "web_", label);
+  renderCountries(box, label);
+}
+
+// Website-Besucher nach Land im gewählten Zeitraum
+function renderCountries(box, label){
+  const C = H.ga4_countries||{}, days = Object.keys(C).sort();
+  if(!days.length) return;
+  const from = range ? dayAdd(days[days.length-1], -range+1) : "";
+  const tot = {};
+  days.filter(d=>d>=from).forEach(d=>Object.entries(C[d]).forEach(([k,v])=>tot[k]=(tot[k]||0)+v));
+  const rows = Object.entries(tot).sort((a,b)=>b[1]-a[1]), all = rows.reduce((a,x)=>a+x[1],0);
+  if(!rows.length) return;
+  const max = rows[0][1], show = rows.slice(0,15);
+  box.insertAdjacentHTML("beforeend", `<article class="card gap" style="--c:var(--website)"><div class="head"><h3>Besucher nach Land</h3><span class="biglab">${label} · ${fmt(rows.length)} Länder</span></div>
+    <div class="countries">${show.map(([k,v])=>`<div class="crow"><span class="cname">${esc(k)}</span><span class="cbar"><i style="width:${Math.max(2,v/max*100)}%"></i></span><b>${fmt(v)}</b><span class="cpct">${Math.round(v/all*100)}%</span></div>`).join("")}</div>
+    ${rows.length>15?`<div class="biglab gap">+ ${fmt(rows.length-15)} weitere Länder</div>`:""}</article>`);
 }
 
 function renderApple(label){

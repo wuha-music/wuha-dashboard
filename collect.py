@@ -426,6 +426,24 @@ def ga4(hist):
         n += 1
     log(f"Google Analytics: {n} Tage geladen")
 
+    # Besucher pro Land und Tag -> hist["ga4_countries"] = {datum: {land: besucher}}
+    body = {"dateRanges": [{"startDate": "90daysAgo", "endDate": "yesterday"}],
+            "dimensions": [{"name": "date"}, {"name": "country"}],
+            "metrics": [{"name": "activeUsers"}],
+            "limit": 25000}
+    r = http(f"https://analyticsdata.googleapis.com/v1beta/properties/{prop}:runReport",
+             data=json.dumps(body).encode(),
+             headers={"Authorization": f"Bearer {creds.token}", "Content-Type": "application/json"})
+    cdaily = hist.setdefault("ga4_countries", {})
+    fresh = {}
+    for row in r.get("rows", []):
+        d = row["dimensionValues"][0]["value"]
+        iso = f"{d[:4]}-{d[4:6]}-{d[6:]}"
+        land = row["dimensionValues"][1]["value"] or "(unbekannt)"
+        fresh.setdefault(iso, {})[land] = int(float(row["metricValues"][0]["value"]))
+    cdaily.update(fresh)
+    log(f"Google Analytics: Länder für {len(fresh)} Tage geladen")
+
 def playlists():
     """Wandelt data/imports/playlists*.csv in eine Tabelle für das Dashboard."""
     files = sorted(glob.glob(os.path.join(DATA, "imports", "playlists*.csv")) +
