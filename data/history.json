@@ -75,7 +75,7 @@
    ]
   ],
   "source": "songs_1790726364_2015-06-30_2026-11-07.csv",
-  "updated": "2026-11-14"
+  "updated": "2026-11-15"
  },
  "apple_daily": {},
  "apple_totals": {
@@ -116,7 +116,7 @@
   ],
   "rows": [],
   "source": "playlists_manuell.csv",
-  "updated": "2026-11-14"
+  "updated": "2026-11-15"
  },
  "snapshots": {
   "2026-11-08": {
@@ -336,6 +336,46 @@
    },
    "tiktok": {
     "followers": 85,
+    "likes": 534,
+    "videos": 41
+   },
+   "whatsapp": {
+    "followers": 7
+   },
+   "youtube": {
+    "followers": 11,
+    "videos": 21,
+    "views_total": 4588
+   }
+  },
+  "2026-11-15": {
+   "bandsintown": {
+    "events": 0,
+    "followers": 27
+   },
+   "deezer": {
+    "albums": 7,
+    "followers": 0
+   },
+   "facebook": {
+    "followers": 1175,
+    "likes": 1175,
+    "reach": 9,
+    "views": 15
+   },
+   "instagram": {
+    "followers": 78,
+    "posts": 43,
+    "profile_views": 0,
+    "reach": 0,
+    "views": 0
+   },
+   "soundcloud": {
+    "followers": 55,
+    "tracks": 7
+   },
+   "tiktok": {
+    "followers": 86,
     "likes": 534,
     "videos": 41
    },
@@ -5586,5 +5626,5 @@
    "streams": 14
   }
  },
- "updated": "2026-11-14T12:16+00:00"
+ "updated": "2026-11-15T05:57+00:00"
 }
