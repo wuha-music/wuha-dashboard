@@ -823,7 +823,7 @@
   "Meta: Seite 'WUHA' über Personen-Token gefunden",
   "Spotify-Import: 0-soundcharts-followers.csv (3 Tage)",
   "Spotify-Import: WUHA-audience-timeline-2026-11-09.csv (9 Tage)",
-  "Spotify-Import: WUHA-audience-timeline.csv (1047 Tage)",
+  "Spotify-Import: WUHA-audience-timeline.csv (1049 Tage)",
   "Google Analytics: 75 Tage geladen",
   "Google Analytics: Länder für 74 Tage geladen",
   "Apple-Import: songs_1790726364_2015-06-30_2026-11-07.csv (8 Songs, Spalten: Titel, Wiedergaben, Durchschn. Hörer:innen pro Tag, Shazam-Anzahl, Radio Spins, Käufe)"
@@ -1120,15 +1120,15 @@
    "facebook": {
     "followers": 1175,
     "likes": 1175,
-    "reach": 7,
-    "views": 7
+    "reach": 12,
+    "views": 24
    },
    "instagram": {
-    "followers": 78,
-    "posts": 43,
+    "followers": 79,
+    "posts": 44,
     "profile_views": 0,
     "reach": 1,
-    "views": 1
+    "views": 4
    },
    "soundcloud": {
     "followers": 55,
@@ -1136,8 +1136,8 @@
    },
    "tiktok": {
     "followers": 86,
-    "likes": 534,
-    "videos": 41
+    "likes": 535,
+    "videos": 42
    },
    "whatsapp": {
     "followers": 7
@@ -6384,7 +6384,17 @@
    "followers": 516,
    "listeners": 14,
    "streams": 14
+  },
+  "2026-11-13": {
+   "followers": 520,
+   "listeners": 12,
+   "streams": 21
+  },
+  "2026-11-14": {
+   "followers": 520,
+   "listeners": 10,
+   "streams": 11
   }
  },
- "updated": "2026-11-16T06:21+00:00"
+ "updated": "2026-11-16T18:07+00:00"
 }
