@@ -1,8 +1,9 @@
 {
  "log": [
-  "Gmail: 56 Mails mit Label „Playlist Sub“, davon neu: 1",
+  "Gmail: 58 Mails mit Label „Playlist Sub“, davon neu: 2",
   "Soundcharts: heute keine Abfrage (nur Mo, Do; letzte: 2026-11-16).",
   "Spotify-API: Playlist-Inhalte gesperrt (403) – prüfe über Spotify-Einbettung (erste 100 Titel).",
+  "Talent Festival: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
   "Indie Pop: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
   "Beauty of Synth & Rock: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
   "Car Radio Vibes: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
@@ -10,7 +11,7 @@
   "Soft/Chill Vibes: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
   "Delicious: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
   "NEW WAVE SIGNAL: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
-  "Talent Festival: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei."
+  "All Pressure | Trap Rap 2026: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei."
  ],
  "mails_seen": [
   "1825321852762272607",
@@ -68,10 +69,30 @@
   "1881485769719095262",
   "1881555594857380882",
   "1881638643763043510",
-  "1882008606203240647"
+  "1882008606203240647",
+  "1882101080364642415",
+  "1882106740634003163"
  ],
  "pending": {},
  "playlists": {
+  "02UAatyNI04LXDMWkVjcWC": {
+   "checked_ok": false,
+   "curator": "Holy Caviar Records",
+   "first_seen": "2026-11-17",
+   "followers": 197,
+   "followers_text": "197",
+   "id": "02UAatyNI04LXDMWkVjcWC",
+   "last_check": "2026-11-18",
+   "name": "All Pressure | Trap Rap 2026",
+   "names": [
+    "All Pressure | Trap Rap 2026"
+   ],
+   "source": "Soundcharts",
+   "status": "teilweise",
+   "total_tracks": 100,
+   "url": "https://open.spotify.com/playlist/02UAatyNI04LXDMWkVjcWC",
+   "verified": false
+  },
   "0A9UO64gbX7F1YzHsb5xPh": {
    "checked_ok": false,
    "curator": "Inorganic Era",
@@ -79,7 +100,7 @@
    "followers": 702,
    "followers_text": "702",
    "id": "0A9UO64gbX7F1YzHsb5xPh",
-   "last_check": "2026-11-17",
+   "last_check": "2026-11-18",
    "name": "Talent Festival",
    "names": [
     "Talent Festival"
@@ -95,6 +116,7 @@
    "count": 1,
    "first_seen": "2026-10-09",
    "followers": 479,
+   "followers_text": "486",
    "id": "0BKFCBxiowSdqsWIgVnlGs",
    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84983cec4184ab07ba12983173",
    "last_check": "2026-11-16",
@@ -586,7 +608,7 @@
    "followers": 642,
    "followers_text": "642",
    "id": "1CqYaN9Iv3NmsizW6Z4cFd",
-   "last_check": "2026-11-17",
+   "last_check": "2026-11-18",
    "name": "Indie Pop",
    "names": [
     "Indie Pop"
@@ -779,7 +801,7 @@
    "first_seen": "2026-07-19",
    "followers": null,
    "id": "1YmZnOsxn3cyDArHtrxXyM",
-   "last_check": "2026-11-17",
+   "last_check": "2026-11-18",
    "name": "Beauty of Synth & Rock",
    "names": [
     "Beauty of Synth & Rock"
@@ -1031,7 +1053,7 @@
    "followers": 375,
    "followers_text": "375",
    "id": "2MhOSkXEtTzjEqkKZEHGFD",
-   "last_check": "2026-11-17",
+   "last_check": "2026-11-18",
    "name": "Car Radio Vibes",
    "names": [
     "Car Radio Vibes"
@@ -1283,7 +1305,7 @@
    "followers": 185,
    "followers_text": "185",
    "id": "37ZJ6FoiQFUOlmoMF377Qn",
-   "last_check": "2026-11-17",
+   "last_check": "2026-11-18",
    "name": "Pop Psychology - Take a Thrill Pill!",
    "names": [
     "Pop Psychology 🎤🎧🎸"
@@ -1359,7 +1381,7 @@
    "followers": 559,
    "followers_text": "559",
    "id": "3FeXviPUCaJrt6vNHhtjrv",
-   "last_check": "2026-11-17",
+   "last_check": "2026-11-18",
    "name": "Soft/Chill Vibes",
    "names": [
     "Soft Chill Vibes"
@@ -1610,7 +1632,7 @@
    "followers": 142,
    "followers_text": "142",
    "id": "4Elb0jdmhFjV71SbzuGwk9",
-   "last_check": "2026-11-17",
+   "last_check": "2026-11-18",
    "name": "Delicious",
    "names": [
     "Delicious Glam Edition 💎"
@@ -1776,7 +1798,7 @@
    "followers": 138,
    "followers_text": "138",
    "id": "5KySi2zOxBnYrNnRBIGfHh",
-   "last_check": "2026-11-17",
+   "last_check": "2026-11-18",
    "name": "NEW WAVE SIGNAL",
    "names": [
     "NEW WAVE SIGNAL"
@@ -2326,5 +2348,5 @@
   "playlists": 69,
   "songs": 83
  },
- "updated": "2026-11-17T05:15+00:00"
+ "updated": "2026-11-18T05:19+00:00"
 }
