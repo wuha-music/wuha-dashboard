@@ -1,7 +1,7 @@
 {
  "log": [
   "Gmail: 58 Mails mit Label „Playlist Sub“, davon neu: 0",
-  "Soundcharts: 70 Playlists mit WUHA · Rest-Kontingent 994",
+  "Soundcharts: heute keine Abfrage (nur Mo, Do; letzte: 2026-11-19).",
   "Spotify-API: Playlist-Inhalte gesperrt (403) – prüfe über Spotify-Einbettung (erste 100 Titel).",
   "Indie Pop: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
   "Beauty of Synth & Rock: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
@@ -637,7 +637,7 @@
    "followers": 642,
    "followers_text": "642",
    "id": "1CqYaN9Iv3NmsizW6Z4cFd",
-   "last_check": "2026-11-19",
+   "last_check": "2026-11-20",
    "name": "Indie Pop",
    "names": [
     "Indie Pop"
@@ -830,7 +830,7 @@
    "first_seen": "2026-07-19",
    "followers": null,
    "id": "1YmZnOsxn3cyDArHtrxXyM",
-   "last_check": "2026-11-19",
+   "last_check": "2026-11-20",
    "name": "Beauty of Synth & Rock",
    "names": [
     "Beauty of Synth & Rock"
@@ -1017,35 +1017,6 @@
    "url": "https://open.spotify.com/playlist/2Fj8SO62BIbsNTihx20ZG1",
    "verified": true
   },
-  "2GVAskFaTyuHVrVPCbND7i": {
-   "checked_ok": true,
-   "count": 0,
-   "first_seen": "2026-10-07",
-   "followers": 114,
-   "id": "2GVAskFaTyuHVrVPCbND7i",
-   "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84178785af408ea40c3c3da27e",
-   "last_check": "2026-11-19",
-   "last_seen": "2026-11-16",
-   "missing_since": "2026-11-19",
-   "name": "Fix my Broken Heart 💘 Linktr.ee/MaXimumBoost",
-   "names": [
-    "Fix my Broken Heart 💘 Linktr.ee/MaXimumBoost"
-   ],
-   "pl_type": "Curators & Listeners",
-   "sc": "2026-11-16",
-   "songs": [
-    {
-     "peak": 33,
-     "pos": 33,
-     "title": "Losing My Shape"
-    }
-   ],
-   "source": "Soundcharts",
-   "status": "entfernt",
-   "total_tracks": 88,
-   "url": "https://open.spotify.com/playlist/2GVAskFaTyuHVrVPCbND7i",
-   "verified": true
-  },
   "2L3X6HRFG8JQSKUkHf9vLj": {
    "checked_ok": true,
    "count": 1,
@@ -1082,7 +1053,7 @@
    "followers": 375,
    "followers_text": "375",
    "id": "2MhOSkXEtTzjEqkKZEHGFD",
-   "last_check": "2026-11-19",
+   "last_check": "2026-11-20",
    "name": "Car Radio Vibes",
    "names": [
     "Car Radio Vibes"
@@ -1334,7 +1305,7 @@
    "followers": 185,
    "followers_text": "185",
    "id": "37ZJ6FoiQFUOlmoMF377Qn",
-   "last_check": "2026-11-19",
+   "last_check": "2026-11-20",
    "name": "Pop Psychology - Take a Thrill Pill!",
    "names": [
     "Pop Psychology 🎤🎧🎸"
@@ -1410,7 +1381,7 @@
    "followers": 559,
    "followers_text": "559",
    "id": "3FeXviPUCaJrt6vNHhtjrv",
-   "last_check": "2026-11-19",
+   "last_check": "2026-11-20",
    "name": "Soft/Chill Vibes",
    "names": [
     "Soft Chill Vibes"
@@ -1661,7 +1632,7 @@
    "followers": 142,
    "followers_text": "142",
    "id": "4Elb0jdmhFjV71SbzuGwk9",
-   "last_check": "2026-11-19",
+   "last_check": "2026-11-20",
    "name": "Delicious",
    "names": [
     "Delicious Glam Edition 💎"
@@ -1827,7 +1798,7 @@
    "followers": 138,
    "followers_text": "138",
    "id": "5KySi2zOxBnYrNnRBIGfHh",
-   "last_check": "2026-11-19",
+   "last_check": "2026-11-20",
    "name": "NEW WAVE SIGNAL",
    "names": [
     "NEW WAVE SIGNAL"
@@ -2361,6 +2332,14 @@
  },
  "removed": [
   {
+   "name": "Fix my Broken Heart 💘 Linktr.ee/MaXimumBoost",
+   "removed": "2026-11-20",
+   "songs": [
+    "Losing My Shape"
+   ],
+   "url": "https://open.spotify.com/playlist/2GVAskFaTyuHVrVPCbND7i"
+  },
+  {
    "name": "All New Music",
    "removed": "2026-11-17",
    "songs": [
@@ -2377,5 +2356,5 @@
   "playlists": 70,
   "songs": 85
  },
- "updated": "2026-11-19T05:22+00:00"
+ "updated": "2026-11-20T05:19+00:00"
 }
