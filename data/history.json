@@ -75,7 +75,7 @@
    ]
   ],
   "source": "songs_1790726364_2015-06-30_2026-11-07.csv",
-  "updated": "2026-11-19"
+  "updated": "2026-11-20"
  },
  "apple_daily": {},
  "apple_totals": {
@@ -855,8 +855,8 @@
   "Spotify-Import: 0-soundcharts-followers.csv (3 Tage)",
   "Spotify-Import: WUHA-audience-timeline-2026-11-09.csv (9 Tage)",
   "Spotify-Import: WUHA-audience-timeline.csv (1049 Tage)",
-  "Google Analytics: 75 Tage geladen",
-  "Google Analytics: Länder für 74 Tage geladen",
+  "Google Analytics: 74 Tage geladen",
+  "Google Analytics: Länder für 73 Tage geladen",
   "Apple-Import: songs_1790726364_2015-06-30_2026-11-07.csv (8 Songs, Spalten: Titel, Wiedergaben, Durchschn. Hörer:innen pro Tag, Shazam-Anzahl, Radio Spins, Käufe)"
  ],
  "playlists": {
@@ -867,7 +867,7 @@
   ],
   "rows": [],
   "source": "playlists_manuell.csv",
-  "updated": "2026-11-19"
+  "updated": "2026-11-20"
  },
  "snapshots": {
   "2026-11-08": {
@@ -1287,6 +1287,46 @@
    },
    "tiktok": {
     "followers": 88,
+    "likes": 535,
+    "videos": 42
+   },
+   "whatsapp": {
+    "followers": 7
+   },
+   "youtube": {
+    "followers": 11,
+    "videos": 21,
+    "views_total": 4636
+   }
+  },
+  "2026-11-20": {
+   "bandsintown": {
+    "events": 0,
+    "followers": 27
+   },
+   "deezer": {
+    "albums": 7,
+    "followers": 0
+   },
+   "facebook": {
+    "followers": 1174,
+    "likes": 1174,
+    "reach": 5,
+    "views": 14
+   },
+   "instagram": {
+    "followers": 79,
+    "posts": 44,
+    "profile_views": 0,
+    "reach": 1,
+    "views": 1
+   },
+   "soundcloud": {
+    "followers": 55,
+    "tracks": 7
+   },
+   "tiktok": {
+    "followers": 89,
     "likes": 535,
     "videos": 42
    },
@@ -6547,5 +6587,5 @@
    "streams": 11
   }
  },
- "updated": "2026-11-19T06:10+00:00"
+ "updated": "2026-11-20T06:12+00:00"
 }
