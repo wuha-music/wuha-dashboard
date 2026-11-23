@@ -884,7 +884,6 @@
  "log": [
   "Meta: Seite 'WUHA' über Personen-Token gefunden",
   "Spotify-Import: 0-soundcharts-followers.csv (3 Tage)",
-  "Spotify-Import: WUHA-audience-timeline-2026-11-09.csv (9 Tage)",
   "Spotify-Import: WUHA-audience-timeline.csv (1056 Tage)",
   "Google Analytics: 74 Tage geladen",
   "Google Analytics: Länder für 73 Tage geladen",
@@ -6773,5 +6772,5 @@
    "streams": 17
   }
  },
- "updated": "2026-11-23T15:32+00:00"
+ "updated": "2026-11-23T15:43+00:00"
 }
