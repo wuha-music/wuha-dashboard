@@ -886,7 +886,6 @@
   "Spotify-Import: 0-soundcharts-followers.csv (3 Tage)",
   "Spotify-Import: WUHA-audience-timeline 2026.csv (1056 Tage)",
   "Spotify-Import: WUHA-audience-timeline-2026-11-09.csv (9 Tage)",
-  "Spotify-Import: WUHA-audience-timeline.csv (1049 Tage)",
   "Google Analytics: 74 Tage geladen",
   "Google Analytics: Länder für 73 Tage geladen",
   "Apple-Import: songs_1790726364_2015-06-30_2026-11-07.csv (8 Songs, Spalten: Titel, Wiedergaben, Durchschn. Hörer:innen pro Tag, Shazam-Anzahl, Radio Spins, Käufe)"
@@ -6774,5 +6773,5 @@
    "streams": 17
   }
  },
- "updated": "2026-11-23T15:27+00:00"
+ "updated": "2026-11-23T15:31+00:00"
 }
