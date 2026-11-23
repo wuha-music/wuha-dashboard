@@ -884,6 +884,7 @@
  "log": [
   "Meta: Seite 'WUHA' über Personen-Token gefunden",
   "Spotify-Import: 0-soundcharts-followers.csv (3 Tage)",
+  "Spotify-Import: WUHA-audience-timeline 2026.csv (1056 Tage)",
   "Spotify-Import: WUHA-audience-timeline-2026-11-09.csv (9 Tage)",
   "Spotify-Import: WUHA-audience-timeline.csv (1049 Tage)",
   "Google Analytics: 74 Tage geladen",
@@ -1453,17 +1454,17 @@
   "2026-11-23": {
    "bandsintown": {
     "events": 0,
-    "followers": 27
+    "followers": 32
    },
    "deezer": {
     "albums": 7,
     "followers": 0
    },
    "facebook": {
-    "followers": 1165,
-    "likes": 1165,
-    "reach": 47,
-    "views": 79
+    "followers": 1166,
+    "likes": 1166,
+    "reach": 48,
+    "views": 80
    },
    "instagram": {
     "followers": 80,
@@ -1477,7 +1478,7 @@
     "tracks": 7
    },
    "tiktok": {
-    "followers": 92,
+    "followers": 93,
     "likes": 536,
     "videos": 43
    },
@@ -6736,7 +6737,42 @@
    "followers": 520,
    "listeners": 10,
    "streams": 11
+  },
+  "2026-11-15": {
+   "followers": 520,
+   "listeners": 10,
+   "streams": 10
+  },
+  "2026-11-16": {
+   "followers": 527,
+   "listeners": 9,
+   "streams": 9
+  },
+  "2026-11-17": {
+   "followers": 531,
+   "listeners": 11,
+   "streams": 11
+  },
+  "2026-11-18": {
+   "followers": 532,
+   "listeners": 13,
+   "streams": 13
+  },
+  "2026-11-19": {
+   "followers": 533,
+   "listeners": 11,
+   "streams": 13
+  },
+  "2026-11-20": {
+   "followers": 534,
+   "listeners": 10,
+   "streams": 12
+  },
+  "2026-11-21": {
+   "followers": 534,
+   "listeners": 15,
+   "streams": 17
   }
  },
- "updated": "2026-11-23T06:12+00:00"
+ "updated": "2026-11-23T15:27+00:00"
 }
