@@ -19,9 +19,9 @@ jobs:
   collect:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
@@ -57,5 +57,9 @@ jobs:
           git config user.email "wuha-bot@users.noreply.github.com"
           git add data/history.json
           git commit -m "Daten $(date +%F)" || exit 0
-          git pull --rebase origin main
-          git push origin HEAD:main
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin main && git push origin HEAD:main && exit 0
+            git rebase --abort 2>/dev/null || true
+            echo "Push-Konflikt, neuer Versuch $i …"; sleep $((i*10))
+          done
+          exit 1
