@@ -219,18 +219,21 @@ function render(){
   const wk = range||7;
 
   // KPIs
-  let total=0, t7=0, t30=0, n=0;
+  const D = range || 100000, lbl = range ? `letzte ${range} Tage` : "gesamter Zeitraum";
+  let total=0, tR=0, n=0, since=null;
   for(const p of Object.keys(PLATFORMS)){
     const s=series(p,"followers"); if(!s.length) continue;
-    total+=s[s.length-1].v; t7+=change(s,7).v||0; t30+=change(s,30).v||0; n++;
+    const ch=change(s,D); total+=s[s.length-1].v; tR+=ch.v||0; n++;
+    if(ch.since && (!since || ch.since>since)) since=ch.since;
   }
   const sp = spotifyDaily();
-  const spStreams30 = sp.streams.length ? sum(sp.streams,30) : null;
+  const spStreamsR = sp.streams.length ? sum(sp.streams,D) : null;
+  const spL = sp.listeners, spListR = spL.length ? (()=>{const f=dayAdd(spL[spL.length-1].d,-D+1), xs=spL.filter(x=>x.d>=f); return xs.length? xs.reduce((a,x)=>a+x.v,0)/xs.length : null;})() : null;
   document.getElementById("kpis").innerHTML = `
     <div class="kpi"><div class="lab">Follower gesamt</div><div class="val">${fmt(total)}</div><div class="sub">über ${n} Kanäle</div></div>
-    <div class="kpi"><div class="lab">Neue Follower · Woche</div><div class="val ${cls(t7)}">${sign(t7)}</div><div class="sub">letzte 7 Tage</div></div>
-    <div class="kpi"><div class="lab">Neue Follower · Monat</div><div class="val ${cls(t30)}">${sign(t30)}</div><div class="sub">letzte 30 Tage</div></div>
-    <div class="kpi"><div class="lab">Spotify-Streams · Monat</div><div class="val">${fmt(spStreams30)}</div><div class="sub">${spStreams30==null?"CSV aus Spotify for Artists fehlt":"letzte 30 Tage"}</div></div>`;
+    <div class="kpi"><div class="lab">Neue Follower</div><div class="val ${cls(tR)}">${sign(tR)}</div><div class="sub">${lbl}${since?` · Daten ab ${deDate(since)}`:""}</div></div>
+    <div class="kpi"><div class="lab">Spotify-Streams</div><div class="val">${fmt(spStreamsR)}</div><div class="sub">${spStreamsR==null?"CSV aus Spotify for Artists fehlt":lbl}</div></div>
+    <div class="kpi"><div class="lab">Spotify-Hörer Ø pro Tag</div><div class="val">${fmt(spListR)}</div><div class="sub">${lbl}</div></div>`;
 
   // Karten
   const cards = document.getElementById("cards"); cards.innerHTML="";
@@ -244,16 +247,16 @@ function render(){
       cards.appendChild(el); continue;
     }
     const last = fol[fol.length-1];
-    const c7 = change(fol,7), c30 = change(fol,30);
+    const c7 = change(fol,7), c30 = change(fol,D);
     const rows = [
       `<div><span>Follower · Woche</span><b class="${cls(c7.v)}">${sign(c7.v)}</b></div>`,
-      `<div><span>Follower · Monat</span><b class="${cls(c30.v)}">${sign(c30.v)}</b></div>`];
+      `<div><span>Follower · ${range?range+" Tage":"gesamt"}</span><b class="${cls(c30.v)}">${sign(c30.v)}</b></div>`];
     for(const [m,[lab,kind]] of Object.entries(def.metrics)){
       if(m==="followers") continue;
       const s = series(p,m); if(!s.length) continue;
       if(kind==="total"){ rows.push(`<div><span>${lab}</span><b>${fmt(s[s.length-1].v)}</b></div>`); continue; }
-      const w = period(s,kind,7), mo = period(s,kind,30);
-      rows.push(`<div><span>${lab} · Woche</span><b>${fmt(w.v)}</b></div>`, `<div><span>${lab} · Monat</span><b>${fmt(mo.v)}</b></div>`);
+      const w = period(s,kind,7), mo = period(s,kind,D);
+      rows.push(`<div><span>${lab} · Woche</span><b>${fmt(w.v)}</b></div>`, `<div><span>${lab} · ${range?range+" Tage":"gesamt"}</span><b>${fmt(mo.v)}</b></div>`);
     }
     const since = c30.since ? `<div class="biglab">Vergleich seit ${deDate(c30.since)} (Daten werden seitdem gesammelt)</div>` : "";
     el.innerHTML = `<div class="head"><h3>${def.name}</h3><span class="biglab">Stand ${deDate(last.d)}</span></div>
@@ -288,7 +291,7 @@ function dailyCards(box, blocks, color, prefix, label){
     const pre = kind==="avg" ? "Ø pro Tag · " : "";
     const id = prefix+title.replace(/\W/g,"");
     parts.push({id,s,type,title, html:`<article class="card" style="--c:${color}"><div class="head"><h3>${title}</h3><span class="biglab">bis ${deDate(s[s.length-1].d)}</span></div>
-      <div class="stats"><div><span>${pre}Woche</span><b>${val(7)}</b></div><div><span>${pre}Monat</span><b>${val(30)}</b></div></div>
+      <div class="stats"><div><span>${pre}Woche</span><b>${val(7)}</b></div><div><span>${pre}${range?range+" Tage":"Gesamt"}</span><b>${val(range||100000)}</b></div></div>
       <div class="chartbox"><canvas id="${id}" aria-label="${title}, ${label}"></canvas></div></article>`});
   }
   box.insertAdjacentHTML("beforeend", `<div class="spot">${parts.map(p=>p.html).join("")}</div>`);
