@@ -1,7 +1,7 @@
 {
  "log": [
   "Gmail: 57 Mails mit Label „Playlist Sub“, davon neu: 0",
-  "Soundcharts: 64 Playlists mit WUHA · Rest-Kontingent 993",
+  "Soundcharts: heute keine Abfrage (nur Mo, Do; letzte: 2026-11-23).",
   "Spotify-API: Playlist-Inhalte gesperrt (403) – prüfe über Spotify-Einbettung (erste 100 Titel).",
   "Indie Pop: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
   "Beauty of Synth & Rock: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
@@ -540,37 +540,6 @@
    "url": "https://open.spotify.com/playlist/0vFTM2qnCGQ20xoaAJBgjp",
    "verified": true
   },
-  "102o90CH5zKfBiK0mD6ZuD": {
-   "checked_ok": true,
-   "count": 0,
-   "curator": "BlvkeMusicRecords",
-   "first_seen": "2026-07-21",
-   "followers": 4199,
-   "followers_text": "3.96K",
-   "id": "102o90CH5zKfBiK0mD6ZuD",
-   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cbb6921c4beb7de62fc7b007d",
-   "last_check": "2026-11-23",
-   "last_seen": "2026-11-19",
-   "missing_since": "2026-11-23",
-   "name": "Dance Aura 2026 | EDM | Progressive House | Dance Pop",
-   "names": [
-    "Dance Aura 2026 | EDM | Progressive House | Dance Pop"
-   ],
-   "pl_type": "Curators & Listeners",
-   "sc": "2026-11-19",
-   "songs": [
-    {
-     "peak": 28,
-     "pos": 54,
-     "title": "Nothing Is Forever"
-    }
-   ],
-   "source": "Soundcharts",
-   "status": "entfernt",
-   "total_tracks": 87,
-   "url": "https://open.spotify.com/playlist/102o90CH5zKfBiK0mD6ZuD",
-   "verified": true
-  },
   "19nc440mgBE9HqWKiTYjl2": {
    "checked_ok": true,
    "count": 1,
@@ -637,7 +606,7 @@
    "followers": 642,
    "followers_text": "642",
    "id": "1CqYaN9Iv3NmsizW6Z4cFd",
-   "last_check": "2026-11-23",
+   "last_check": "2026-11-24",
    "name": "Indie Pop",
    "names": [
     "Indie Pop"
@@ -830,7 +799,7 @@
    "first_seen": "2026-07-19",
    "followers": null,
    "id": "1YmZnOsxn3cyDArHtrxXyM",
-   "last_check": "2026-11-23",
+   "last_check": "2026-11-24",
    "name": "Beauty of Synth & Rock",
    "names": [
     "Beauty of Synth & Rock"
@@ -868,37 +837,6 @@
    "status": "aktiv",
    "total_tracks": 797,
    "url": "https://open.spotify.com/playlist/1iYqy7MBoFUI8tcYzyafs9",
-   "verified": true
-  },
-  "1u9rqBHNRlmxbPXw28ekNI": {
-   "checked_ok": true,
-   "count": 0,
-   "curator": "Revista Soundloop",
-   "first_seen": "2026-11-09",
-   "followers": 235,
-   "followers_text": null,
-   "id": "1u9rqBHNRlmxbPXw28ekNI",
-   "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84e37d500da58506afb3a65557",
-   "last_check": "2026-11-23",
-   "last_seen": "2026-11-19",
-   "missing_since": "2026-11-23",
-   "name": "Pop Radar | Indie, Dream Pop, Electropop & Alt-Pop — Revista Soundloop",
-   "names": [
-    "Pop Radar | Indie, Dream Pop, Electropop & Alt-Pop — Revista Soundloop"
-   ],
-   "pl_type": "Curators & Listeners",
-   "sc": "2026-11-19",
-   "songs": [
-    {
-     "peak": 15,
-     "pos": 16,
-     "title": "Nothing Is Forever"
-    }
-   ],
-   "source": "DailyPlaylists",
-   "status": "entfernt",
-   "total_tracks": 58,
-   "url": "https://open.spotify.com/playlist/1u9rqBHNRlmxbPXw28ekNI",
    "verified": true
   },
   "1vjfA6wxFVLjq5NfcpZeqh": {
@@ -1053,7 +991,7 @@
    "followers": 375,
    "followers_text": "375",
    "id": "2MhOSkXEtTzjEqkKZEHGFD",
-   "last_check": "2026-11-23",
+   "last_check": "2026-11-24",
    "name": "Car Radio Vibes",
    "names": [
     "Car Radio Vibes"
@@ -1120,37 +1058,6 @@
    "status": "aktiv",
    "total_tracks": 1670,
    "url": "https://open.spotify.com/playlist/2Si5A50qdqcZDUdDJfQuUz",
-   "verified": true
-  },
-  "2U59iduFQA0HScPu7N2LFC": {
-   "checked_ok": true,
-   "count": 0,
-   "curator": "Malik Amer",
-   "first_seen": "2026-11-12",
-   "followers": 1031,
-   "followers_text": "1.02K",
-   "id": "2U59iduFQA0HScPu7N2LFC",
-   "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84967e4919a5baef43d0ac2639",
-   "last_check": "2026-11-23",
-   "last_seen": "2026-11-19",
-   "missing_since": "2026-11-23",
-   "name": "Lost in the Feeling \"Updated Weekly\"",
-   "names": [
-    "Lost in the Feeling \"Updated Weekly\""
-   ],
-   "pl_type": "Curators & Listeners",
-   "sc": "2026-11-19",
-   "songs": [
-    {
-     "peak": 37,
-     "pos": 37,
-     "title": "Nothing Is Forever"
-    }
-   ],
-   "source": "Soundcharts",
-   "status": "entfernt",
-   "total_tracks": 52,
-   "url": "https://open.spotify.com/playlist/2U59iduFQA0HScPu7N2LFC",
    "verified": true
   },
   "2UzZdZG4bRbqATHAfeL6Hd": {
@@ -1305,7 +1212,7 @@
    "followers": 185,
    "followers_text": "185",
    "id": "37ZJ6FoiQFUOlmoMF377Qn",
-   "last_check": "2026-11-23",
+   "last_check": "2026-11-24",
    "name": "Pop Psychology - Take a Thrill Pill!",
    "names": [
     "Pop Psychology 🎤🎧🎸"
@@ -1381,7 +1288,7 @@
    "followers": 559,
    "followers_text": "559",
    "id": "3FeXviPUCaJrt6vNHhtjrv",
-   "last_check": "2026-11-23",
+   "last_check": "2026-11-24",
    "name": "Soft/Chill Vibes",
    "names": [
     "Soft Chill Vibes"
@@ -1661,7 +1568,7 @@
    "followers": 142,
    "followers_text": "142",
    "id": "4Elb0jdmhFjV71SbzuGwk9",
-   "last_check": "2026-11-23",
+   "last_check": "2026-11-24",
    "name": "Delicious",
    "names": [
     "Delicious Glam Edition 💎"
@@ -1699,38 +1606,6 @@
    "status": "aktiv",
    "total_tracks": 248,
    "url": "https://open.spotify.com/playlist/4YbEd5QIsSBJianJwYpibd",
-   "verified": true
-  },
-  "4c91JIPJuHukr8txH0y2t6": {
-   "checked_ok": true,
-   "count": 0,
-   "curator": "MaXimum Boost",
-   "first_seen": "2026-11-07",
-   "followers": 263,
-   "followers_text": "263",
-   "id": "4c91JIPJuHukr8txH0y2t6",
-   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84b990dd9e4f8604e3e975dbe9",
-   "last_check": "2026-11-23",
-   "last_seen": "2026-11-19",
-   "missing_since": "2026-11-23",
-   "name": "Superstar Hits 2027 🎤👩‍🎤  Linktr.ee/MaXimumBoost",
-   "names": [
-    "Superstar Hits 2027 🎤👩‍🎤 Linktr.ee/MaXimumBoost",
-    "Superstar Hits 2027 🎤👩‍🎤  Linktr.ee/MaXimumBoost"
-   ],
-   "pl_type": "Curators & Listeners",
-   "sc": "2026-11-19",
-   "songs": [
-    {
-     "peak": 38,
-     "pos": 38,
-     "title": "Losing My Shape"
-    }
-   ],
-   "source": "Soundcharts",
-   "status": "entfernt",
-   "total_tracks": 68,
-   "url": "https://open.spotify.com/playlist/4c91JIPJuHukr8txH0y2t6",
    "verified": true
   },
   "4iUwK4QKT4CZn4tmohQ0V8": {
@@ -1827,7 +1702,7 @@
    "followers": 138,
    "followers_text": "138",
    "id": "5KySi2zOxBnYrNnRBIGfHh",
-   "last_check": "2026-11-23",
+   "last_check": "2026-11-24",
    "name": "NEW WAVE SIGNAL",
    "names": [
     "NEW WAVE SIGNAL"
@@ -1837,38 +1712,6 @@
    "total_tracks": 100,
    "url": "https://open.spotify.com/playlist/5KySi2zOxBnYrNnRBIGfHh",
    "verified": false
-  },
-  "5juI9RVPrFjkIVwHcBubL8": {
-   "checked_ok": true,
-   "count": 0,
-   "curator": "MaXimum Boost",
-   "first_seen": "2026-11-07",
-   "followers": 514,
-   "followers_text": "512",
-   "id": "5juI9RVPrFjkIVwHcBubL8",
-   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8455dd5ee38c5c173401033c5a",
-   "last_check": "2026-11-23",
-   "last_seen": "2026-11-19",
-   "missing_since": "2026-11-23",
-   "name": "Real Music by Real Indie ⛔️No AI  Linktr.ee/MaXimumBoost",
-   "names": [
-    "Real Music by Real Indie ⛔️No AI Linktr.ee/MaXimumBoost",
-    "Real Music by Real Indie ⛔️No AI  Linktr.ee/MaXimumBoost"
-   ],
-   "pl_type": "Curators & Listeners",
-   "sc": "2026-11-19",
-   "songs": [
-    {
-     "peak": 42,
-     "pos": 42,
-     "title": "Losing My Shape"
-    }
-   ],
-   "source": "Soundcharts",
-   "status": "entfernt",
-   "total_tracks": 71,
-   "url": "https://open.spotify.com/playlist/5juI9RVPrFjkIVwHcBubL8",
-   "verified": true
   },
   "60q1adkigX9xII1tRa3qbJ": {
    "checked_ok": true,
@@ -2234,36 +2077,6 @@
    "url": "https://open.spotify.com/playlist/78uWRN20Qfpl5qIRQ51pIy",
    "verified": true
   },
-  "7Eic3Pogyu00lHDYVMhiQW": {
-   "checked_ok": true,
-   "count": 0,
-   "first_seen": "2026-10-08",
-   "followers": 408,
-   "id": "7Eic3Pogyu00lHDYVMhiQW",
-   "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8495fc39580b6a4b56375cf3c0",
-   "last_check": "2026-11-23",
-   "last_seen": "2026-11-19",
-   "missing_since": "2026-11-23",
-   "name": "EMERGING TALENT",
-   "names": [
-    "EMERGING TALENT - UP Music Promotion",
-    "EMERGING TALENT"
-   ],
-   "pl_type": "Curators & Listeners",
-   "sc": "2026-11-19",
-   "songs": [
-    {
-     "peak": 178,
-     "pos": 309,
-     "title": "Losing My Shape"
-    }
-   ],
-   "source": "Soundcharts",
-   "status": "entfernt",
-   "total_tracks": 723,
-   "url": "https://open.spotify.com/playlist/7Eic3Pogyu00lHDYVMhiQW",
-   "verified": true
-  },
   "7eUxBxls8Gi6i7G7BkBB7b": {
    "checked_ok": true,
    "count": 2,
@@ -2326,40 +2139,65 @@
    "total_tracks": 1469,
    "url": "https://open.spotify.com/playlist/7v5yiwpGzBflfFosZjNUD8",
    "verified": true
-  },
-  "7zETYkTb6SQtW1QVtrUUcc": {
-   "checked_ok": true,
-   "count": 0,
-   "first_seen": "2026-11-07",
-   "followers": 201,
-   "followers_text": "199",
-   "id": "7zETYkTb6SQtW1QVtrUUcc",
-   "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84bcce7f40d1c4001ce87debc5",
-   "last_check": "2026-11-23",
-   "last_seen": "2026-11-19",
-   "missing_since": "2026-11-23",
-   "name": "NEW HIT MUSIC 🎤👨‍🎤  by Linktr.ee/MaXimumBoost",
-   "names": [
-    "NEW HIT MUSIC 🎤👨‍🎤  by Linktr.ee/MaXimumBoost",
-    "NEW HIT MUSIC 🎤👨‍🎤 by Linktr.ee/MaXimumBoost"
-   ],
-   "pl_type": "Curators & Listeners",
-   "sc": "2026-11-19",
-   "songs": [
-    {
-     "peak": 40,
-     "pos": 40,
-     "title": "Losing My Shape"
-    }
-   ],
-   "source": "Soundcharts",
-   "status": "entfernt",
-   "total_tracks": 81,
-   "url": "https://open.spotify.com/playlist/7zETYkTb6SQtW1QVtrUUcc",
-   "verified": true
   }
  },
  "removed": [
+  {
+   "name": "NEW HIT MUSIC 🎤👨‍🎤  by Linktr.ee/MaXimumBoost",
+   "removed": "2026-11-24",
+   "songs": [
+    "Losing My Shape"
+   ],
+   "url": "https://open.spotify.com/playlist/7zETYkTb6SQtW1QVtrUUcc"
+  },
+  {
+   "name": "EMERGING TALENT",
+   "removed": "2026-11-24",
+   "songs": [
+    "Losing My Shape"
+   ],
+   "url": "https://open.spotify.com/playlist/7Eic3Pogyu00lHDYVMhiQW"
+  },
+  {
+   "name": "Real Music by Real Indie ⛔️No AI  Linktr.ee/MaXimumBoost",
+   "removed": "2026-11-24",
+   "songs": [
+    "Losing My Shape"
+   ],
+   "url": "https://open.spotify.com/playlist/5juI9RVPrFjkIVwHcBubL8"
+  },
+  {
+   "name": "Superstar Hits 2027 🎤👩‍🎤  Linktr.ee/MaXimumBoost",
+   "removed": "2026-11-24",
+   "songs": [
+    "Losing My Shape"
+   ],
+   "url": "https://open.spotify.com/playlist/4c91JIPJuHukr8txH0y2t6"
+  },
+  {
+   "name": "Lost in the Feeling \"Updated Weekly\"",
+   "removed": "2026-11-24",
+   "songs": [
+    "Nothing Is Forever"
+   ],
+   "url": "https://open.spotify.com/playlist/2U59iduFQA0HScPu7N2LFC"
+  },
+  {
+   "name": "Pop Radar | Indie, Dream Pop, Electropop & Alt-Pop — Revista Soundloop",
+   "removed": "2026-11-24",
+   "songs": [
+    "Nothing Is Forever"
+   ],
+   "url": "https://open.spotify.com/playlist/1u9rqBHNRlmxbPXw28ekNI"
+  },
+  {
+   "name": "Dance Aura 2026 | EDM | Progressive House | Dance Pop",
+   "removed": "2026-11-24",
+   "songs": [
+    "Nothing Is Forever"
+   ],
+   "url": "https://open.spotify.com/playlist/102o90CH5zKfBiK0mD6ZuD"
+  },
   {
    "name": "Fix my Broken Heart 💘 Linktr.ee/MaXimumBoost",
    "removed": "2026-11-20",
@@ -2385,5 +2223,5 @@
   "playlists": 64,
   "songs": 79
  },
- "updated": "2026-11-23T05:35+00:00"
+ "updated": "2026-11-24T05:24+00:00"
 }
