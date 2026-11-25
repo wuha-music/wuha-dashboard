@@ -1,6 +1,6 @@
 {
  "log": [
-  "Gmail: 57 Mails mit Label „Playlist Sub“, davon neu: 0",
+  "Gmail: 59 Mails mit Label „Playlist Sub“, davon neu: 2",
   "Soundcharts: heute keine Abfrage (nur Mo, Do; letzte: 2026-11-23).",
   "Spotify-API: Playlist-Inhalte gesperrt (403) – prüfe über Spotify-Einbettung (erste 100 Titel).",
   "Indie Pop: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
@@ -69,9 +69,21 @@
   "1881638643763043510",
   "1882008606203240647",
   "1882101080364642415",
-  "1882106740634003163"
+  "1882106740634003163",
+  "1882737167024534973",
+  "1882742831434576673"
  ],
- "pending": {},
+ "pending": {
+  "new music": {
+   "first_seen": "2026-11-24",
+   "followers_text": "2.00K",
+   "name": "New Music",
+   "songs": [
+    "Rainbow Eyes"
+   ],
+   "source": "Soundcharts"
+  }
+ },
  "playlists": {
   "02UAatyNI04LXDMWkVjcWC": {
    "checked_ok": true,
@@ -606,7 +618,7 @@
    "followers": 642,
    "followers_text": "642",
    "id": "1CqYaN9Iv3NmsizW6Z4cFd",
-   "last_check": "2026-11-24",
+   "last_check": "2026-11-25",
    "name": "Indie Pop",
    "names": [
     "Indie Pop"
@@ -799,7 +811,7 @@
    "first_seen": "2026-07-19",
    "followers": null,
    "id": "1YmZnOsxn3cyDArHtrxXyM",
-   "last_check": "2026-11-24",
+   "last_check": "2026-11-25",
    "name": "Beauty of Synth & Rock",
    "names": [
     "Beauty of Synth & Rock"
@@ -991,7 +1003,7 @@
    "followers": 375,
    "followers_text": "375",
    "id": "2MhOSkXEtTzjEqkKZEHGFD",
-   "last_check": "2026-11-24",
+   "last_check": "2026-11-25",
    "name": "Car Radio Vibes",
    "names": [
     "Car Radio Vibes"
@@ -1212,7 +1224,7 @@
    "followers": 185,
    "followers_text": "185",
    "id": "37ZJ6FoiQFUOlmoMF377Qn",
-   "last_check": "2026-11-24",
+   "last_check": "2026-11-25",
    "name": "Pop Psychology - Take a Thrill Pill!",
    "names": [
     "Pop Psychology 🎤🎧🎸"
@@ -1288,7 +1300,7 @@
    "followers": 559,
    "followers_text": "559",
    "id": "3FeXviPUCaJrt6vNHhtjrv",
-   "last_check": "2026-11-24",
+   "last_check": "2026-11-25",
    "name": "Soft/Chill Vibes",
    "names": [
     "Soft Chill Vibes"
@@ -1568,7 +1580,7 @@
    "followers": 142,
    "followers_text": "142",
    "id": "4Elb0jdmhFjV71SbzuGwk9",
-   "last_check": "2026-11-24",
+   "last_check": "2026-11-25",
    "name": "Delicious",
    "names": [
     "Delicious Glam Edition 💎"
@@ -1702,7 +1714,7 @@
    "followers": 138,
    "followers_text": "138",
    "id": "5KySi2zOxBnYrNnRBIGfHh",
-   "last_check": "2026-11-24",
+   "last_check": "2026-11-25",
    "name": "NEW WAVE SIGNAL",
    "names": [
     "NEW WAVE SIGNAL"
@@ -2223,5 +2235,5 @@
   "playlists": 64,
   "songs": 79
  },
- "updated": "2026-11-24T05:24+00:00"
+ "updated": "2026-11-25T05:26+00:00"
 }
