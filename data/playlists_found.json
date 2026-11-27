@@ -1,9 +1,10 @@
 {
  "log": [
   "Gmail: 59 Mails mit Label „Playlist Sub“, davon neu: 0",
-  "Soundcharts: 66 Playlists mit WUHA · Rest-Kontingent 992",
-  "Spotify-API: Playlist-Inhalte gesperrt (403) – prüfe über Spotify-Einbettung (erste 100 Titel).",
+  "Soundcharts: heute keine Abfrage (nur Mo, Do; letzte: 2026-11-26).",
+  "Spotify-API 1CqYaN9Iv3NmsizW6Z4cFd: HTTP Error 503: Service Unavailable – versuche Einbettung",
   "Indie Pop: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
+  "Spotify-API: Playlist-Inhalte gesperrt (403) – prüfe über Spotify-Einbettung (erste 100 Titel).",
   "Beauty of Synth & Rock: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
   "Car Radio Vibes: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
   "Pop Psychology - Take a Thrill Pill!: nur die ersten 100 Titel prüfbar, WUHA dort nicht dabei.",
@@ -571,36 +572,6 @@
    "url": "https://open.spotify.com/playlist/19nc440mgBE9HqWKiTYjl2",
    "verified": true
   },
-  "1CPcX0ZKHvzM2TeUpmnrg7": {
-   "checked_ok": true,
-   "count": 0,
-   "first_seen": "2026-11-07",
-   "followers": 1033,
-   "followers_text": "996",
-   "id": "1CPcX0ZKHvzM2TeUpmnrg7",
-   "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8475259c3f6fc4f58bd46210e7",
-   "last_check": "2026-11-26",
-   "last_seen": "2026-11-23",
-   "missing_since": "2026-11-26",
-   "name": "Worldwide Dance Pop",
-   "names": [
-    "Worldwide Dance Pop"
-   ],
-   "pl_type": "Curators & Listeners",
-   "sc": "2026-11-23",
-   "songs": [
-    {
-     "peak": 21,
-     "pos": 81,
-     "title": "Caroline - Extended Club Mix"
-    }
-   ],
-   "source": "Soundcharts",
-   "status": "entfernt",
-   "total_tracks": 332,
-   "url": "https://open.spotify.com/playlist/1CPcX0ZKHvzM2TeUpmnrg7",
-   "verified": true
-  },
   "1CqYaN9Iv3NmsizW6Z4cFd": {
    "checked_ok": false,
    "curator": "SteveKing",
@@ -608,7 +579,7 @@
    "followers": 642,
    "followers_text": "642",
    "id": "1CqYaN9Iv3NmsizW6Z4cFd",
-   "last_check": "2026-11-26",
+   "last_check": "2026-11-27",
    "name": "Indie Pop",
    "names": [
     "Indie Pop"
@@ -801,7 +772,7 @@
    "first_seen": "2026-07-19",
    "followers": null,
    "id": "1YmZnOsxn3cyDArHtrxXyM",
-   "last_check": "2026-11-26",
+   "last_check": "2026-11-27",
    "name": "Beauty of Synth & Rock",
    "names": [
     "Beauty of Synth & Rock"
@@ -993,7 +964,7 @@
    "followers": 375,
    "followers_text": "375",
    "id": "2MhOSkXEtTzjEqkKZEHGFD",
-   "last_check": "2026-11-26",
+   "last_check": "2026-11-27",
    "name": "Car Radio Vibes",
    "names": [
     "Car Radio Vibes"
@@ -1214,7 +1185,7 @@
    "followers": 185,
    "followers_text": "185",
    "id": "37ZJ6FoiQFUOlmoMF377Qn",
-   "last_check": "2026-11-26",
+   "last_check": "2026-11-27",
    "name": "Pop Psychology - Take a Thrill Pill!",
    "names": [
     "Pop Psychology 🎤🎧🎸"
@@ -1290,7 +1261,7 @@
    "followers": 559,
    "followers_text": "559",
    "id": "3FeXviPUCaJrt6vNHhtjrv",
-   "last_check": "2026-11-26",
+   "last_check": "2026-11-27",
    "name": "Soft/Chill Vibes",
    "names": [
     "Soft Chill Vibes"
@@ -1570,7 +1541,7 @@
    "followers": 142,
    "followers_text": "142",
    "id": "4Elb0jdmhFjV71SbzuGwk9",
-   "last_check": "2026-11-26",
+   "last_check": "2026-11-27",
    "name": "Delicious",
    "names": [
     "Delicious Glam Edition 💎"
@@ -1762,7 +1733,7 @@
    "followers": 138,
    "followers_text": "138",
    "id": "5KySi2zOxBnYrNnRBIGfHh",
-   "last_check": "2026-11-26",
+   "last_check": "2026-11-27",
    "name": "NEW WAVE SIGNAL",
    "names": [
     "NEW WAVE SIGNAL"
@@ -2233,6 +2204,14 @@
  },
  "removed": [
   {
+   "name": "Worldwide Dance Pop",
+   "removed": "2026-11-27",
+   "songs": [
+    "Caroline - Extended Club Mix"
+   ],
+   "url": "https://open.spotify.com/playlist/1CPcX0ZKHvzM2TeUpmnrg7"
+  },
+  {
    "name": "NEW HIT MUSIC 🎤👨‍🎤  by Linktr.ee/MaXimumBoost",
    "removed": "2026-11-24",
    "songs": [
@@ -2313,5 +2292,5 @@
   "playlists": 66,
   "songs": 81
  },
- "updated": "2026-11-26T05:27+00:00"
+ "updated": "2026-11-27T05:27+00:00"
 }
