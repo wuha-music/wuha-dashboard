@@ -1720,22 +1720,22 @@
    "facebook": {
     "followers": 1165,
     "likes": 1165,
-    "reach": 160,
-    "views": 259
+    "reach": 165,
+    "views": 272
    },
    "instagram": {
     "followers": 80,
     "posts": 48,
     "profile_views": 0,
-    "reach": 13,
-    "views": 15
+    "reach": 14,
+    "views": 16
    },
    "soundcloud": {
     "followers": 55,
     "tracks": 7
    },
    "tiktok": {
-    "followers": 98,
+    "followers": 99,
     "likes": 536,
     "videos": 44
    },
@@ -7031,5 +7031,5 @@
    "streams": 17
   }
  },
- "updated": "2026-11-28T06:06+00:00"
+ "updated": "2026-11-28T11:41+00:00"
 }
