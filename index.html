@@ -522,15 +522,24 @@ function senderLogoFallback(img){
 }
 // Radio-Airplays (data/airplays.json, aus weitergeleiteten Airplay-Mails)
 function renderAirplay(A){
-  const box = document.getElementById("airplay"), s = A.summary||{}, plays = A.plays||[];
-  if(!plays.length){ box.innerHTML = `<div class="note">Noch keine Airplays. Airplay-Mails werden jeden Morgen aus Gmail gelesen.</div>`; return; }
+  const box = document.getElementById("airplay"), s = JSON.parse(JSON.stringify(A.summary||{})), plays = A.plays||[];
+  // Gesamtstand von Hand (sender.csv, Spalte Gesamt): ersetzt die gezählten Einsätze eines Senders, wenn höher
+  const OVR = {};
+  (A.extraStations||[]).forEach(x=>{ const g=parseInt(x.gesamt,10); if(x.name && g>0) OVR[x.name]={g, date:x.date, song:x.song}; });
+  s.stations = s.stations||{}; s.songs = s.songs||{}; s.total = s.total||0;
+  for(const [n,o] of Object.entries(OVR)){
+    const counted = s.stations[n]||0; if(o.g<=counted) continue;
+    const diff = o.g-counted; s.stations[n]=o.g; s.total+=diff;
+    const song = o.song || Object.keys(s.songs)[0] || "?"; s.songs[song]=(s.songs[song]||0)+diff;
+  }
+  if(!plays.length && !Object.keys(OVR).length){ box.innerHTML = `<div class="note">Noch keine Airplays. Airplay-Mails werden jeden Morgen aus Gmail gelesen.</div>`; return; }
   const extra = (A.extraStations||[]).filter(x=>x.name && !(s.stations||{})[x.name]);
   const LOGO = {}; (A.extraStations||[]).forEach(x=>{ if(x.name&&x.logo) LOGO[x.name]=x.logo; });
   const logoSrc = n => "data/logos-sender/" + (LOGO[n] ? encodeURIComponent(LOGO[n]) : slug(n)+".png");
   const logoExt = n => LOGO[n] ? "fixed" : "png";
   const st = Object.entries(s.stations||{}).sort((a,b)=>b[1]-a[1]);
   const so = Object.entries(s.songs||{}).sort((a,b)=>b[1]-a[1]);
-  let h = `<div class="kpis"><div class="kpi"><div class="lab">Airplays gesamt</div><div class="val" style="color:var(--spotify)">${fmt(s.total)}</div><div class="sub">seit ${deDate(plays[plays.length-1].date)}</div></div>
+  let h = `<div class="kpis"><div class="kpi"><div class="lab">Airplays gesamt</div><div class="val" style="color:var(--spotify)">${fmt(s.total)}</div><div class="sub">${plays.length?`seit ${deDate(plays[plays.length-1].date)}`:""}${Object.keys(OVR).length?" · inkl. Gesamtstände der Sender":""}</div></div>
     <div class="kpi"><div class="lab">Letzte 7 Tage</div><div class="val">${fmt(s.last7)}</div><div class="sub">Einsätze</div></div>
     <div class="kpi"><div class="lab">Letzte 30 Tage</div><div class="val">${fmt(s.last30)}</div><div class="sub">Einsätze</div></div>
     <div class="kpi"><div class="lab">Sender</div><div class="val">${fmt(st.length+extra.length)}</div><div class="sub">${fmt(st.length)} mit Zahlen${extra.length?` · ${fmt(extra.length)} ohne Zahlen`:""}</div></div></div>`;
@@ -538,11 +547,12 @@ function renderAirplay(A){
   const slug = n => n.toLowerCase().normalize("NFKD").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
   const SLINK = {"Amazing Radio":"https://amazingradio.com/profile/andreas-wuha/airplays","Amazing Radio USA":"https://amazingradio.us/profile/andreas-wuha/airplays"};
   h += `<div class="stations">${st.map(([n,c])=>{
-    const ps = plays.filter(p=>p.station===n), last = ps[0], land = [...new Set(ps.map(p=>p.country).filter(Boolean))].join(", ");
+    const ps = plays.filter(p=>p.station===n), last = ps[0], o = OVR[n], ex = (A.extraStations||[]).find(x=>x.name===n)||{};
+    const land = [...new Set(ps.map(p=>p.country).concat(ex.land||[]).filter(Boolean))].join(", ");
     const shows = [...new Set(ps.map(p=>p.show).filter(Boolean))].join(", ");
     const tag = SLINK[n] ? "a" : "div", href = SLINK[n] ? ` href="${SLINK[n]}" target="_blank" rel="noopener"` : "";
     return `<${tag} class="station"${href}><div class="logo"><img src="${logoSrc(n)}" alt="${esc(n)}" data-ext="${logoExt(n)}" data-land="${esc(land)}" onerror="senderLogoFallback(this)"></div>
-      <div class="row"><span><b>${fmt(c)}</b> Einsätze</span><span>zuletzt ${deDate(last.date)}</span></div>
+      <div class="row"><span><b>${fmt(c)}</b> Einsätze</span><span>${o && o.g>=c && o.date ? `Stand ${deDate(o.date)}` : last ? `zuletzt ${deDate(last.date)}` : ""}</span></div>
       <div class="row"><span>${esc(shows)}</span><span>${esc(land)}</span></div></${tag}>`;}).join("")}${
     extra.map(x=>{ const tag = x.link?"a":"div", href = x.link?` href="${esc(x.link)}" target="_blank" rel="noopener"`:"";
       return `<${tag} class="station"${href}><div class="logo"><img src="${logoSrc(x.name)}" alt="${esc(x.name)}" data-ext="${logoExt(x.name)}" data-land="${esc(x.land||"")}" onerror="senderLogoFallback(this)"></div>
@@ -569,7 +579,7 @@ Promise.all([
   const rows=parseCsv(csv||""), hd=(rows.shift()||[]).map(h=>h.trim().toLowerCase());
   const col=k=>hd.findIndex(h=>h.startsWith(k));
   const g=(r,k)=>{ const i=col(k); return i<0?"":(r[i]||"").trim(); };
-  A.extraStations = rows.map(r=>({name:g(r,"sender"), land:g(r,"land"), link:g(r,"link"), song:g(r,"song"), date:g(r,"datum"), note:g(r,"notiz"), logo:g(r,"logo")}));
+  A.extraStations = rows.map(r=>({name:g(r,"sender"), land:g(r,"land"), link:g(r,"link"), song:g(r,"song"), date:g(r,"datum"), note:g(r,"notiz"), logo:g(r,"logo"), gesamt:g(r,"gesamt")}));
   return A;
 }).then(renderAirplay)
   .catch(()=>{ document.getElementById("airplay").innerHTML = `<div class="note">Airplay-Liste noch nicht vorhanden.</div>`; });
