@@ -75,7 +75,7 @@
    ]
   ],
   "source": "songs_1790726364_2015-06-30_2026-11-07.csv",
-  "updated": "2026-11-27"
+  "updated": "2026-11-28"
  },
  "apple_daily": {},
  "apple_totals": {
@@ -410,6 +410,10 @@
    "Poland": 2,
    "Singapore": 3,
    "United Kingdom": 2
+  },
+  "2026-11-27": {
+   "Singapore": 2,
+   "United States": 8
   }
  },
  "ga4_daily": {
@@ -928,6 +932,12 @@
    "sessions": 6,
    "users": 6,
    "views": 8
+  },
+  "2026-11-27": {
+   "new_users": 10,
+   "sessions": 10,
+   "users": 10,
+   "views": 10
   }
  },
  "log": [
@@ -946,7 +956,7 @@
   ],
   "rows": [],
   "source": "playlists_manuell.csv",
-  "updated": "2026-11-27"
+  "updated": "2026-11-28"
  },
  "snapshots": {
   "2026-11-08": {
@@ -1679,6 +1689,46 @@
     "profile_views": 0,
     "reach": 5,
     "views": 5
+   },
+   "soundcloud": {
+    "followers": 55,
+    "tracks": 7
+   },
+   "tiktok": {
+    "followers": 98,
+    "likes": 536,
+    "videos": 44
+   },
+   "whatsapp": {
+    "followers": 7
+   },
+   "youtube": {
+    "followers": 11,
+    "videos": 21,
+    "views_total": 4636
+   }
+  },
+  "2026-11-28": {
+   "bandsintown": {
+    "events": 0,
+    "followers": 32
+   },
+   "deezer": {
+    "albums": 7,
+    "followers": 0
+   },
+   "facebook": {
+    "followers": 1165,
+    "likes": 1165,
+    "reach": 160,
+    "views": 259
+   },
+   "instagram": {
+    "followers": 80,
+    "posts": 48,
+    "profile_views": 0,
+    "reach": 13,
+    "views": 15
    },
    "soundcloud": {
     "followers": 55,
@@ -6981,5 +7031,5 @@
    "streams": 17
   }
  },
- "updated": "2026-11-27T06:09+00:00"
+ "updated": "2026-11-28T06:06+00:00"
 }
